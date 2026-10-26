@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#FAF6EE">
+  <title>知序 · 癌症与基因科普助手</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22 viewBox%3D%220%200%2064%2064%22%3E%3Crect width%3D%2264%22 height%3D%2264%22 rx%3D%2214%22 fill%3D%22%2312344f%22%2F%3E%3Cpath d%3D%22M20 10C44 22 44 42 20 54M44 10C20 22 20 42 44 54M23 18h18M21 32h22M23 46h18%22 fill%3D%22none%22 stroke%3D%22%2327b9bc%22 stroke-width%3D%224%22 stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E">
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+  <script src="/attachments.js" defer></script>
+  <script src="/workflow.js" defer></script>
+  <script src="/chat.js" defer></script>
+  <script src="/synthesis.js" defer></script>
+  <script src="/education-preferences.js" defer></script>
+  <script src="/education-learning.js" defer></script>
+  <script src="/education.js" defer></script>
+  <script src="/education-onboarding.js" defer></script>
+</head>
+<body>
+  <div class="shell">
+    <header class="topbar">
+      <a class="brand" href="/" aria-label="Gene Evidence 首页">
+        <img class="brand-mark" src="data:image/png;base64,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" width="46" height="46" alt="" aria-hidden="true">
+        <span>知序<span class="brand-sub">癌症与基因 · 慢慢了解</span></span>
+      </a>
+      <nav class="topbar-actions" aria-label="当前会话">
+        <button class="quiet-button hidden" id="chat-toggle" type="button" aria-controls="chat-panel" aria-expanded="true">收起对话</button>
+      </nav>
+    </header>
+
+    <nav class="app-rail" aria-label="工作区导航">
+      <button class="quiet-button rail-link" id="research-toggle" type="button" aria-controls="search-view results-view">
+        <span class="rail-icon" aria-hidden="true">⌕</span><span class="rail-label">研究台</span>
+      </button>
+      <button class="quiet-button rail-link is-current" id="education-toggle" type="button" aria-controls="education-view" aria-pressed="true" aria-current="page">
+        <span class="rail-icon" aria-hidden="true">⌬</span><span class="rail-label">科普小助手</span>
+      </button>
+      <button class="quiet-button rail-link hidden" id="history-toggle" type="button" aria-label="本机历史" aria-expanded="false">
+        <span class="rail-icon" aria-hidden="true">◷</span><span class="rail-label">本机历史</span>
+      </button>
+      <span class="rail-caption">一般知识学习</span>
+    </nav>
+
+    <main class="workspace-layout">
+      <aside class="chat-panel hidden" id="chat-panel" data-guided-workflow aria-labelledby="chat-title">
+        <div class="chat-heading"><div><span class="card-kicker">研究对话</span><h3 id="chat-title">基因—癌症研究助手</h3></div><button class="icon-button" id="chat-close" aria-label="收起对话栏" type="button">×</button></div>
+        <p class="chat-caption" id="workflow-mode">正在连接本机 Agent…</p>
+        <div class="workflow-step" id="workflow-step">步骤 1 · 确认研究对象</div>
+        <div class="chat-messages" id="workflow-messages" role="log" aria-label="研究流程对话" aria-live="polite"><p class="chat-empty">你好，我是基因—癌症研究助手。可以检索公开证据、查看英文论文。先告诉我基因和疾病，例如“TP53 与肺癌”。</p></div>
+        <div class="workflow-result-versions hidden" id="workflow-result-versions"></div>
+        <div class="workflow-resolution hidden" id="workflow-resolution"></div>
+        <div class="workflow-action hidden" id="workflow-action-card"></div>
+        <div class="workflow-next-actions hidden" id="workflow-next-actions">
+          <button type="button" data-workflow-prepare="synthesize">英文跨文献报告</button>
+        </div>
+        <label class="chat-input-label" for="workflow-input">你的回答 / 研究问题</label>
+        <textarea id="workflow-input" maxlength="3000" rows="3" placeholder="例如：我想查询 TP53 与肺癌之间的关系"></textarea>
+        <div class="composer-meta"><span>Enter 发送 · Shift+Enter 换行</span><span id="workflow-char-count">0/3000</span></div>
+        <p class="chat-caption">检索词会发送到所选公开数据库；启用模型功能时，文本会发送到配置的模型服务。不要输入患者身份信息。</p>
+        <p id="workflow-status" class="chat-status" role="status"></p>
+        <div class="chat-actions"><button class="quiet-button" id="workflow-new" type="button">新研究对话</button><button class="quiet-button hidden" id="workflow-stop" type="button">停止等待</button><button class="quiet-button hidden" id="workflow-resume" type="button">继续查看</button><button class="primary-button" id="workflow-send" type="button">发送</button></div>
+      </aside>
+      <button class="chat-backdrop hidden" id="chat-backdrop" type="button" aria-label="关闭对话窗口"></button>
+      <div class="workspace-content hidden">
+      <section class="hero" id="search-view">
+        <div class="eyebrow"><span class="status-dot"></span> 公开来源 · 可追溯研究</div>
+        <h1>从一个研究问题，<br><span>走到可核验的证据。</span></h1>
+        <p class="intro">描述你想了解的基因与疾病。助手会先确认范围，再按你授权的步骤检索和整理。</p>
+        <div class="hero-route" aria-label="研究流程：确认研究对象、检索公开来源、核验原始记录">
+          <span class="route-step"><b>研究对象</b><small>基因与疾病</small></span>
+          <span class="route-connector" aria-hidden="true"></span>
+          <span class="route-step"><b>公开来源</b><small>按确认范围检索</small></span>
+          <span class="route-connector" aria-hidden="true"></span>
+          <span class="route-step"><b>原始证据</b><small>保留来源与编号</small></span>
+        </div>
+
+        <details class="quick-search">
+        <summary>快捷输入（提交后仍由对话助手确认）</summary>
+        <form class="search-card" id="query-form">
+          <div class="input-grid">
+            <label class="field">
+              <span>基因</span>
+              <input id="gene-input" name="gene" autocomplete="off" maxlength="120" placeholder="例如 TP53" required>
+            </label>
+            <span class="relation" aria-hidden="true">与</span>
+            <label class="field">
+              <span>疾病</span>
+              <input id="disease-input" name="disease" autocomplete="off" maxlength="120" placeholder="例如 肺癌 / lung cancer" required>
+            </label>
+          </div>
+          <div class="query-options">
+            <fieldset class="source-options">
+              <legend>数据来源</legend>
+              <label><input class="source-checkbox" type="checkbox" value="pubmed" checked> <span>PubMed</span></label>
+              <label><input class="source-checkbox" type="checkbox" value="uniprot" checked> <span>UniProt</span></label>
+              <label><input class="source-checkbox" type="checkbox" value="opentargets" checked> <span>Open Targets</span></label>
+            </fieldset>
+            <label class="drug-option" for="include-drugs">
+              <input id="include-drugs" type="checkbox" checked>
+              <span><strong>包含药物研发信息</strong><small>Open Targets 疾病层级候选，不代表基因靶向药</small></span>
+            </label>
+          </div>
+          <div class="search-footer">
+            <span class="scope-label"><span class="scope-icon" aria-hidden="true">◎</span> 只运行已选择的数据源；未逐源报告实时进度</span>
+            <button class="primary-button" id="search-button" type="submit">交由对话确认 <span aria-hidden="true">→</span></button>
+          </div>
+        </form>
+
+        <div class="quick-examples">
+          <span>试试</span>
+          <button type="button" class="example-chip" data-gene="TP53" data-disease="lung cancer">TP53 与肺癌</button>
+          <button type="button" class="example-chip" data-gene="BRCA1" data-disease="breast cancer">BRCA1 与乳腺癌</button>
+        </div>
+        </details>
+
+        <aside class="notice">
+          <span aria-hidden="true">ⓘ</span>
+          <p>启用真实检索模式后，基因与疾病查询词会发送给已选择的外部数据库。药物候选来自 Open Targets 的疾病关联数据，<strong>不代表该药物是针对所选基因的靶向药</strong>。不要输入患者身份或病历等敏感信息。</p>
+        </aside>
+        <p class="api-error hidden" id="api-error" role="alert"></p>
+        <div class="demo-banner" id="demo-banner"><span class="demo-pulse"></span>正在确认本机 Agent 运行模式…</div>
+      </section>
+
+      <section class="results-view hidden" id="results-view" aria-live="polite">
+        <div class="result-heading">
+          <div>
+            <button class="back-link" id="back-button" type="button">← 返回检索</button>
+            <div class="eyebrow result-eyebrow"><span class="status-dot"></span> EVIDENCE OVERVIEW</div>
+            <h2 id="result-title">TP53 <span>与</span> lung cancer</h2>
+            <p class="result-caption" id="result-caption">来源状态与证据分组如下。演示内容仅用于界面预览。</p>
+          </div>
+          <div class="demo-label">模拟数据</div>
+        </div>
+
+        <div class="summary-card">
+          <div class="summary-icon" aria-hidden="true">✳</div>
+          <div><div class="card-kicker">检索与结论概览 · 演示</div><p id="summary-text">这是界面占位信息，不是对基因、疾病或治疗效果的真实判断。连接数据源后，这里将展示可追溯的证据摘要。</p><p id="evidence-availability-text" class="summary-status" role="status">检索状态：模拟数据，不代表真实来源结果。</p><p id="evidence-adequacy-text" class="summary-status">证据充分性：模拟内容，不作判断。</p><p id="translation-coverage-text" class="summary-status" role="status">中文翻译覆盖：模拟状态，不作判断。</p><p id="localization-fallback-note" class="localization-fallback-note hidden" role="status"></p><div id="model-claims" class="model-claims"></div></div>
+        </div>
+
+        <nav class="result-index" aria-label="证据结果导航">
+          <a href="#source-panel">来源状态</a>
+          <a href="#entity-panel">实体解析</a>
+          <a href="#comparison-panel">逐篇对照</a>
+          <a href="#evidence-panel">证据记录</a>
+        </nav>
+
+        <section class="panel source-panel" id="source-panel" aria-labelledby="source-title">
+          <div class="section-heading"><div><div class="card-kicker">数据来源</div><h3 id="source-title">来源状态</h3></div><span class="mock-note" id="source-status-caption">来源状态以本次查询结果为准</span></div>
+          <div class="source-grid" id="source-grid"></div>
+        </section>
+
+        <section class="panel entity-panel" id="entity-panel" aria-labelledby="entity-title">
+          <div class="section-heading"><div><div class="card-kicker">查询实体</div><h3 id="entity-title">实体解析</h3></div><span class="mock-note">确认后再解释证据</span></div>
+          <div class="entity-grid" id="entity-grid"></div>
+        </section>
+
+        <section class="panel synthesis-panel" id="comparison-panel" aria-labelledby="synthesis-title">
+          <div class="section-heading"><div><div class="card-kicker">基于摘要与已核验研究卡</div><h3 id="synthesis-title">英文跨文献报告</h3></div><button class="primary-button" id="synthesis-generate" type="button" disabled>生成英文报告</button></div>
+          <p id="synthesis-status" role="status">仅分析原始英文摘要；逐步确认计划与研究卡，生成带来源引用的英文跨文献报告。</p>
+          <div class="synthesis-tools"><label for="synthesis-version">报告版本</label><select id="synthesis-version"><option value="">当前检索尚无综合报告</option></select><button class="quiet-button hidden" id="synthesis-stop" type="button">停止等待</button><button class="quiet-button hidden" id="synthesis-resume" type="button">继续查看</button></div>
+          <div id="synthesis-body"></div>
+          <button class="quiet-button hidden" id="synthesis-followup" type="button">追问此报告</button>
+        </section>
+
+        <section class="panel evidence-panel" id="evidence-panel" aria-labelledby="evidence-title">
+          <div class="section-heading"><div><div class="card-kicker">来源原文与记录</div><h3 id="evidence-title">证据记录</h3></div><span class="mock-note">来源字段与模型整理分开展示</span></div>
+          <div class="evidence-groups" id="evidence-groups"></div>
+        </section>
+        <p class="safety-footnote">研究辅助信息，不构成诊断、治疗建议或药物推荐。请通过原始来源核验每项发现。</p>
+      </section>
+
+      </div>
+      <section class="education-view" id="education-view" aria-labelledby="education-title">
+        <header class="education-heading">
+          <div>
+            <h1 id="education-title">医学知识，慢慢了解。</h1>
+            <p class="intro">从一个你想了解的主题开始。</p>
+          </div>
+          <div class="education-heading-actions">
+            <button class="quiet-button" id="education-home-open" type="button">学习首页</button>
+            <button class="quiet-button" id="education-notes-open" type="button">我的问答</button>
+            <button class="quiet-button" id="education-guide-restart" type="button">使用引导</button>
+            <button class="quiet-button" id="education-return" type="button">深入研究</button>
+          </div>
+        </header>
+        <section class="education-onboarding" id="education-onboarding" aria-labelledby="education-onboarding-title">
+          <div class="education-onboarding-copy">
+            <p class="education-onboarding-kicker">你好，我是知序</p>
+            <h2 id="education-onboarding-title">不懂专业词，<br>也可以从这里开始。</h2>
+            <p>认识癌症，了解基因。一次学一点。</p>
+            <p class="education-onboarding-privacy">无需个人资料；追问只在主动发送后提交。</p>
+            <div class="education-onboarding-actions">
+              <button class="primary-button" id="education-onboarding-quick" type="button">带我开始</button>
+              <button class="quiet-button" id="education-onboarding-browse" type="button">自己看看</button>
+              <details class="education-guide-more"><summary>完整导览</summary><button class="quiet-button" id="education-onboarding-start" type="button">逐步体验</button></details>
+            </div>
+          </div>
+          <figure class="education-onboarding-art">
+            <img id="education-onboarding-illustration" src="/education-guides/GUIDE-01-web.jpg" alt="一位知识向导陪伴读者翻看一本图文手册" decoding="async">
+            <p class="education-onboarding-art-fallback hidden" id="education-onboarding-art-fallback" role="status">引导插画暂时无法显示；你仍可使用下方按钮开始体验或直接浏览主题。</p>
+          </figure>
+        </section>
+        <section class="education-quick-start" id="education-quick-start" aria-label="直接开始学习">
+          <form id="education-home-question-form">
+            <label for="education-home-question">想了解什么？用日常话问就好。</label>
+            <div class="education-home-question-row"><input id="education-home-question" type="text" maxlength="1200" placeholder="例如：癌症会遗传吗？" required><button class="primary-button" type="submit">开始提问</button></div>
+          </form>
+          <div id="education-home-topics" class="education-home-topics" aria-live="polite"></div>
+          <div class="education-home-tools"><button class="back-link hidden" id="education-continue-learning" type="button">继续上次阅读</button></div>
+        </section>
+        <nav class="learning-paths" aria-label="选择学习方向">
+          <button type="button" data-learning-kind="cancer"><span class="learning-path-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="16" cy="16" r="11"/><path d="M10 14c0-6 12-6 12 1s-12 7-12-1Z"/><circle cx="15" cy="14" r="2"/></svg></span><strong>了解癌症</strong><span>从常见类型开始</span></button>
+          <button type="button" data-learning-kind="gene"><span class="learning-path-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 3c0 13 14 13 14 26M23 3c0 13-14 13-14 26M10 7h12M12 12h8M12 20h8M10 25h12"/></svg></span><strong>认识基因</strong><span>读懂基因与变异</span></button>
+          <button type="button" data-learning-kind="concept"><span class="learning-path-icon" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M16 9C12 5 7 5 3 7v19c4-2 9-2 13 2 4-4 9-4 13-2V7c-4-2-9-2-13 2Zm0 0v19M7 12h5M7 17h5M20 12h5M20 17h5"/></svg></span><strong>解释医学词语</strong><span>把陌生词说清楚</span></button>
+        </nav>
+        <figure class="learning-guide-art" id="learning-guide-art">
+          <img src="/education-guides/home-learning-guide-v1.png" width="2172" height="724" alt="放大镜观察细胞，DNA 与书本连接到正在阅读和提问的学习者，引导从观察到理解再到提问" decoding="async">
+        </figure>
+        <nav class="education-mobile-nav" aria-label="科普页面导航">
+          <button type="button" data-education-pane="catalog" aria-pressed="true">选主题</button>
+          <button type="button" data-education-pane="detail" aria-pressed="false">读一读</button>
+          <button type="button" data-education-pane="chat" aria-pressed="false">问一问</button>
+        </nav>
+        <div class="education-grid" id="education-grid" data-active-pane="catalog">
+          <aside class="education-catalog panel" id="education-catalog" aria-label="科普目录">
+            <div class="education-catalog-heading"><div><h2 id="education-catalog-title">按分类，认识癌症</h2><p id="education-catalog-note">入门目录，非完整病理分类。</p></div><span id="education-topic-count" role="status" aria-live="polite"></span></div>
+            <div class="education-kind-tabs" id="education-kind-tabs" role="group" aria-label="选择想了解的内容">
+              <button type="button" data-education-kind="cancer" aria-pressed="true">癌种</button>
+              <button type="button" data-education-kind="gene" aria-pressed="false">基因</button>
+              <button type="button" data-education-kind="concept" aria-pressed="false">基础知识</button>
+            </div>
+            <label class="education-search-label" for="education-search">想了解什么？</label>
+            <input id="education-search" class="education-search" type="search" maxlength="120" placeholder="搜索主题，如肺癌、TP53">
+            <label class="education-search-label" for="education-category">医学主题</label>
+            <select id="education-category" class="education-category"><option value="">全部主题</option></select>
+            <div id="education-category-filters" class="education-category-filters" role="group" aria-label="按癌症分类筛选"></div>
+            <button id="education-filter-reset" class="back-link hidden" type="button">清除筛选</button>
+            <div class="education-library-tools">
+              <button id="education-favorites-toggle" class="education-library-button" type="button" aria-pressed="false">只看收藏 <span id="education-favorites-count">0</span></button>
+              <button id="education-recent-toggle" class="education-library-button" type="button" aria-pressed="false">最近阅读 <span id="education-recent-count">0</span></button>
+              <button id="education-preferences-reset" class="education-library-button hidden" type="button">清除本机记录</button>
+            </div>
+            <p id="education-preferences-status" class="education-preferences-status" role="status">收藏与阅读设置仅存本机。</p>
+            <aside id="education-search-scope-notice" class="education-search-scope-notice hidden" role="note" aria-live="polite"></aside>
+            <div id="education-entry-list" class="education-entry-list" role="list" aria-live="polite"><p class="education-placeholder">正在加载科普目录…</p></div>
+          </aside>
+          <article class="education-detail panel" id="education-detail" aria-live="polite" tabindex="-1">
+            <div class="education-placeholder-state">
+              <span class="education-icon" aria-hidden="true">✳</span>
+              <h2>从一个主题开始</h2>
+              <p>选择左侧癌种、基因或基础知识词条。每项简介都附有可追溯的公开来源。</p>
+              <p class="education-review-note">资料已做来源核对；这不等于独立医学专家审核。</p>
+            </div>
+          </article>
+          <aside class="education-chat panel" id="education-chat" aria-labelledby="education-chat-title">
+            <div class="education-chat-heading"><div><h2 id="education-chat-title">陪你读懂</h2></div><button class="quiet-button" id="education-chat-clear" type="button" disabled>新对话</button></div>
+            <p class="chat-caption" id="education-chat-topic">先选一个主题。</p>
+            <div id="education-chat-messages" class="education-chat-messages" role="log" aria-label="科普对话" aria-live="polite"><p class="education-chat-welcome">哪里不明白，可以慢慢问。</p></div>
+            <div class="education-chat-prompts" role="group" aria-labelledby="education-chat-prompts-title">
+              <p class="education-chat-prompts-title" id="education-chat-prompts-title">试着这样问</p>
+              <button class="education-chat-prompt" type="button" data-education-prompt="simple" disabled>说得简单点</button>
+              <button class="education-chat-prompt" type="button" data-education-prompt="beginner" disabled>我不知道从哪问起</button>
+              <button class="education-chat-prompt" type="button" data-education-prompt="term" disabled>解释一个术语</button>
+            </div>
+            <section id="education-chat-context" class="education-card-context hidden" aria-label="已加入对话的知识卡片">
+              <strong>已加入对话</strong>
+              <div id="education-chat-context-list" class="education-context-chips" role="list"></div>
+              <details class="chat-caption"><summary>怎样使用这些卡片？</summary><p>可组合最多 6 张卡片；发送问题后，助手会读取这些卡片。</p></details>
+            </section>
+            <label class="chat-input-label" for="education-chat-input">你的问题</label>
+            <textarea id="education-chat-input" maxlength="1200" rows="3" placeholder="例如：这个基因和蛋白有什么区别？" disabled></textarea>
+            <p class="chat-status" id="education-chat-status" role="status"></p>
+            <div class="education-chat-actions"><button class="quiet-button hidden" id="education-chat-resume" type="button">继续确认同一请求</button><button class="primary-button" id="education-chat-send" type="button" disabled>发送问题</button></div>
+            <p class="education-chat-disclaimer">请勿粘贴姓名、病历或检查结果。不提供个人诊断、治疗或用药建议。</p>
+            <details class="education-chat-scope"><summary>追问范围</summary><p>可围绕当前主题提问，也可提到其他癌种或基因；会补充匹配的科普词条，不读取研究检索结果。</p></details>
+          </aside>
+        </div>
+        <section class="education-guide-popover hidden" id="education-guide-popover" role="region" aria-labelledby="education-guide-title" aria-live="polite">
+          <span class="education-guide-count" id="education-guide-count">1 / 6</span>
+          <div class="education-guide-copy"><h2 id="education-guide-title">先选一个方向</h2><p id="education-guide-text">选择癌症、基因或基础知识，按你的兴趣开始。</p></div>
+          <figure class="education-guide-art hidden" id="education-guide-art-figure">
+            <img id="education-guide-art" src="" alt="" decoding="async" loading="lazy">
+          </figure>
+          <div class="education-guide-actions">
+            <button class="quiet-button" id="education-guide-prev" type="button">上一步</button>
+            <button class="primary-button" id="education-guide-next" type="button">下一步</button>
+            <button class="quiet-button" id="education-guide-skip" type="button">跳过</button>
+          </div>
+          <div class="education-guide-finish hidden" id="education-guide-finish" role="group" aria-label="选择引导后的下一步">
+            <button class="primary-button" id="education-guide-continue" type="button">继续读当前主题</button>
+            <button class="quiet-button" id="education-guide-ask" type="button">围绕当前主题追问</button>
+            <button class="quiet-button" id="education-guide-switch" type="button">换一个主题</button>
+          </div>
+        </section>
+        <p class="education-guide-status" id="education-guide-status" role="status" aria-live="polite"></p>
+        <dialog id="education-term-dialog" class="education-learning-dialog" aria-labelledby="education-term-title"><button id="education-term-close" class="quiet-button" type="button">关闭</button><h2 id="education-term-title"></h2><p id="education-term-description"></p><a id="education-term-source" target="_blank" rel="noopener noreferrer">查看来源</a><button id="education-term-read" class="quiet-button" type="button">阅读这个词条</button></dialog>
+        <dialog id="education-notes-dialog" class="education-learning-dialog" aria-labelledby="education-notes-title"><div class="education-notes-heading"><h2 id="education-notes-title">我的问答</h2><button id="education-notes-close" class="quiet-button" type="button">关闭</button></div><p class="chat-caption">仅保存你主动选中的内容，保存在当前浏览器，不会恢复模型会话。</p><div id="education-notes-list"></div><button id="education-notes-clear" class="quiet-button" type="button">清空已保存问答</button><p id="education-notes-status" role="status"></p></dialog>
+      </section>
+      <aside class="history-drawer hidden" id="history-drawer" aria-label="本机查询历史">
+        <div class="drawer-heading"><div><span class="card-kicker">THIS BROWSER ONLY</span><h3>本机历史</h3></div><button id="history-close" class="icon-button" aria-label="关闭历史" type="button">×</button></div>
+        <div id="history-list" class="history-list"></div>
+        <button id="history-clear" class="clear-button" type="button">清除本机历史</button>
+        <p class="drawer-caption">只保存在当前浏览器，不会上传到服务器。</p>
+      </aside>
+      <div class="drawer-backdrop hidden" id="drawer-backdrop"></div>
+    </main>
+
+    <footer class="footer"><span>知序 · 科普学习</span><span>一般知识，不替代医疗建议</span></footer>
+  </div>
+</body>
+</html>

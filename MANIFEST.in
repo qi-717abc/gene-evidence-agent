@@ -1,0 +1,6 @@
+include README.md LICENSE LICENSES-AND-DATA-SOURCES.md
+recursive-include src/gene_evidence_agent/web *.html *.css *.js *.jpg *.png
+recursive-include src/gene_evidence_agent/knowledge *.md *.json
+recursive-include src/gene_evidence_agent/education *.json
+recursive-include src/gene_evidence_agent/vendor *.json *.py LICENSE UPSTREAM.md
+prune src/gene_evidence_agent/web/education-guides/originals

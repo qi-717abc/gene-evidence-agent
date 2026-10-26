@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "id": "K-gene-protein",
+      "title": "基因与蛋白",
+      "keywords": [
+        "基因",
+        "蛋白",
+        "gene",
+        "protein",
+        "DNA"
+      ],
+      "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics",
+      "source_title": "The Genetics of Cancer — NCI",
+      "source_date": "2024-08-08",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "gene-protein.md"
+    },
+    {
+      "id": "K-genetic-cancer",
+      "title": "癌症的遗传学基础",
+      "keywords": [
+        "癌症",
+        "遗传学",
+        "genetic",
+        "cancer"
+      ],
+      "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics",
+      "source_title": "The Genetics of Cancer — NCI",
+      "source_date": "2024-08-08",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "genetic-cancer.md"
+    },
+    {
+      "id": "K-inherited-risk",
+      "title": "遗传风险与发病",
+      "keywords": [
+        "遗传风险",
+        "易感",
+        "家族",
+        "hereditary",
+        "risk"
+      ],
+      "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics",
+      "source_title": "The Genetics of Cancer — NCI",
+      "source_date": "2024-08-08",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "inherited-risk.md"
+    },
+    {
+      "id": "K-biomarker-testing",
+      "title": "肿瘤检测与遗传风险检测",
+      "keywords": [
+        "标志物",
+        "检测",
+        "遗传检测",
+        "biomarker",
+        "tumor profiling"
+      ],
+      "source_url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics",
+      "source_title": "The Genetics of Cancer — NCI",
+      "source_date": "2024-08-08",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "biomarker-testing.md"
+    },
+    {
+      "id": "K-oncogenes",
+      "title": "原癌基因与癌基因",
+      "keywords": [
+        "原癌基因",
+        "癌基因",
+        "oncogene",
+        "proto-oncogene"
+      ],
+      "source_url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+      "source_title": "What Is Cancer? — NCI",
+      "source_date": "2026-08-28",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "oncogenes.md"
+    },
+    {
+      "id": "K-tumor-suppressors",
+      "title": "抑癌基因",
+      "keywords": [
+        "抑癌基因",
+        "肿瘤抑制",
+        "tumor suppressor"
+      ],
+      "source_url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+      "source_title": "What Is Cancer? — NCI",
+      "source_date": "2026-08-28",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "tumor-suppressors.md"
+    },
+    {
+      "id": "K-dna-repair",
+      "title": "DNA修复与癌症",
+      "keywords": [
+        "DNA修复",
+        "修复基因",
+        "DNA repair"
+      ],
+      "source_url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+      "source_title": "What Is Cancer? — NCI",
+      "source_date": "2026-08-28",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "dna-repair.md"
+    },
+    {
+      "id": "K-heterogeneity",
+      "title": "肿瘤异质性",
+      "keywords": [
+        "异质性",
+        "heterogeneity",
+        "不同细胞"
+      ],
+      "source_url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+      "source_title": "What Is Cancer? — NCI",
+      "source_date": "2026-08-28",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "heterogeneity.md"
+    },
+    {
+      "id": "K-metastasis",
+      "title": "原发癌与转移",
+      "keywords": [
+        "转移",
+        "原发",
+        "metastasis",
+        "primary"
+      ],
+      "source_url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+      "source_title": "What Is Cancer? — NCI",
+      "source_date": "2026-08-28",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "metastasis.md"
+    },
+    {
+      "id": "K-variants",
+      "title": "基因变异",
+      "keywords": [
+        "变异",
+        "突变",
+        "variant",
+        "mutation"
+      ],
+      "source_url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/",
+      "source_title": "Gene variants — MedlinePlus Genetics",
+      "source_date": "2021-03-25",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "variants.md"
+    },
+    {
+      "id": "K-germline-somatic",
+      "title": "胚系与体细胞变异",
+      "keywords": [
+        "胚系",
+        "体细胞",
+        "germline",
+        "somatic"
+      ],
+      "source_url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/",
+      "source_title": "Gene variants — MedlinePlus Genetics",
+      "source_date": "2021-03-25",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "germline-somatic.md"
+    },
+    {
+      "id": "K-mosaicism",
+      "title": "嵌合现象",
+      "keywords": [
+        "嵌合",
+        "mosaicism",
+        "mosaic"
+      ],
+      "source_url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/genemutation/",
+      "source_title": "Gene variants — MedlinePlus Genetics",
+      "source_date": "2021-03-25",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "mosaicism.md"
+    },
+    {
+      "id": "K-tp53-function",
+      "title": "TP53与p53功能",
+      "keywords": [
+        "TP53",
+        "p53",
+        "tumor protein p53"
+      ],
+      "source_url": "https://medlineplus.gov/genetics/gene/tp53/",
+      "source_title": "TP53 gene — MedlinePlus Genetics",
+      "source_date": "2020-02-01",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "tp53-function.md"
+    },
+    {
+      "id": "K-tp53-lung",
+      "title": "TP53与肺癌研究背景",
+      "keywords": [
+        "TP53",
+        "p53",
+        "肺癌",
+        "lung cancer"
+      ],
+      "source_url": "https://medlineplus.gov/genetics/gene/tp53/",
+      "source_title": "TP53 gene — MedlinePlus Genetics",
+      "source_date": "2020-02-01",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "tp53-lung.md"
+    },
+    {
+      "id": "K-brca1-function",
+      "title": "BRCA1与DNA修复",
+      "keywords": [
+        "BRCA1",
+        "BRCC1",
+        "DNA修复"
+      ],
+      "source_url": "https://medlineplus.gov/genetics/gene/brca1/",
+      "source_title": "BRCA1 gene — MedlinePlus Genetics",
+      "source_date": "2020-05-01",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "brca1-function.md"
+    },
+    {
+      "id": "K-brca1-risk",
+      "title": "BRCA1变异与风险",
+      "keywords": [
+        "BRCA1",
+        "乳腺癌",
+        "卵巢癌",
+        "breast cancer",
+        "ovarian cancer"
+      ],
+      "source_url": "https://medlineplus.gov/genetics/gene/brca1/",
+      "source_title": "BRCA1 gene — MedlinePlus Genetics",
+      "source_date": "2020-05-01",
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "brca1-risk.md"
+    },
+    {
+      "id": "K-pubmed-abstract",
+      "title": "PubMed摘要与全文",
+      "keywords": [
+        "PubMed",
+        "摘要",
+        "全文",
+        "abstract",
+        "full text"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/help/",
+      "source_title": "PubMed Help — NLM",
+      "source_date": null,
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "pubmed-abstract.md"
+    },
+    {
+      "id": "K-pubmed-filter",
+      "title": "PubMed文献类型与筛选",
+      "keywords": [
+        "PubMed",
+        "文献类型",
+        "筛选",
+        "article type",
+        "论文"
+      ],
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/help/",
+      "source_title": "PubMed Help — NLM",
+      "source_date": null,
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "pubmed-filter.md"
+    },
+    {
+      "id": "K-uniprot-review",
+      "title": "UniProtKB注释来源",
+      "keywords": [
+        "UniProt",
+        "Swiss-Prot",
+        "TrEMBL",
+        "蛋白注释",
+        "reviewed"
+      ],
+      "source_url": "https://www.ebi.ac.uk/training/online/courses/uniprot-quick-tour/the-uniprot-databases/uniprotkb/",
+      "source_title": "UniProtKB — EMBL-EBI Training",
+      "source_date": null,
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "uniprot-review.md"
+    },
+    {
+      "id": "K-opentargets-score",
+      "title": "Open Targets关联分数",
+      "keywords": [
+        "Open Targets",
+        "OpenTargets",
+        "关联分数",
+        "因果",
+        "association score"
+      ],
+      "source_url": "https://platform-docs.opentargets.org/associations",
+      "source_title": "Associations — Open Targets Platform documentation",
+      "source_date": null,
+      "checked_at": "2026-10-06",
+      "review_status": "source_checked",
+      "scope": "公开研究基础知识；简短整理，未进行独立专家审核",
+      "body_file": "opentargets-score.md"
+    }
+  ]
+}

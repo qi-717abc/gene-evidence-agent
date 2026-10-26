@@ -1,0 +1,2078 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "id":"K-edu-concept-screening-diagnosis","kind":"concept","category":"筛查与诊断","name":"筛查、早诊与确诊","aliases":["癌症筛查","肿瘤筛查","筛查阳性","早期发现","cancer screening"],
+      "summary":"筛查是在无症状人群中寻找异常；筛查结果异常不等于已经确诊癌症。",
+      "body":"筛查、症状后的诊断检查和最终确诊回答不同问题。筛查寻找值得进一步检查的线索，可能出现假阳性或假阴性，也可能发现原本不会造成伤害的病变。并非所有癌症都有适合一般人群的筛查方法。个人是否筛查、选择什么检查及间隔，需要根据适用地区、年龄和风险与专业人员讨论，本卡不提供个人安排。",
+      "source_url":"https://www.cancer.gov/about-cancer/screening/patient-screening-overview-pdq","source_title":"Cancer Screening Overview, Patient Version — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"筛查阳性就能确诊癌症吗？","answer":"不能。筛查异常通常提示需要进一步诊断检查，也可能是假阳性。","source_ids":["SRC-NCI-SCREENING-OVERVIEW"]},
+        {"question":"筛查阴性能够保证以后不会得癌吗？","answer":"不能。筛查有检测局限和假阴性可能，也不能保证未来不会发生疾病。","source_ids":["SRC-NCI-SCREENING-OVERVIEW"]},
+        {"question":"筛查是不是越多越好？","answer":"不是。筛查也有误报、漏报、检查损伤和过度诊断等风险，需要权衡收益与风险。","source_ids":["SRC-NCI-SCREENING-OVERVIEW"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-biopsy-pathology","kind":"concept","category":"筛查与诊断","name":"活检与病理报告","aliases":["活检","病理报告","穿刺活检","组织病理","biopsy","pathology report"],
+      "summary":"活检是取得细胞或组织样本的过程；病理报告记录样本检查发现，是癌症诊断的重要依据。",
+      "body":"活检可以通过针取样、内镜取样等方式获得材料。病理医生观察细胞与组织，结合必要的特殊检测形成报告。报告可能描述组织类型、是否浸润、切缘及部分生物标志物等，不是所有项目都在每份报告出现。取样方式与报告结论不是一回事；理解完整诊断需要结合临床资料，助手不代读个人病理结果。",
+      "source_url":"https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet","source_title":"Surgical Pathology Reports — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"活检就是手术切除整个肿瘤吗？","answer":"不一定。针取样、内镜取样等也可获取用于检查的细胞或组织，不必都切除整个肿瘤。","source_ids":["SRC-NCI-PATHOLOGY-REPORTS"]},
+        {"question":"病理报告只有一个“是或不是癌”的答案吗？","answer":"不止。它还可能提供肿瘤类型、组织形态、切缘及分子检测等信息。","source_ids":["SRC-NCI-PATHOLOGY-REPORTS"]},
+        {"question":"看到一个指标就能代替完整病理结论吗？","answer":"不能。病理诊断需要把样本形态和相关检查等信息综合起来理解。","source_ids":["SRC-NCI-PATHOLOGY-REPORTS"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-benign-precancer","kind":"concept","category":"癌症基础","name":"良性、癌前改变与恶性","aliases":["良性肿瘤","恶性肿瘤","癌前病变","癌前改变","不典型增生","precancer","dysplasia"],
+      "summary":"良性、癌前改变和恶性不是同义词；细胞异常或风险增加不等于一定会发展为癌。",
+      "body":"良性肿瘤一般不会像恶性肿瘤那样侵犯邻近组织或远处转移，但仍可能因大小或位置造成问题。有些细胞改变尚不是癌，却可能与今后癌症风险有关；异常增生等术语需要结合器官与病理语境解释。不能把所有异常都说成癌，也不能把所有良性情况都说成无需处理。本卡不判断某份检查结果属于哪一类。",
+      "source_url":"https://www.cancer.gov/about-cancer/understanding/what-is-cancer","source_title":"What Is Cancer? — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"良性肿瘤就是完全不会造成问题吗？","answer":"不是。即使不属于癌症，良性肿瘤也可能因为体积或所在位置造成严重问题。","source_ids":["SRC-NCI-CANCER-BASICS"]},
+        {"question":"癌前改变就是已经确诊癌症吗？","answer":"不是。它通常指尚未成为癌的异常改变；某些改变可能进展，但不是所有都会进展。","source_ids":["SRC-NCI-CANCER-BASICS"]},
+        {"question":"一个异常病理词可以脱离器官和完整报告解释吗？","answer":"不应这样做。诊断术语需要放在具体样本、部位和完整病理结论中理解。","source_ids":["SRC-NCI-PATHOLOGY-REPORTS"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-nodule","kind":"concept","category":"筛查与诊断","name":"结节与肿块","aliases":["结节","肿块","肺结节","甲状腺结节","nodule","lump"],
+      "summary":"结节和肿块描述局部异常，并不直接说明良性或恶性；“发现结节”不等于“确诊癌症”。",
+      "body":"医学中的结节可以是良性，也可以是恶性。“结节”描述的是发现的形态，不是完整病理诊断。不同器官的结节不能照搬同一解释，也不能只凭是否疼痛或单个大小数值判断性质。这里帮助理解检查用语，不提供影像分级、复查间隔或个人风险判断。",
+      "source_url":"https://www.cancer.gov/publications/dictionaries/cancer-terms/def/nodule","source_title":"Nodule — NCI Dictionary of Cancer Terms","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"结节就是癌症的另一种叫法吗？","answer":"不是。结节可能是良性或恶性，名称本身没有给出性质结论。","source_ids":["SRC-NCI-NODULE"]},
+        {"question":"甲状腺有结节，就说明有甲状腺癌吗？","answer":"不能这样推断。甲状腺结节中也有许多非癌性情况。","source_ids":["SRC-ACS-THYROID-WHAT"]},
+        {"question":"只看到“肿块”能代替癌症诊断吗？","answer":"不能。诊断需要进一步了解具体病变，很多情况下还需组织或细胞检查。","source_ids":["SRC-NCI-NODULE","SRC-NCI-PATHOLOGY-REPORTS"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-metastasis-recurrence","kind":"concept","category":"癌症基础","name":"转移、复发与第二原发癌","aliases":["癌症转移","肿瘤转移","癌症复发","复发","第二原发癌","metastasis","recurrence"],
+      "summary":"转移是癌症扩散，复发是治疗后再次出现；新发生的第二原发癌与原癌复发也不同。",
+      "body":"癌症从原发部位扩散到远处后，通常仍按原发癌命名，例如乳腺癌转移到肺仍称转移性乳腺癌。复发指治疗后癌症再次出现，可发生在原处、附近或远处。第二原发癌则是新的另一种癌症，不应自动当作原病复发。单凭出现部位或影像描述不能自行区分这些情况。",
+      "source_url":"https://www.cancer.gov/types/metastatic-cancer","source_title":"Metastatic Cancer: When Cancer Spreads — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"乳腺癌转移到肺，就改叫肺癌了吗？","answer":"通常不改。它仍按原发部位称为转移性乳腺癌，而不是原发性肺癌。","source_ids":["SRC-NCI-METASTASIS"]},
+        {"question":"复发只能发生在原来那个位置吗？","answer":"不是。复发可在原处、附近或远处出现。","source_ids":["SRC-NCI-RECURRENT-CANCER"]},
+        {"question":"第二原发癌就是复发吗？","answer":"不是。第二原发癌是新发生的另一种癌症，与原来的癌症复发是不同概念。","source_ids":["SRC-NCI-RECURRENT-CANCER"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-treatment-overview","kind":"concept","category":"治疗原理","name":"手术、放疗与药物治疗","aliases":["癌症治疗方式","手术治疗","放疗","化疗","chemotherapy","radiation therapy"],
+      "summary":"手术、放疗与药物治疗有不同作用方式；有时会联合使用，不是只能三选一。",
+      "body":"手术通常通过操作移除肿瘤；放疗利用辐射杀伤癌细胞或缩小肿瘤；化疗等药物治疗通过相应机制抑制或杀伤细胞。药物治疗还包括激素治疗、靶向治疗和免疫治疗等不同类别。治疗组合与癌种、疾病范围及患者状况等有关，不存在适用于所有人的固定排序。本卡只解释原理，不比较个人方案优劣。",
+      "source_url":"https://www.cancer.gov/about-cancer/treatment/types","source_title":"Types of Cancer Treatment — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"癌症治疗只能选一种方法吗？","answer":"不是。许多治疗会结合手术、放疗或药物等多种方式。","source_ids":["SRC-NCI-TREATMENT-TYPES"]},
+        {"question":"所有抗癌药都属于化疗吗？","answer":"不是。药物治疗还包括靶向、免疫和激素治疗等不同类别。","source_ids":["SRC-NCI-TREATMENT-TYPES"]},
+        {"question":"能按“越新越好”给治疗方式统一排名吗？","answer":"不能。治疗选择取决于具体癌种和疾病范围等条件，不存在脱离背景的通用最佳顺序。","source_ids":["SRC-NCI-TREATMENT-TYPES"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-targeted-therapy","kind":"concept","category":"治疗原理","name":"靶向治疗是什么","aliases":["靶向治疗","靶向药","targeted therapy","分子靶向"],
+      "summary":"靶向治疗针对参与癌细胞生长等过程的特定蛋白，不是发现任何基因改变都能直接用药。",
+      "body":"靶向治疗可通过作用于特定蛋白来干预癌细胞生长、分裂或扩散过程。对许多癌种，需要先检查是否具有与治疗相关的标志物；即使发现匹配信息，也不保证一定有效。靶向治疗同样可能有不良反应，也可能发生耐药，不等于只伤癌细胞或完全无副作用。",
+      "source_url":"https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies","source_title":"Targeted Therapy to Treat Cancer — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"靶向治疗主要针对什么？","answer":"它针对与癌细胞生长、分裂和扩散等过程相关的特定蛋白。","source_ids":["SRC-NCI-TARGETED-THERAPY"]},
+        {"question":"靶向药就一定没有副作用吗？","answer":"不是。靶向治疗也可能造成不良反应，并非只作用于癌细胞。","source_ids":["SRC-NCI-TARGETED-THERAPY"]},
+        {"question":"检出某个基因改变就必然有药、而且有效吗？","answer":"不是。有的改变没有可匹配治疗；即使存在匹配项，也不能保证个体一定获益。","source_ids":["SRC-NCI-BIOMARKER-TESTING"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-immunotherapy","kind":"concept","category":"治疗原理","name":"免疫治疗是什么","aliases":["免疫治疗","免疫检查点抑制剂","immunotherapy","immune checkpoint inhibitor"],
+      "summary":"癌症免疫治疗帮助免疫系统对抗癌症，不等于普通意义上的“提高免疫力”。",
+      "body":"免疫系统可以识别和清除某些异常细胞，但肿瘤也可能逃避免疫反应。癌症免疫治疗通过特定机制帮助免疫系统发挥作用，包含免疫检查点抑制剂、部分细胞治疗等不同方式。它并非适合所有癌种或每个人，也可能引起免疫相关不良反应，不能与一般保健品或笼统的“增强免疫”混为一谈。",
+      "source_url":"https://www.cancer.gov/about-cancer/treatment/types/immunotherapy","source_title":"Immunotherapy to Treat Cancer — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"免疫治疗只有一种方法吗？","answer":"不是。它包括免疫检查点抑制剂、某些细胞治疗等不同类型。","source_ids":["SRC-NCI-IMMUNOTHERAPY"]},
+        {"question":"癌症免疫治疗就是一般保健的“增强免疫”吗？","answer":"不是。这里说的是具有特定抗肿瘤机制和临床用途的治疗，不能把保健品等同于它。","source_ids":["SRC-NCI-IMMUNOTHERAPY"]},
+        {"question":"免疫治疗会不会产生副作用？","answer":"会。免疫反应也可能影响健康组织，因此需要专业评估和监测。","source_ids":["SRC-NCI-IMMUNOTHERAPY"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-hpv-infection","kind":"concept","category":"风险与预防","name":"HPV、感染与癌症","aliases":["HPV","人乳头瘤病毒","HPV阳性","HPV疫苗","癌症会传染吗","human papillomavirus"],
+      "summary":"持续高危 HPV 感染可增加某些癌症风险，但感染不等于癌症，癌症也不是通过日常接触传播的疾病。",
+      "body":"HPV 是一组病毒，其中部分高危类型的持续感染可导致癌前改变并与宫颈癌等癌症有关。许多感染可自行受到控制或清除，并不会发展为癌症。疫苗可预防相关类型感染及部分相关癌症，不是治疗已有癌症的方法。需要区分可传播的病原体与癌症本身；本卡不根据个人 HPV 结果判断风险，也不提供接种或复查安排。",
+      "source_url":"https://www.cancer.gov/about-cancer/causes-prevention/risk/infectious-agents/hpv-and-cancer","source_title":"HPV and Cancer — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"HPV 阳性就是宫颈癌吗？","answer":"不是。持续高危感染可增加风险，但很多感染不会发展为癌症，感染结果不等于癌症诊断。","source_ids":["SRC-NCI-HPV-CANCER"]},
+        {"question":"与癌症患者正常相处会传染癌症吗？","answer":"一般不会。癌症不是通过日常接触传播的传染病；某些相关病原体能传播，与传播癌症本身是两回事。","source_ids":["SRC-NCI-CANCER-MYTHS"]},
+        {"question":"HPV 疫苗是在治疗已经存在的癌症吗？","answer":"不是。它的作用是预防相关类型的感染及部分相关癌症，不是已有癌症的治疗方法。","source_ids":["SRC-NCI-HPV-CANCER"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-prevention-risk","kind":"concept","category":"风险与预防","name":"风险因素与日常预防","aliases":["癌症预防","癌症风险因素","防癌","致癌因素","cancer prevention","risk factor"],
+      "summary":"风险因素改变患癌的可能性，不等于必然患癌；降低风险也不是完全保证不患癌。",
+      "body":"癌症风险与多种因素有关，有些可改变，有些不能改变，例如年龄或遗传背景。减少烟草暴露、减少酒精相关风险、保持适合的体重与活动、避免过度紫外线暴露等，有助于降低部分癌症风险。不能用一种食物或单个习惯解释所有癌症，也不能因为有人患癌就认定其生活方式有错。本卡说明一般预防原则，不估计个人概率。",
+      "source_url":"https://www.cancer.gov/about-cancer/causes-prevention/patient-prevention-overview-pdq","source_title":"Cancer Prevention Overview, Patient Version — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"有风险因素就一定会患癌吗？","answer":"不一定。风险因素影响可能性，不是对每个人未来结局的确定预言。","source_ids":["SRC-NCI-PREVENTION-OVERVIEW"]},
+        {"question":"健康生活能保证完全不得癌吗？","answer":"不能保证。它有助于降低某些风险，但癌症与多种因素有关，有些因素无法完全改变。","source_ids":["SRC-NCI-PREVENTION-OVERVIEW"]},
+        {"question":"患癌就说明这个人生活方式有问题吗？","answer":"不能这样归因。年龄、遗传及多种其他因素也影响风险，不能只靠结果倒推个人责任。","source_ids":["SRC-NCI-PREVENTION-OVERVIEW"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-pdl1","kind":"concept","category":"组织与分子标志物","name":"PD-L1 蛋白与免疫检测","aliases":["PD-L1","PDL1","programmed death-ligand 1","PD-L1阳性"],
+      "summary":"PD-L1 是参与免疫调节的蛋白；其检测可辅助某些癌症的治疗讨论，但不是“免疫力分数”。",
+      "body":"一些正常细胞和肿瘤细胞可以表达 PD-L1 蛋白，它参与调节免疫细胞的反应。临床中的 PD-L1 检测通常研究肿瘤样本中的蛋白表达，不等于查某个基因有没有突变。检测方法与解释依赖癌种和具体用途；一个阳性或阴性标签不能单独保证治疗有效或无效，也不代表人的整体免疫力。",
+      "source_url":"https://medlineplus.gov/lab-tests/pdl1-immunotherapy-tests/","source_title":"PDL1 (Immunotherapy) Tests — MedlinePlus","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"PD-L1 是基因突变检测吗？","answer":"这里讨论的是蛋白检测，通常使用肿瘤组织来观察 PD-L1 表达；不能直接改写成“检出了某个基因突变”。","source_ids":["SRC-MEDLINEPLUS-PDL1"]},
+        {"question":"PD-L1 越高就代表免疫力越好吗？","answer":"不是。它反映的是特定样本中的相关蛋白信息，不是衡量全身免疫力的分数。","source_ids":["SRC-MEDLINEPLUS-PDL1"]},
+        {"question":"只凭 PD-L1 阳性就能决定用药吗？","answer":"不能。解释要结合癌种、检测方法和具体治疗背景，不能从单项指标直接推出个人方案。","source_ids":["SRC-MEDLINEPLUS-PDL1","SRC-NCI-BIOMARKER-TESTING"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-er-pr","kind":"concept","category":"组织与分子标志物","name":"ER、PR 与激素受体","aliases":["ER","PR","雌激素受体","孕激素受体","激素受体阳性","hormone receptor"],
+      "summary":"ER 与 PR 是激素受体蛋白；乳腺肿瘤中的受体状态与血液里的激素水平不是同一项检查。",
+      "body":"ER 指雌激素受体，PR 指孕激素受体。乳腺癌中的激素受体检测关注肿瘤细胞是否含这些蛋白；它帮助描述肿瘤特征，并可参与治疗讨论。受体阳性并不等于血液激素一定偏高，也不能只靠受体状态推断分期或个人预后。这里解释检测概念，不给出激素或抗肿瘤药物建议。",
+      "source_url":"https://www.cancer.gov/types/breast/treatment/hormone-therapy","source_title":"Hormone Therapy for Breast Cancer — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"ER 和 PR 是什么？","answer":"它们分别是雌激素受体和孕激素受体，是可以与相关激素发生作用的蛋白。","source_ids":["SRC-NCI-BREAST-HORMONE"]},
+        {"question":"肿瘤 ER 阳性等于抽血激素升高吗？","answer":"不等于。肿瘤受体检测检查的是肿瘤样本中的受体，不是测量血液中的激素浓度。","source_ids":["SRC-NCI-BREAST-HORMONE"]},
+        {"question":"激素受体状态能单独决定所有治疗吗？","answer":"不能。它只是治疗讨论中的一部分，仍需结合疾病阶段等信息；本卡不据此给出个人治疗方案。","source_ids":["SRC-NCI-BREAST-HORMONE","SRC-NCI-BIOMARKER-TESTING"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-ki67","kind":"concept","category":"组织与分子标志物","name":"Ki-67 增殖指标","aliases":["Ki-67","Ki67","Ki 67","增殖指数","Ki-67 proliferation index"],
+      "summary":"Ki-67 与细胞分裂活动有关；报告中的增殖指标不是“癌症有多少”的直接计数。",
+      "body":"Ki-67 是与正在分裂的细胞有关的蛋白。病理中的 Ki-67 增殖指标用于反映样本中细胞分裂的活跃程度，可帮助理解某些肿瘤的生物学特征。它不是肿瘤大小、扩散比例或分期的同义词，也不能脱离癌种和其他检查独立解释。本卡不提供个人数值判读或统一高低分界。",
+      "source_url":"https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ki-67-proliferation-index","source_title":"Ki-67 proliferation index — NCI Dictionary of Cancer Terms","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"Ki-67 主要反映什么？","answer":"它与细胞增殖、也就是分裂活动有关，常用于描述肿瘤样本中的细胞分裂活跃程度。","source_ids":["SRC-NCI-KI67"]},
+        {"question":"Ki-67 是癌症分期吗？","answer":"不是。增殖指标与疾病范围是不同维度，不能把一个 Ki-67 结果直接换算成某一期。","source_ids":["SRC-NCI-KI67","SRC-NCI-BIOMARKER-TESTING"]},
+        {"question":"一个指标能完整概括肿瘤吗？","answer":"不能。不同标志物有不同用途，需要结合癌种、检测背景及其他资料理解。","source_ids":["SRC-NCI-BIOMARKER-TESTING"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-psa","kind":"concept","category":"血液肿瘤标志物","name":"PSA（前列腺特异性抗原）","aliases":["PSA","前列腺特异性抗原","prostate-specific antigen","总PSA","游离PSA"],
+      "summary":"PSA 是前列腺产生的蛋白；升高不等于确诊前列腺癌。",
+      "body":"PSA 检查测量血液中的前列腺特异性抗原。前列腺癌可能使它升高，良性前列腺增生、炎症及其他情况也可能影响结果。因此，PSA 不是癌症有无的简单开关，一次结果不能说明异常的原因。本卡解释指标原理，不提供个人参考值、筛查年龄或复查方案。",
+      "source_url":"https://medlineplus.gov/lab-tests/prostate-specific-antigen-psa-test/","source_title":"Prostate-Specific Antigen (PSA) Test — MedlinePlus","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"PSA 是基因吗？","answer":"这里的 PSA 指前列腺特异性抗原蛋白及其检测，不是一个基因变异结果。","source_ids":["SRC-MEDLINEPLUS-PSA"]},
+        {"question":"PSA 升高就说明一定是癌症吗？","answer":"不一定。前列腺增生、炎症等非癌情况也可能使 PSA 升高。","source_ids":["SRC-MEDLINEPLUS-PSA"]},
+        {"question":"PSA 检查能单独查明升高的原因吗？","answer":"不能。它不能独自确定原因，必要时需要其他检查和专业解释。","source_ids":["SRC-MEDLINEPLUS-PSA"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-afp","kind":"concept","category":"血液肿瘤标志物","name":"AFP（甲胎蛋白）","aliases":["AFP","甲胎蛋白","alpha-fetoprotein"],
+      "summary":"AFP 可用于部分肿瘤的辅助评估；它也受妊娠和非癌性肝病等情况影响。",
+      "body":"AFP 是一种蛋白，在胎儿时期通常较高。成人 AFP 肿瘤标志物检测可在某些肝脏或生殖细胞肿瘤的评估和监测中提供信息，但非癌性肝脏疾病等也可能使其升高。孕期 AFP 检测的目的与肿瘤标志物检测不同，不能混读；单项 AFP 不能确诊或排除癌症。",
+      "source_url":"https://medlineplus.gov/lab-tests/alpha-fetoprotein-afp-tumor-marker-test/","source_title":"Alpha Fetoprotein (AFP) Tumor Marker Test — MedlinePlus","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"AFP 是只由癌细胞产生的吗？","answer":"不是。AFP 在胎儿时期正常存在，某些非癌情况也会影响成人水平。","source_ids":["SRC-MEDLINEPLUS-AFP"]},
+        {"question":"AFP 升高一定是肝癌吗？","answer":"不一定。肝脏炎症或损伤等非癌性肝病也可能使其升高，不能靠单项指标确诊。","source_ids":["SRC-MEDLINEPLUS-AFP"]},
+        {"question":"孕期 AFP 与肿瘤检查能直接按同一目的理解吗？","answer":"不能。妊娠相关 AFP 检测与成人肿瘤标志物检测有不同用途，应先核对检查目的。","source_ids":["SRC-MEDLINEPLUS-AFP"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-cea","kind":"concept","category":"血液肿瘤标志物","name":"CEA（癌胚抗原）","aliases":["CEA","癌胚抗原","carcinoembryonic antigen"],
+      "summary":"CEA 可用于某些癌症治疗后的监测；名称里有“癌”不表示升高就一定患癌。",
+      "body":"CEA 是癌胚抗原的简称。某些癌症可能使血液 CEA 升高，但吸烟及一些非癌疾病也可能影响它。它通常用于已经明确疾病背景下的监测，不适合单独用来判断一个普通人有没有癌症。没有升高也不能独自排除癌症。本卡不对个人检测值作结论。",
+      "source_url":"https://medlineplus.gov/lab-tests/cea-test/","source_title":"CEA Test — MedlinePlus","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"CEA 是专门确诊癌症的检查吗？","answer":"不是。它不能单独用于筛查或确诊癌症，常见用途是结合既有诊断进行监测。","source_ids":["SRC-MEDLINEPLUS-CEA"]},
+        {"question":"吸烟等非癌因素也可能影响 CEA 吗？","answer":"可能。CEA 升高并不只见于癌症，吸烟和一些非癌疾病也可影响结果。","source_ids":["SRC-MEDLINEPLUS-CEA"]},
+        {"question":"CEA 正常能保证没有癌症吗？","answer":"不能。有些癌症并不会使 CEA 升高，因此不能把正常值当作排除所有癌症的保证。","source_ids":["SRC-MEDLINEPLUS-CEA"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-ca125","kind":"concept","category":"血液肿瘤标志物","name":"CA-125","aliases":["CA125","CA-125","CA 125","糖类抗原125","癌抗原125"],
+      "summary":"CA-125 是一种肿瘤标志物；月经及某些非癌情况也可能使其升高。",
+      "body":"CA-125 检测测量血液中的相关蛋白，常用于某些卵巢癌的治疗监测等情境。女性生殖器官的炎症和月经等非癌情况也可能使它升高，部分癌症又不一定使它升高。因此，CA-125 不能单独确诊或排除卵巢癌，也不是对所有无症状人群都适用的独立筛查工具。",
+      "source_url":"https://medlineplus.gov/lab-tests/ca-125-blood-test-ovarian-cancer/","source_title":"CA-125 Blood Test (Ovarian Cancer) — MedlinePlus","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"CA-125 升高一定是卵巢癌吗？","answer":"不是。月经、炎症等非癌性情况也可能使它升高。","source_ids":["SRC-MEDLINEPLUS-CA125"]},
+        {"question":"CA-125 正常就能排除卵巢癌吗？","answer":"不能。一些卵巢癌并不产生高水平 CA-125，单项正常不能排除癌症。","source_ids":["SRC-MEDLINEPLUS-CA125"]},
+        {"question":"CA-125 可以代替完整诊断吗？","answer":"不能。它只能在相应背景下提供信息，诊断通常还需结合其他检查。","source_ids":["SRC-MEDLINEPLUS-CA125"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-ca199","kind":"concept","category":"血液肿瘤标志物","name":"CA19-9","aliases":["CA19-9","CA 19-9","CA199","糖类抗原19-9","癌抗原19-9"],
+      "summary":"CA19-9 可用于某些消化系统癌症的评估和监测；升高也可有非癌原因。",
+      "body":"CA19-9 是一种可在血液中检测的肿瘤标志物，常见于胰腺癌等疾病的辅助评估或监测。胆道问题、炎症等非癌情况也可使其升高；一些人即使患相关癌症也不产生明显的 CA19-9。不能用单次结果确诊、排除癌症或决定治疗。本卡不提供数值阈值或个人解读。",
+      "source_url":"https://medlineplus.gov/lab-tests/ca-19-9-blood-test-pancreatic-cancer/","source_title":"CA 19-9 Blood Test (Pancreatic Cancer) — MedlinePlus","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"CA19-9 升高一定代表胰腺癌吗？","answer":"不一定。胆道或炎症等非癌性情况也可能使它升高，需要结合背景解释。","source_ids":["SRC-MEDLINEPLUS-CA199"]},
+        {"question":"所有人都能用 CA19-9 可靠反映肿瘤吗？","answer":"不是。一些人不会产生明显的 CA19-9，即使存在相关癌症，结果也可能不高。","source_ids":["SRC-MEDLINEPLUS-CA199"]},
+        {"question":"CA19-9 可以单独做癌症诊断吗？","answer":"不能。它通常只作为一部分信息，需要与其他检查结合。","source_ids":["SRC-MEDLINEPLUS-CA199"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-msi-dmmr","kind":"concept","category":"组织与分子标志物","name":"MSI 与 dMMR","aliases":["MSI","MSI-H","MSS","dMMR","pMMR","微卫星不稳定","错配修复缺陷"],
+      "summary":"MSI 描述 DNA 短重复序列的不稳定，dMMR 描述错配修复功能缺陷；它们相关但不是同一个检测名称。",
+      "body":"DNA 复制中的错误如果未被纠正，某些短重复片段的长度可能改变，这称为微卫星不稳定（MSI）。dMMR 指细胞的错配修复功能存在缺陷。它们可提供相关但不同层面的肿瘤信息，在某些癌症中辅助进一步评估或治疗讨论；不能把其中一个结果直接写成胚系基因诊断，更不能单独确认林奇综合征或决定用药。",
+      "source_url":"https://www.cancer.gov/publications/dictionaries/cancer-terms/def/microsatellite-instability","source_title":"Microsatellite instability — NCI Dictionary of Cancer Terms","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"MSI 和 dMMR 分别说什么？","answer":"MSI 说的是短重复 DNA 序列出现变化；dMMR 说的是纠正复制错误的功能缺陷，两者不是同一个词。","source_ids":["SRC-NCI-MSI","SRC-NCI-DMMR"]},
+        {"question":"MSI 或 dMMR 结果能单独确认遗传性癌症吗？","answer":"不能。肿瘤标志物检查与确认遗传性胚系变异的检查不同。","source_ids":["SRC-NCI-BIOMARKER-TESTING","SRC-MEDLINEPLUS-LYNCH"]},
+        {"question":"有这个标志物就一定对某种治疗有效吗？","answer":"不保证。标志物可帮助讨论选择，但效果仍与具体癌种、其他因素和临床条件有关。","source_ids":["SRC-NCI-BIOMARKER-TESTING"]}
+      ]
+    },
+    {
+      "id":"K-edu-concept-tmb","kind":"concept","category":"组织与分子标志物","name":"TMB（肿瘤突变负荷）","aliases":["TMB","肿瘤突变负荷","tumor mutational burden","TMB-high"],
+      "summary":"TMB 描述肿瘤 DNA 中检测到的突变负荷，不是肿瘤体积、癌细胞数量或癌症分期。",
+      "body":"TMB 是从肿瘤 DNA 变异信息得到的一类指标，可在某些情境中辅助免疫治疗讨论。它与 PD-L1 蛋白检测、MSI 检测描述的对象不同。仅凭“TMB 高”不能保证治疗有效，也不能用它判断肿瘤已经扩散到哪里。本卡不提供个人结果解释或通用阈值。",
+      "source_url":"https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-mutational-burden","source_title":"Tumor mutational burden — NCI Dictionary of Cancer Terms","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"TMB 是在数癌细胞吗？","answer":"不是。它关注肿瘤 DNA 中的突变信息，不是癌细胞总数。","source_ids":["SRC-NCI-TMB"]},
+        {"question":"TMB 与 PD-L1 是同一项检查吗？","answer":"不是。TMB 关注 DNA 突变负荷，PD-L1 关注相关蛋白表达。","source_ids":["SRC-NCI-TMB","SRC-MEDLINEPLUS-PDL1"]},
+        {"question":"TMB 高能保证免疫治疗有效吗？","answer":"不能保证。标志物只能在适用情境中提供参考，匹配标志物并不意味着治疗一定奏效。","source_ids":["SRC-NCI-TMB","SRC-NCI-BIOMARKER-TESTING"]}
+      ]
+    },
+    {
+      "id":"K-edu-cancer-thyroid","kind":"cancer","category":"内分泌系统","name":"甲状腺癌","aliases":["thyroid cancer","甲状腺恶性肿瘤"],
+      "summary":"甲状腺癌有不同病理类型；甲状腺结节不等于甲状腺癌，也不能把所有类型的进展特点混为一谈。",
+      "body":"甲状腺位于颈部。常见的甲状腺癌分类包括乳头状癌、滤泡癌、髓样癌和未分化癌，其中乳头状癌最常见。不同类型的细胞来源和生物学特点并不相同。结节只是对局部肿块的描述，许多结节不是癌；需要专业检查才能判断性质。本卡用于理解名称，不根据结节大小、症状或基因结果判断个人病情。",
+      "source_url":"https://www.cancer.gov/types/thyroid","source_title":"Thyroid Cancer — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"甲状腺结节就是甲状腺癌吗？","answer":"不是。甲状腺结节可为良性或恶性；仅凭“结节”这个词不能确诊癌症。","source_ids":["SRC-ACS-THYROID-WHAT","SRC-NCI-NODULE"]},
+        {"question":"甲状腺癌都是同一种病理类型吗？","answer":"不是。乳头状癌、滤泡癌、髓样癌和未分化癌是不同类型，不能用其中一种的特点概括全部。","source_ids":["SRC-NCI-THYROID-OVERVIEW"]},
+        {"question":"甲状腺癌和头颈癌是同一个分类吗？","answer":"虽然甲状腺位于颈部，但 NCI 通常不把甲状腺癌归入狭义的头颈癌类别；分类不仅看身体位置。","source_ids":["SRC-NCI-HEAD-NECK-OVERVIEW"]}
+      ]
+    },
+    {
+      "id":"K-edu-cancer-esophageal","kind":"cancer","category":"消化系统","name":"食管癌","aliases":["食道癌","esophageal cancer","oesophageal cancer"],
+      "summary":"食管癌发生在连接咽部和胃的食管；常见类型是鳞状细胞癌和腺癌。",
+      "body":"食管是食物通向胃的管道。“食道癌”是生活中常见的叫法。食管癌常见病理类型为鳞状细胞癌和腺癌，两者的起源细胞及常见发生位置可不同。食管癌不是胃癌的另一个名称，吞咽不适也不能单独说明患癌。理解资料时，应同时看清部位、病理类型和分期。",
+      "source_url":"https://www.cancer.gov/types/esophageal","source_title":"Esophageal Cancer — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"食道癌和食管癌是两个病吗？","answer":"在日常语境中，食道癌通常就是食管癌的另一种说法；正式医学资料常使用“食管”。","source_ids":["SRC-NCI-ESOPHAGEAL-OVERVIEW"]},
+        {"question":"食管鳞癌和食管腺癌是同一种类型吗？","answer":"不是。它们属于不同的病理类型，常见发生位置和相关生物学改变也可不同。","source_ids":["SRC-NCI-ESOPHAGEAL-OVERVIEW"]},
+        {"question":"仅看“食管癌”三个字能知道分期吗？","answer":"不能。部位名称与病理类型并不包含全部分期信息，仍需相应的诊断和分期检查。","source_ids":["SRC-NCI-ESOPHAGEAL-OVERVIEW"]}
+      ]
+    },
+    {
+      "id":"K-edu-cancer-bladder","kind":"cancer","category":"泌尿与男性生殖系统","name":"膀胱癌","aliases":["bladder cancer","膀胱尿路上皮癌"],
+      "summary":"膀胱癌最常见的是尿路上皮癌；是否侵犯膀胱肌层是另一个重要的描述维度。",
+      "body":"膀胱负责储存尿液。多数膀胱癌起源于其内壁的尿路上皮细胞，也有其他较少见的病理类型。非肌层浸润性与肌层浸润性描述癌症是否已到达膀胱肌肉层，不等同于某个单独的基因状态。血尿等表现也可见于其他情况，不能靠一个症状或本卡自行诊断。",
+      "source_url":"https://www.cancer.gov/types/bladder","source_title":"What Is Bladder Cancer? — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"膀胱癌只有尿路上皮癌一种吗？","answer":"不是。尿路上皮癌最常见，但膀胱也可发生鳞癌、腺癌等较少见的类型。","source_ids":["SRC-NCI-BLADDER-OVERVIEW"]},
+        {"question":"非肌层浸润性膀胱癌是什么意思？","answer":"它描述癌症尚未到达膀胱壁的肌肉层；这个名称不等于“不是癌症”。","source_ids":["SRC-NCI-BLADDER-OVERVIEW"]},
+        {"question":"血尿能直接确诊膀胱癌吗？","answer":"不能。相似症状也可由其他较轻的疾病造成，诊断需要专业检查，不能仅凭症状确定。","source_ids":["SRC-NCI-BLADDER-OVERVIEW"]}
+      ]
+    },
+    {
+      "id":"K-edu-cancer-nasopharyngeal","kind":"cancer","category":"头颈部","name":"鼻咽癌","aliases":["nasopharyngeal cancer","nasopharyngeal carcinoma","NPC"],
+      "summary":"鼻咽癌起源于鼻腔后方的鼻咽；鼻咽与鼻腔、口咽并不是同一个部位。",
+      "body":"鼻咽是咽的上部，位于鼻腔后方。鼻咽癌通常从该部位的黏膜细胞开始，属于头颈部癌症。EB 病毒（EBV）感染与其风险有关，但感染本身不是癌症诊断。鼻塞、耳部不适等也可有其他原因；本卡解释部位与风险概念，不通过症状或 EBV 检测结果判断个人是否患癌。",
+      "source_url":"https://www.cancer.gov/types/head-and-neck/patient/adult/nasopharyngeal-treatment-pdq","source_title":"Nasopharyngeal Cancer Treatment, Patient Version — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"鼻咽和鼻腔是同一个位置吗？","answer":"不是。鼻咽位于鼻腔后方，是咽的上部；同在头颈部不意味着属于同一原发部位。","source_ids":["SRC-NCI-NASOPHARYNGEAL-PATIENT"]},
+        {"question":"感染 EB 病毒就等于患鼻咽癌吗？","answer":"不等于。EBV 感染属于相关风险因素，风险因素不等同于已经确诊癌症。","source_ids":["SRC-NCI-NASOPHARYNGEAL-PATIENT"]},
+        {"question":"鼻咽癌和口咽癌能混着说吗？","answer":"不能。鼻咽和口咽是咽的不同区域，医学资料会分别介绍其肿瘤。","source_ids":["SRC-NCI-HEAD-NECK-OVERVIEW"]}
+      ]
+    },
+    {
+      "id":"K-edu-cancer-oral","kind":"cancer","category":"头颈部","name":"口腔癌","aliases":["oral cavity cancer","mouth cancer","口腔鳞癌","口腔舌癌"],
+      "summary":"口腔癌可发生于舌前部、牙龈和颊黏膜等部位；口腔癌与口咽癌需要按具体起源区分。",
+      "body":"口腔包括舌前部、牙龈、颊黏膜、口底及硬腭等区域。许多口腔癌属于鳞状细胞癌。舌根和扁桃体所在的口咽与口腔不是同一解剖范围；资料中泛称“口腔或咽喉癌”时应进一步分清位置。烟草和酒精与某些头颈癌风险有关，但口腔溃疡或肿块本身不能用来确诊癌症。",
+      "source_url":"https://www.cancer.gov/types/head-and-neck/patient/adult/lip-mouth-treatment-pdq","source_title":"Lip and Oral Cavity Cancer Treatment, Patient Version — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"舌前部与舌根的肿瘤都属于同一部位吗？","answer":"不是。舌前部属于口腔范围，舌根属于口咽范围，需核对具体原发部位。","source_ids":["SRC-NCI-HEAD-NECK-OVERVIEW"]},
+        {"question":"口腔癌常见的病理类型是什么？","answer":"多数口唇和口腔癌从表面鳞状细胞开始，属于鳞状细胞癌；具体名称仍以病理资料为准。","source_ids":["SRC-NCI-ORAL-PATIENT"]},
+        {"question":"口腔有溃疡就能判断是癌吗？","answer":"不能。类似表现也可能来自非癌原因；症状不能代替专业检查和诊断。","source_ids":["SRC-NCI-HEAD-NECK-OVERVIEW"]}
+      ]
+    },
+    {
+      "id":"K-edu-cancer-skin-nonmelanoma","kind":"cancer","category":"皮肤与软组织","name":"基底细胞癌与皮肤鳞癌","aliases":["非黑色素瘤皮肤癌","basal cell carcinoma","cutaneous squamous cell carcinoma","BCC","皮肤鳞状细胞癌"],
+      "summary":"基底细胞癌和皮肤鳞状细胞癌是常见的皮肤癌，与黑色素瘤不是同一种类型。",
+      "body":"皮肤中不同细胞可产生不同类型的癌。基底细胞癌与皮肤鳞状细胞癌通常被放在非黑色素瘤皮肤癌中介绍，黑色素瘤则是另一种类别。不能凭一张照片、痣的颜色或是否疼痛确定类型；也不能把皮肤鳞癌与肺、食管等部位的鳞癌当作同一种原发癌。这里帮助认识分类，不提供皮损识别或个人诊断。",
+      "source_url":"https://www.cancer.gov/types/skin/patient/skin-treatment-pdq","source_title":"Skin Cancer Treatment, Patient Version — NCI","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"皮肤癌都叫黑色素瘤吗？","answer":"不是。基底细胞癌、皮肤鳞状细胞癌和黑色素瘤是不同类别。","source_ids":["SRC-NCI-SKIN-PATIENT"]},
+        {"question":"基底细胞癌与皮肤鳞癌是良性肿瘤吗？","answer":"不是。它们都属于皮肤癌；“常见”或与黑色素瘤不同，不等于良性。","source_ids":["SRC-NCI-SKIN-PATIENT"]},
+        {"question":"只看照片可以区分所有皮肤肿瘤吗？","answer":"不可以。皮肤癌诊断可能需要检查和活检，本卡或一般图片不能代替诊断。","source_ids":["SRC-NCI-SKIN-PATIENT","SRC-NCI-PATHOLOGY-REPORTS"]}
+      ]
+    },
+    {
+      "id":"K-edu-gene-alk","kind":"gene","category":"细胞信号与生长调控","name":"ALK","aliases":["ALK 基因","anaplastic lymphoma kinase","EML4-ALK","ALK融合"],
+      "summary":"ALK 是基因名称；部分肿瘤中可出现 ALK 重排或融合，不能把“有这个基因”理解为异常。",
+      "body":"ALK 编码参与细胞信号传递的受体酪氨酸激酶。某些染色体重排会把 ALK 与其他基因连接，产生融合蛋白，例如部分非小细胞肺癌中的 EML4-ALK。正常基因、重排、融合与蛋白表达不是同一个检测概念。肿瘤中发现相关改变也不能单独判断是否遗传或选择个人用药。",
+      "source_url":"https://medlineplus.gov/genetics/gene/alk/","source_title":"ALK gene — MedlinePlus Genetics","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"ALK 这个名称本身就是一种癌吗？","answer":"不是。它是正常存在的基因名称；某些肿瘤中的特定改变才具有相应的肿瘤学意义。","source_ids":["SRC-MEDLINEPLUS-ALK"]},
+        {"question":"ALK 融合是什么意思？","answer":"它指 ALK 与另一个基因因重排而连接，可产生融合蛋白；EML4-ALK 是其中一个例子。","source_ids":["SRC-MEDLINEPLUS-ALK"]},
+        {"question":"ALK 结果能直接决定个人治疗吗？","answer":"不能。检测结果需结合癌种、改变类型和其他临床信息，不等于自动适用某种治疗。","source_ids":["SRC-NCI-BIOMARKER-TESTING"]}
+      ]
+    },
+    {
+      "id":"K-edu-gene-ros1","kind":"gene","category":"细胞信号与生长调控","name":"ROS1","aliases":["ROS1 基因","ROS1 fusion","ROS1融合","ROS1重排"],
+      "summary":"ROS1 编码参与细胞信号与生长的蛋白；ROS1 重排是部分肺癌资料中会出现的检测项目。",
+      "body":"ROS1 是基因名称，其蛋白属于受体酪氨酸激酶。部分癌症可出现相关基因或蛋白改变。ROS1 重排在某些非小细胞肺癌中可作为辅助治疗选择的信息，但检出基因名称不等于检出重排，相关结果也不是一般人群的癌症确诊工具。",
+      "source_url":"https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ros1-gene","source_title":"ROS1 gene — NCI Dictionary of Cancer Terms","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"ROS1 和 ALK 是同一个基因吗？","answer":"不是。它们是不同基因，虽然都可出现在部分肺癌分子检测中，也不能把各自的改变当成同一个结果。","source_ids":["SRC-NCI-ROS1-GENE","SRC-MEDLINEPLUS-ALK"]},
+        {"question":"ROS1 重排一般在检查什么？","answer":"它检查肿瘤中的特定基因结构改变；NCI 将其列为部分非小细胞肺癌可用于辅助治疗选择的标志物。","source_ids":["SRC-NCI-TUMOR-MARKER-TESTS"]},
+        {"question":"报告写了 ROS1，就说明一定有可用药物吗？","answer":"不能这样推断。需先明确检测的内容及实际结果，再结合癌种等信息判断，不能仅看基因名称。","source_ids":["SRC-NCI-BIOMARKER-TESTING"]}
+      ]
+    },
+    {
+      "id":"K-edu-gene-ret","kind":"gene","category":"细胞信号与生长调控","name":"RET","aliases":["RET 基因","RET fusion","RET融合","RET重排"],
+      "summary":"RET 的不同改变可涉及不同疾病；胚系变异与仅在肿瘤中出现的改变不能混为一谈。",
+      "body":"RET 编码参与细胞信号的受体蛋白。某些遗传性致病变异可与多发性内分泌腺瘤病 2 型等相关；某些体细胞变异或重排则可见于散发性肿瘤。因此，讨论 RET 时要分清改变类型、检测样本及是否属于胚系。这里不根据个人结果判断遗传风险或提供治疗方案。",
+      "source_url":"https://medlineplus.gov/genetics/gene/ret/","source_title":"RET gene — MedlinePlus Genetics","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"RET 改变都一定是遗传的吗？","answer":"不是。RET 可有遗传性胚系改变，也可有后天发生、仅在部分细胞中的体细胞改变。","source_ids":["SRC-MEDLINEPLUS-RET"]},
+        {"question":"RET 突变和 RET 重排能视为同一种结果吗？","answer":"不能。它们描述不同形式的基因改变；相同基因名称不代表相同生物学或临床含义。","source_ids":["SRC-MEDLINEPLUS-RET"]},
+        {"question":"RET 与甲状腺癌有什么基础联系？","answer":"部分 RET 改变可见于髓样甲状腺癌，某些重排也可见于乳头状甲状腺癌；并不是所有甲状腺癌都由 RET 改变引起。","source_ids":["SRC-MEDLINEPLUS-RET"]}
+      ]
+    },
+    {
+      "id":"K-edu-gene-met","kind":"gene","category":"细胞信号与生长调控","name":"MET","aliases":["MET 基因","MET exon 14 skipping","MET外显子14跳跃","MET 14外显子跳跃"],
+      "summary":"MET 基因改变与 MET 蛋白表达是不同检测层面；部分肺癌会关注 MET 外显子 14 跳跃。",
+      "body":"在部分非小细胞肺癌中，MET 外显子 14 跳跃可导致异常 MET 蛋白；另一些肿瘤可能出现 MET 蛋白过多。基因改变与蛋白表达结果并不等价，不能只因报告出现 MET 就归为同一情况。本卡用于认识检测词语，不提供检测阈值、药物匹配或个人用药建议。",
+      "source_url":"https://www.cancer.org/cancer/types/lung-cancer/treating-non-small-cell/targeted-therapies.html","source_title":"Targeted Drug Therapy for Non-small Cell Lung Cancer — ACS","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"MET 外显子 14 跳跃是什么层面的信息？","answer":"它属于特定的基因改变，可影响相应 MET 蛋白；不是肿瘤大小或癌症分期。","source_ids":["SRC-ACS-NSCLC-TARGETED"]},
+        {"question":"MET 蛋白表达高，能直接说成同一种基因改变吗？","answer":"不能。蛋白表达与特定基因改变是不同的检测层面，需要分别理解。","source_ids":["SRC-ACS-NSCLC-TARGETED"]},
+        {"question":"所有肺癌都要按 MET 结果解释吗？","answer":"不能。只有具体癌种与适用检测背景中的结果才有相应意义，不能概括全部肺癌。","source_ids":["SRC-NCI-BIOMARKER-TESTING"]}
+      ]
+    },
+    {
+      "id":"K-edu-gene-pik3ca","kind":"gene","category":"细胞信号与生长调控","name":"PIK3CA","aliases":["PIK3CA 基因","PI3K catalytic subunit alpha","p110 alpha"],
+      "summary":"PIK3CA 参与细胞生长和存活信号；某些改变可见于癌症，也可见于非癌性疾病。",
+      "body":"PIK3CA 提供制造 PI3K 酶的 p110α 亚基的指令，参与细胞内信号传递。某些改变可能让相关信号过于活跃，并出现在某些肿瘤中；这个基因的改变也可与非癌性过度生长等情况有关。发现 PIK3CA 改变不等于一定患癌，更不能仅凭基因名判断是否遗传或适用哪种治疗。",
+      "source_url":"https://medlineplus.gov/genetics/gene/pik3ca/","source_title":"PIK3CA gene — MedlinePlus Genetics","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"PIK3CA 这个基因负责什么？","answer":"它编码 PI3K 酶中的 p110α 亚基，参与影响细胞生长、分裂和存活等活动的信号。","source_ids":["SRC-MEDLINEPLUS-PIK3CA"]},
+        {"question":"PIK3CA 改变只会出现在癌症里吗？","answer":"不是。某些改变也与非癌性过度生长等疾病有关，不能把所有改变都等同于癌症。","source_ids":["SRC-MEDLINEPLUS-PIK3CA"]},
+        {"question":"只看基因名称就能判断某个变异的意义吗？","answer":"不能。同一基因可以有不同改变，解释需结合具体变异、组织来源与疾病背景。","source_ids":["SRC-MEDLINEPLUS-PIK3CA","SRC-NCI-BIOMARKER-TESTING"]}
+      ]
+    },
+    {
+      "id":"K-edu-gene-mmr","kind":"gene","category":"DNA 修复与遗传易感","name":"MLH1、MSH2、MSH6 与 PMS2","aliases":["错配修复基因","MMR genes","MLH1","MSH2","MSH6","PMS2","林奇综合征","Lynch syndrome"],
+      "summary":"这是一组参与 DNA 错配修复的基因，不是一个基因；相关蛋白检测与遗传风险检测也不是同一回事。",
+      "body":"DNA 复制时可能出现小错误，错配修复系统参与纠正这些错误。MLH1、MSH2、MSH6 和 PMS2 是这套系统中的重要基因。某些胚系致病变异可与林奇综合征有关，并增加特定癌症风险，但风险增加不代表一定患癌。肿瘤中修复蛋白缺失、dMMR、MSI 与胚系检测是不同层面的信息；不能仅靠肿瘤结果确认家族遗传综合征。",
+      "source_url":"https://medlineplus.gov/genetics/condition/lynch-syndrome/","source_title":"Lynch syndrome — MedlinePlus Genetics","source_date":null,"checked_at":"2026-10-21","review_status":"source_checked",
+      "faqs":[
+        {"question":"MLH1 和 MSH2 是同一个基因吗？","answer":"不是。它们是不同的错配修复基因，编码的蛋白分别参与 DNA 复制错误的识别和修复。","source_ids":["SRC-MEDLINEPLUS-MLH1","SRC-MEDLINEPLUS-MSH2"]},
+        {"question":"林奇综合征代表已经得癌症吗？","answer":"不代表。它是一种遗传性癌症易感状况，增加某些癌症风险，不等于已经患癌。","source_ids":["SRC-MEDLINEPLUS-LYNCH"]},
+        {"question":"肿瘤显示修复异常，就能确认林奇综合征吗？","answer":"不能单独确认。肿瘤标志物检测与用于识别遗传性胚系变异的检测不同，需要进一步专业解释。","source_ids":["SRC-NCI-BIOMARKER-TESTING","SRC-MEDLINEPLUS-LYNCH"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-breast", "kind": "cancer", "category": "女性生殖与乳腺", "name": "乳腺癌", "aliases": ["乳癌", "breast cancer", "mammary cancer"],
+      "summary": "乳腺癌不是单一类型；可按起源组织、浸润状态及受体/分子特征继续区分。",
+      "body": "乳腺癌是发生于乳腺组织的一组恶性肿瘤。分类可涉及导管或小叶等组织来源、是否浸润，以及激素受体和 HER2 等分子特征；这些维度回答的问题不同，不应只凭一个名称推断治疗。这里是分类入门，不是病理诊断。",
+      "source_url": "https://www.cancer.gov/types/breast/breast-cancer-types", "source_title": "Types of Breast Cancer — NCI", "source_date": null, "checked_at": "2026-10-20", "review_status": "source_checked", "media_ids": ["MED-NCI-BREAST-CANCER-CELL-RESEARCH-IMAGE"],
+      "faqs": [
+        {"question":"LCIS 名字里有“carcinoma”，它就是乳腺癌吗？","answer":"不是。NCI 与 ACS 都把 LCIS 说明为乳腺小叶中的一种改变，而不是乳腺癌；它与未来乳腺癌风险增加相关。","source_ids":["SRC-NCI-BREAST-TYPES","SRC-ACS-LCIS"]},
+        {"question":"DCIS 和 LCIS 是同一种“原位癌”吗？","answer":"不是。DCIS 起源于乳管细胞，NCI 将其称为未扩散出原位部位的非浸润性乳腺癌；LCIS 位于乳腺小叶，NCI 与 ACS 均说明它不是乳腺癌。两者名称相似，但组织部位和分类含义不同。","source_ids":["SRC-NCI-BREAST-TYPES","SRC-ACS-BREAST-TYPES","SRC-ACS-LCIS"]},
+        {"question":"有 LCIS 是否一定会发展成乳腺癌？","answer":"不一定。NCI 与 ACS 说明 LCIS 和未来乳腺癌风险增加有关；风险增加不代表已经患癌，也不能据此断言未来一定会患癌。本问答不用于推断个人风险或给出筛查、治疗建议。","source_ids":["SRC-NCI-BREAST-TYPES","SRC-ACS-LCIS"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-lung", "kind": "cancer", "category": "呼吸系统", "name": "肺癌", "aliases": ["肺部肿瘤", "lung cancer", "lung carcinoma"],
+      "summary": "肺癌常先区分为非小细胞肺癌与小细胞肺癌，之后还需按病理与分子特征细分。",
+      "body": "肺癌指起源于肺部组织的一组肿瘤。NCI 将肺癌主要分为非小细胞肺癌（NSCLC）和小细胞肺癌（SCLC）；两者还包含不同病理类型。研究论文中的“lung cancer”可能是宽泛统称，应核对具体亚型、样本与研究条件。",
+      "source_url": "https://www.cancer.gov/types/lung", "source_title": "Lung Cancer — NCI", "source_date": null, "checked_at": "2026-10-19", "review_status": "source_checked", "media_ids": ["MED-NCI-LUNG-CANCER-METASTASIS-IMAGE"],
+      "faqs": [
+        {"question":"非小细胞肺癌和小细胞肺癌有什么区别？","answer":"它们是肺癌的两种主要类别；非小细胞肺癌还包括腺癌、鳞癌等亚型。这里说明的是分类层级，不是个人诊断。","source_ids":["SRC-NCI-LUNG","SRC-ACS-LUNG"]},
+        {"question":"肺腺癌和非小细胞肺癌是并列的两种癌吗？","answer":"不是。非小细胞肺癌是较宽的类别，肺腺癌是它下面的一种亚型。","source_ids":["SRC-NCI-LUNG","SRC-ACS-LUNG"]},
+        {"question":"肺部发现癌细胞，就一定是肺癌吗？","answer":"不一定。其他器官发生的癌症可能扩散到肺，转移癌通常仍按原发癌命名；因此，肺部位置本身不等于癌症起源于肺。","source_ids":["SRC-ACS-LUNG","SRC-NCI-METASTASIS"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-colorectal", "kind": "cancer", "category": "消化系统", "name": "结直肠癌", "aliases": ["结肠癌", "直肠癌", "colorectal cancer", "colon cancer", "rectal cancer"],
+      "summary": "结直肠癌是结肠或直肠发生的癌症；两处常合并称呼，但具体部位和类型仍要看清。",
+      "body": "结肠和直肠都属于大肠，因此两处发生的癌症常合称结直肠癌。大多数结直肠癌属于腺癌，但也有少见的其他类型。具体研究可能只讨论结肠或直肠中的一种，也可能聚焦某个病理或分子亚型。阅读资料时先看对象是哪一部位、哪一类型，不要因为名称合并就认定所有研究对象相同。本条是分类入门，不用于个人诊断。",
+      "source_url": "https://www.cancer.gov/types/colorectal", "source_title": "Colorectal Cancer — NCI", "source_date": null, "checked_at": "2026-10-19", "review_status": "source_checked",
+      "faqs": [
+        {"question":"结直肠息肉就是癌吗？","answer":"不是。息肉是结肠或直肠内壁的异常生长，多数不是癌；不同类型的息肉风险不同。NCI 与 ACS 都指出，腺瘤等某些类型更可能发展为癌，但单凭“息肉”这个词不能判断它的具体性质。","source_ids":["SRC-NCI-COLORECTAL-POLYPS","SRC-ACS-COLORECTAL-POLYPS"]},
+        {"question":"腺瘤已经是癌了吗？","answer":"不是。NCI 明确说明结直肠腺瘤本身不是癌症，但与其他一些息肉类型相比，它更可能发展为癌；“更可能”不等于已经患癌或一定会发展。具体病理结果不能靠科普条目自行判断。","source_ids":["SRC-NCI-COLORECTAL-ADENOMA","SRC-ACS-COLORECTAL-POLYPS"]},
+        {"question":"结直肠癌筛查为什么会关注息肉？","answer":"因为部分结直肠癌可能从某些息肉逐步发展；一些筛查方法可以发现并移除息肉或腺瘤，从而有机会预防部分癌症。但发现息肉不等于发现癌症，也不代表每个息肉都会进展。这里解释筛查原理，不提供个人筛查时间或方案。","source_ids":["SRC-NCI-COLORECTAL-POLYPS","SRC-ACS-COLORECTAL-COLONOSCOPY"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-prostate", "kind": "cancer", "category": "泌尿与男性生殖系统", "name": "前列腺癌", "aliases": ["prostate cancer", "前列腺恶性肿瘤"],
+      "summary": "前列腺癌按器官部位归类；具体研究还需区分组织学、分级、分期和分子背景。",
+      "body": "前列腺癌指发生于前列腺的癌症。这个器官名称并不能描述肿瘤全部特征；病理类型、分级、分期和研究所用分子指标会影响研究对象的范围。此词条只帮助理解名称与分类层次，不用于判断个人检查结果。",
+      "source_url": "https://www.cancer.gov/types/prostate", "source_title": "Prostate Cancer — NCI", "source_date": null, "checked_at": "2026-10-17", "review_status": "source_checked", "media_ids": ["MED-NCI-PROSTATE-NANOPARTICLE-RESEARCH-IMAGE"],
+      "faqs": [
+        {"question":"前列腺增大（BPH）就是前列腺癌吗？","answer":"不是。良性前列腺增生（BPH）是非癌性的前列腺细胞增多；NCI 与 ACS 都把它和前列腺癌作为不同情况说明。这个概念区分不能用来判断个人的症状或检查结果。","source_ids":["SRC-NCI-PROSTATE-CHANGES","SRC-ACS-PROSTATE-BENIGN"]},
+        {"question":"PSA 升高就代表得了前列腺癌吗？","answer":"不一定。PSA 可由正常及癌变的前列腺细胞产生；良性前列腺增生、炎症等也可能使数值升高。NCI 与 ACS 都提醒，PSA 结果不能单独确诊癌症，个人结果需要结合其他检查由专业人员解释。","source_ids":["SRC-NCI-PROSTATE-PSA","SRC-ACS-PROSTATE-TESTS"]},
+        {"question":"前列腺癌都会长得很快吗？","answer":"不是。NCI 介绍前列腺癌通常生长较慢；ACS 也指出，有些类型可能进展较快，而另一些可能长期不造成严重健康问题。仅凭“前列腺癌”这个名称，不能判断某个人的肿瘤进展或治疗方式。","source_ids":["SRC-NCI-PROSTATE-OVERVIEW","SRC-ACS-PROSTATE-DETECTION"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-stomach", "kind": "cancer", "category": "消化系统", "name": "胃癌", "aliases": ["胃恶性肿瘤", "gastric cancer", "stomach cancer"],
+      "summary": "多数胃癌是胃腺癌；贲门/非贲门按位置区分，肠型/弥漫型按显微镜下外观区分。",
+      "body": "胃癌是从胃内壁细胞开始的癌症。多数胃癌属于胃腺癌，起源于胃内壁的腺体细胞。胃腺癌可以按发生位置分为贲门与非贲门，也可以按显微镜下细胞外观描述为肠型或弥漫型；这两组名称描述的是不同方面。胃里还可能出现胃肠道间质瘤（GIST）、胃肠道神经内分泌肿瘤或胃淋巴瘤等不同类别，不能简单当作同一种胃腺癌。以上用于一般知识了解，具体类型以病理资料和专业医务人员解释为准。",
+      "source_url": "https://www.cancer.gov/types/stomach", "source_title": "Stomach (Gastric) Cancer — NCI", "source_date": null, "checked_at": "2026-10-20", "review_status": "source_checked",
+      "faqs": [
+        {"question":"胃癌都是胃腺癌吗？","answer":"不是。胃腺癌是最常见的胃癌类型；NCI 说几乎所有胃癌属于腺癌，ACS 也指出胃癌绝大多数是腺癌。胃里还可能出现 GIST、胃肠道神经内分泌肿瘤、胃淋巴瘤等不同类别。这里说明的是常见分类，不用于判断具体病理结果。","source_ids":["SRC-NCI-STOMACH-TYPES","SRC-ACS-STOMACH-TYPES"]},
+        {"question":"贲门/非贲门与肠型/弥漫型，是同一套分类吗？","answer":"不是。贲门/非贲门按胃腺癌发生的位置区分；肠型/弥漫型则按癌细胞在显微镜下的外观描述。前一组回答“发生在哪里”，后一组回答“细胞看起来怎样”，不能把两组名称当成同义词。","source_ids":["SRC-NCI-STOMACH-TYPES","SRC-ACS-STOMACH-TYPES"]},
+        {"question":"胃里的 GIST、神经内分泌肿瘤和淋巴瘤，都是胃腺癌吗？","answer":"不是。虽然这些肿瘤可能发生在胃部，但 NCI 和 ACS 将它们与胃腺癌分开介绍：GIST 属于软组织肉瘤类别，神经内分泌肿瘤和淋巴瘤也分别有不同的细胞来源与分类。‘长在胃里’说的是位置，并不能说明它们都是胃腺癌。具体病理名称应结合专业检查资料解释。","source_ids":["SRC-NCI-STOMACH-TYPES","SRC-ACS-STOMACH-TYPES","SRC-NCI-GIST-PATIENT"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-liver", "kind": "cancer", "category": "消化系统", "name": "肝癌", "aliases": ["肝脏癌症", "liver cancer", "hepatic cancer"],
+      "summary": "了解原发性肝癌、胆管癌与肝转移的命名区别，避免把肝脏位置和肿瘤来源混为一谈。",
+      "body": "先看肿瘤从哪里开始。成人原发性肝癌中，最常见的是肝细胞癌（HCC）。胆管癌起源于胆管；发生在肝内胆管的称肝内胆管癌，发生在肝外胆管的称肝外胆管癌，它与肝细胞癌是不同类型。肺、乳腺或结直肠等部位的癌症也可能扩散到肝脏；若癌症从其他器官扩散到肝脏，通常按原发部位称呼，而非原发性肝癌。肝脏还可能出现其他少见肿瘤，本卡只作入门区分，不是完整分类。",
+      "source_url": "https://www.cancer.gov/types/liver", "source_title": "Liver and Bile Duct Cancer — NCI", "source_date": null, "checked_at": "2026-10-20", "review_status": "source_checked",
+      "faqs": [
+        {
+          "question": "“肝癌”都指肝细胞癌（HCC）吗？",
+          "answer": "不完全是。成人原发性肝癌中，肝细胞癌（HCC）最常见，但“最常见”不代表只有这一种；肝脏还可能出现肝内胆管癌等其他原发肿瘤。这里介绍一般分类，不用于判断个人检查结果。",
+          "source_ids": ["SRC-NCI-LIVER-BILE-DUCT", "SRC-ACS-LIVER-TYPES"]
+        },
+        {
+          "question": "肝细胞癌和肝内胆管癌是同一种吗？",
+          "answer": "不是。HCC 起源于肝脏主要细胞；肝内胆管癌起源于肝内的小胆管。两者都发生在肝脏，但起源组织不同，属于不同类型。",
+          "source_ids": ["SRC-NCI-LIVER-BILE-DUCT", "SRC-ACS-LIVER-TYPES", "SRC-ACS-BILE-DUCT"]
+        },
+        {
+          "question": "癌症出现在肝脏，就一定是原发性肝癌吗？",
+          "answer": "不一定。其他器官的癌症可能扩散到肝脏；例如结直肠癌转移到肝脏后，仍按结直肠癌称呼，不会仅因所在位置就变成原发性肝癌。判断肿瘤来源需要专业资料，本条不用于解读个人检查结果。",
+          "source_ids": ["SRC-ACS-LIVER-TYPES", "SRC-ACS-BILE-DUCT"]
+        }
+      ]
+    },
+    {
+      "id": "K-edu-cancer-pancreatic", "kind": "cancer", "category": "消化系统", "name": "胰腺癌", "aliases": ["胰腺恶性肿瘤", "pancreatic cancer"],
+      "summary": "胰腺腺癌与胰腺神经内分泌肿瘤（NET）来自不同类型细胞；NET 的性质应结合具体病理名称理解。",
+      "body": "胰腺有帮助消化的外分泌细胞，也有产生激素的内分泌细胞。常见的胰腺腺癌通常从外分泌细胞或胰管起源；胰腺神经内分泌肿瘤（NET）来自产生激素的内分泌细胞，是较少见的另一类。NCI 的患者页面说明胰腺 NET 可为良性或恶性；ACS 的页面则把 pNET 纳入胰腺癌类型介绍。不同页面的术语范围写法并不完全相同，因此不能只凭“NET”缩写推断某个病变的性质，具体名称需结合正式病理资料由专业人员解释。两类肿瘤的诊断检查和疾病特征也不同；阅读研究时应核对它讨论的是哪一类。本条为分类入门，不用于个人诊断。",
+      "source_url": "https://www.cancer.gov/types/pancreatic/neuroendocrine-tumors", "source_title": "What Are Pancreatic Neuroendocrine Tumors? — NCI", "source_date": "2026-07-31", "checked_at": "2026-10-20", "review_status": "source_checked",
+      "faqs": [
+        {"question":"胰腺癌通常都指胰腺腺癌吗？","answer":"不是。胰腺腺癌是最常见的胰腺癌类型，但胰腺还有较少见的神经内分泌肿瘤（NET）等不同类别。‘最常见’不代表只有这一种；阅读研究时要确认它讨论的具体类型。这里说明分类，不用于判断个人诊断。","source_ids":["SRC-NCI-PANCREATIC-TYPES","SRC-ACS-PANCREATIC-TYPES"]},
+        {"question":"胰腺腺癌和胰腺 NET 起源于同一类细胞吗？","answer":"不是。胰腺腺癌通常起源于帮助消化、产生酶的外分泌细胞；胰腺 NET 起源于产生激素的内分泌细胞。NCI 与 ACS 均将这两类肿瘤分开介绍。","source_ids":["SRC-NCI-PANCREATIC-NET","SRC-ACS-PANCREATIC-TYPES","SRC-ACS-PANCREATIC-NET"]},
+        {"question":"胰腺 NET 这个名称本身就能说明它一定是恶性吗？","answer":"不能只凭这个缩写判断。NCI 的患者页面说胰腺 NET 可为良性或恶性；ACS 的页面则把 pNET 作为胰腺癌类型介绍。这里保留两家页面的术语差异，不将它简化成对个人病变的判断；具体性质要看正式病理名称并由专业人员解释。","source_ids":["SRC-NCI-PANCREATIC-NET","SRC-ACS-PANCREATIC-NET"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-ovarian", "kind": "cancer", "category": "女性生殖与乳腺", "name": "卵巢癌", "aliases": ["ovarian cancer", "卵巢恶性肿瘤"],
+      "summary": "卵巢癌不止一种；一些相关的输卵管癌和原发性腹膜癌也会与它一起介绍。",
+      "body": "人们常把“卵巢癌”当成一种病，但实际有不同类型。NCI 会把卵巢上皮癌、输卵管癌和原发性腹膜癌放在同一专题介绍；还单独列出卵巢生殖细胞肿瘤和低恶性潜能肿瘤。阅读时要看具体部位和名称；这里只作一般知识介绍，不用于判断个人检查结果。",
+      "source_url": "https://www.cancer.gov/types/ovarian", "source_title": "Ovarian, Fallopian Tube, and Primary Peritoneal Cancer — NCI", "source_date": null, "checked_at": "2026-10-20", "review_status": "source_checked",
+      "faqs": [
+        {"question":"输卵管癌和腹膜癌为什么会和卵巢癌一起介绍？","answer":"NCI 将卵巢上皮癌、输卵管癌和原发性腹膜癌放在同一主题中介绍，并说明它们形成于同类组织；ACS 也提到，部分卵巢相关上皮性癌可能起始于输卵管细胞。这种一起介绍不代表它们都从同一个解剖部位开始；具体病名要看诊断资料。","source_ids":["SRC-NCI-OVARIAN-GROUP","SRC-ACS-OVARIAN"]},
+        {"question":"卵巢肿瘤一定是恶性癌吗？","answer":"不一定。卵巢肿瘤中有良性、交界性（低恶性潜能）和恶性等不同类别；这些名称不能简单当成同义词。具体肿瘤属于哪一类，需要结合病理等专业资料判断，本说明不用于解释个人检查结果。","source_ids":["SRC-NCI-OVARIAN-GROUP","SRC-ACS-OVARIAN"]},
+        {"question":"卵巢癌只有一种类型吗？","answer":"不是。常见的分类会区分上皮性肿瘤、生殖细胞肿瘤和性索-间质肿瘤；上皮性肿瘤内部还可以再分不同类型。因此，“卵巢癌”是一个较宽的名称，不能代替具体病理类型。","source_ids":["SRC-NCI-OVARIAN-GROUP","SRC-ACS-OVARIAN"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-uterine", "kind": "cancer", "category": "女性生殖与乳腺", "name": "子宫癌（分类入口）", "aliases": ["子宫癌", "uterine cancer", "cancer of the uterus"],
+      "summary": "“子宫癌”是较宽泛的说法；NCI 的子宫癌专题分别介绍子宫内膜癌和子宫肉瘤。",
+      "body": "NCI 的子宫癌专题分别介绍子宫内膜癌和子宫肉瘤。两者是不同的疾病类别，不能只凭“子宫癌”这一宽泛说法就判断一项研究具体指哪一类。请在阅读研究时核对其病理名称和研究对象；本条是分类导航，不用于个人诊断。",
+      "source_url": "https://www.cancer.gov/types/uterine", "source_title": "Uterine Cancer — NCI", "source_date": null, "checked_at": "2026-10-20", "review_status": "source_checked",
+      "faqs": [
+        {"question":"“子宫癌”通常包括哪些主要类型？","answer":"NCI 的子宫癌专题分别介绍子宫内膜癌和子宫肉瘤。它们都与子宫有关，但属于不同类别；具体研究指哪一类，要看研究中的病理名称和定义。","source_ids":["SRC-NCI-UTERINE-OVERVIEW","SRC-ACS-UTERINE-SARCOMA"]},
+        {"question":"子宫内膜癌和子宫肉瘤从哪里发生？","answer":"NCI 说明，子宫内膜癌发生在子宫内膜（内侧衬层）；子宫肉瘤发生在子宫肌肉或支持组织。阅读研究时应核对具体组织来源，而不只看“子宫癌”这个部位名称。","source_ids":["SRC-NCI-ENDOMETRIAL","SRC-NCI-UTERINE-SARCOMA","SRC-ACS-UTERINE-SARCOMA"]},
+        {"question":"癌肉瘤名字里有“肉瘤”，就属于子宫肉瘤吗？","answer":"不能只看名称判断。NCI 将癌肉瘤列为子宫内膜癌的一个亚型，并说明按子宫内膜癌的定义分期。具体类别应以专业病理命名为准；这里仅解释分类，不用于解读个人病理报告。","source_ids":["SRC-NCI-UTERINE-SARCOMA","SRC-ACS-UTERINE-SARCOMA"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-endometrial", "kind": "cancer", "category": "女性生殖与乳腺", "name": "子宫内膜癌", "aliases": ["endometrial cancer"],
+      "summary": "子宫内膜癌起源于子宫内膜，需与子宫肉瘤区分。",
+      "body": "子宫内膜癌是发生在子宫内膜（子宫内侧衬层）的癌症；它不同于发生在子宫肌肉或支持组织的子宫肉瘤。阅读研究时应核对具体组织类型和研究范围；不要把所有宽泛的“子宫癌”表述都当作子宫内膜癌。本页只作分类入门。",
+      "source_url": "https://www.cancer.gov/types/uterine/endometrial", "source_title": "What Is Endometrial Cancer? — NCI", "source_date": "2020-11-13", "checked_at": "2026-10-20", "review_status": "source_checked",
+      "faqs": [
+        {"question":"子宫内膜癌发生在子宫的哪一层？","answer":"它起源于子宫内膜，也就是子宫内侧的衬层；这不同于起源于子宫肌肉或支持组织的子宫肉瘤。具体组织类型仍应以正式病理资料为准。","source_ids":["SRC-NCI-ENDOMETRIAL","SRC-ACS-ENDOMETRIAL-CANCER","SRC-NCI-UTERINE-SARCOMA"]},
+        {"question":"“子宫癌”和“子宫内膜癌”可以直接当成同义词吗？","answer":"不宜默认同义。NCI 的子宫癌专题分别介绍子宫内膜癌和子宫肉瘤；美国癌症协会也提醒，泛称 uterine cancer 通常指子宫体，而不是宫颈。阅读研究时要核对具体组织和病理名称。","source_ids":["SRC-NCI-UTERINE-OVERVIEW","SRC-NCI-ENDOMETRIAL","SRC-ACS-ENDOMETRIAL-CANCER"]},
+        {"question":"癌肉瘤名称里有“肉瘤”，分类上就一定属于子宫肉瘤吗？","answer":"不能只看名称判断。NCI 将子宫癌肉瘤归入子宫内膜癌相关分类，并说明按子宫内膜癌的定义分期；美国癌症协会也说明它起源于子宫内膜。这里仅解释一般分类，不用于解读个人病理报告。","source_ids":["SRC-NCI-UTERINE-SARCOMA","SRC-ACS-ENDOMETRIAL-CANCER"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-uterine-sarcoma", "kind": "cancer", "category": "女性生殖与乳腺", "name": "子宫肉瘤", "aliases": ["uterine sarcoma", "sarcoma of the uterus"],
+      "summary": "子宫肉瘤起源于子宫肌肉或支持组织，与子宫内膜癌不同。",
+      "body": "子宫肉瘤是发生在子宫肌肉或支持组织中的癌症，与起源于子宫内膜衬层的子宫内膜癌不同。NCI 将平滑肌肉瘤、子宫内膜间质肉瘤和腺肉瘤列为子宫肉瘤类别；癌肉瘤则列在子宫内膜癌相关类别中。具体名称应以专业病理资料为准，本页只作分类入门。",
+      "source_url": "https://www.cancer.gov/types/uterine/sarcoma", "source_title": "What Is Uterine Sarcoma? — NCI", "source_date": "2025-03-14", "checked_at": "2026-10-20", "review_status": "source_checked",
+      "faqs": [
+        {"question":"子宫肉瘤与子宫内膜癌最主要的区别是什么？","answer":"两者发生的组织不同：子宫肉瘤起源于子宫肌肉或支持组织，子宫内膜癌起源于子宫内侧衬层。名称中都带有“子宫”，不代表属于同一种病。","source_ids":["SRC-NCI-UTERINE-SARCOMA","SRC-NCI-ENDOMETRIAL","SRC-ACS-UTERINE-SARCOMA"]},
+        {"question":"子宫肉瘤包括哪些类型？","answer":"NCI 列出的类型包括平滑肌肉瘤、子宫内膜间质肉瘤和腺肉瘤；美国癌症协会资料还讨论未分化肉瘤。不同来源的分类清单详略可能不同，具体名称以正式病理资料为准。","source_ids":["SRC-NCI-UTERINE-SARCOMA","SRC-ACS-UTERINE-SARCOMA"]},
+        {"question":"子宫肉瘤是常见的子宫癌吗？","answer":"不是。NCI 和美国癌症协会都将子宫肉瘤描述为少见类型；子宫内膜癌更常见。因此，泛称“子宫癌”时应进一步确认具体病种。","source_ids":["SRC-NCI-UTERINE-OVERVIEW","SRC-NCI-UTERINE-SARCOMA","SRC-ACS-UTERINE-SARCOMA"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-cervical", "kind": "cancer", "category": "女性生殖与乳腺", "name": "宫颈癌", "aliases": ["cervical cancer", "cancer of the cervix"],
+      "summary": "宫颈癌起源于子宫颈细胞；常见类型包括鳞状细胞癌和腺癌。",
+      "body": "宫颈位于子宫下端并连接阴道。NCI 将宫颈癌定义为起源于宫颈细胞的癌症，并介绍鳞状细胞癌和腺癌等主要类型。宫颈、子宫内膜和子宫肌肉/支持组织是不同部位或组织概念，阅读研究时应核对准确的病理名称。本页只作分类入门。",
+      "source_url": "https://www.cancer.gov/types/cervical", "source_title": "What Is Cervical Cancer? — NCI", "source_date": "2023-06-15", "checked_at": "2026-10-20", "review_status": "source_checked",
+      "faqs": [
+        {"question":"为什么宫颈癌常分为鳞状细胞癌和腺癌？","answer":"这是按癌细胞起源的细胞类型来区分的两种主要宫颈癌：鳞状细胞癌来自宫颈外侧的鳞状细胞；腺癌来自宫颈管内侧的腺体细胞。名称说明组织来源，不是对个人病理结果的判断。","source_ids":["SRC-NCI-CERVICAL","SRC-ACS-CERVICAL","SRC-CRUK-CERVICAL-TYPES"]},
+        {"question":"宫颈癌和子宫内膜癌是同一种吗？","answer":"不是。宫颈位于子宫下端、连接阴道；子宫内膜是子宫体内侧的衬层。宫颈癌起源于宫颈细胞，子宫内膜癌则起源于子宫内膜；它们都与子宫有关，但不是同一解剖部位的癌症。","source_ids":["SRC-NCI-CERVICAL","SRC-ACS-ENDOMETRIAL-CANCER","SRC-CRUK-WOMB-CANCER"]},
+        {"question":"宫颈癌只有鳞状细胞癌和腺癌吗？","answer":"不是。这两类是主要类型，但也可能出现同时具有鳞状和腺体特征的腺鳞癌（也称混合癌），以及其他少见类型。具体组织学名称应以正式病理资料为准。","source_ids":["SRC-NCI-CERVICAL","SRC-ACS-CERVICAL","SRC-CRUK-CERVICAL-TYPES"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-kidney", "kind": "cancer", "category": "泌尿与男性生殖系统", "name": "肾癌", "aliases": ["肾细胞癌", "kidney cancer", "renal cell cancer", "renal cell carcinoma"],
+      "summary": "肾癌不是单一类型：成人最常见的是肾细胞癌（RCC）；肾盂尿路上皮癌与主要发生于儿童的 Wilms 肿瘤属于不同类别。",
+      "body": "肾癌是发生在肾脏区域的多种肿瘤统称，主要类型包括肾细胞癌（RCC）、肾盂尿路上皮癌（也称移行细胞癌）和 Wilms 肿瘤。成人肾癌中最常见的是 RCC；肾盂或输尿管内衬组织发生的尿路上皮癌与肾细胞癌不是同一种。Wilms 肿瘤主要发生在儿童。RCC 还包含不同亚型。阅读研究或新闻时，应确认具体讨论的是哪一类及亚型。本条是主要类型入门，不是完整分类清单，也不能用于个人诊断。",
+      "source_url": "https://www.cancer.gov/types/kidney", "source_title": "Kidney (Renal Cell) Cancer — NCI", "source_date": null, "checked_at": "2026-10-20", "review_status": "source_checked",
+      "faqs": [
+        {"question":"肾癌都是肾细胞癌吗？","answer":"不是。肾细胞癌（RCC）是成人肾癌中最常见的一类，但肾癌还包括肾盂尿路上皮癌、Wilms 肿瘤等不同类型。‘肾癌’是较宽的总称，不能代替具体病理名称。","source_ids":["SRC-NCI-KIDNEY-TYPES","SRC-ACS-KIDNEY-TYPES"]},
+        {"question":"肾盂尿路上皮癌和肾细胞癌有什么区别？","answer":"它们发生的位置和组织类型不同。RCC 与肾内负责过滤的细小管道有关；肾盂尿路上皮癌发生在肾脏中央收集尿液部位的内衬组织，也与输尿管和膀胱内衬的尿路上皮有关。因此，虽然都在肾脏区域，不能把两者当成同一种癌。","source_ids":["SRC-NCI-KIDNEY-DICTIONARY","SRC-ACS-KIDNEY-TYPES"]},
+        {"question":"Wilms 肿瘤是成人常见的肾细胞癌吗？","answer":"不是。Wilms 肿瘤主要发生在儿童，成人中很少见；它与成人最常见的肾细胞癌是不同类别。这个区分只介绍一般分类，不用于判断个人诊断。","source_ids":["SRC-NCI-KIDNEY-TYPES","SRC-ACS-KIDNEY-TYPES"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-melanoma-overview", "kind": "cancer", "category": "癌种分类入口", "name": "黑色素瘤（分类入口）", "aliases": ["黑色素瘤", "melanoma", "melanoma overview"],
+      "summary": "黑色素瘤起源于黑色素细胞，可发生在皮肤或其他含色素组织；阅读时应先确认具体部位。",
+      "body": "黑色素瘤起源于黑色素细胞（产生黑色素的细胞）。NCI 说明它可从皮肤痣开始，也可出现在眼或肠等其他含色素组织；American Cancer Society 也分别介绍皮肤、眼内和黏膜黑色素瘤。当前目录的详细知识卡主要介绍皮肤黑色素瘤，其他部位尚未建立独立条目。阅读研究时先核对原发部位，避免把皮肤类型的研究结果直接套用到其他部位。本条是分类入口，不用于个人诊断。",
+      "source_url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/melanoma", "source_title": "Melanoma — NCI Dictionary of Cancer Terms", "source_date": null, "checked_at": "2026-10-20", "review_status": "source_checked",
+      "faqs": [
+        {"question":"黑色素瘤只发生在皮肤吗？","answer":"不是。多数黑色素瘤发生于皮肤，但也可能发生在眼内葡萄膜或黏膜等部位；这些部位的黑色素瘤相对少见。","source_ids":["SRC-NCI-MELANOMA-PDQ","SRC-ACS-MELANOMA-SKIN"]},
+        {"question":"眼内黑色素瘤和皮肤黑色素瘤可以当作完全相同的病种吗？","answer":"不宜这样理解。NCI 指出，葡萄膜黑色素瘤与皮肤黑色素瘤在发生特征、分子特点和治疗方面存在显著差异；阅读研究时需先确认原发部位。","source_ids":["SRC-NCI-MELANOMA-PDQ","SRC-ACS-MELANOMA-SKIN"]},
+        {"question":"为什么阅读黑色素瘤研究时要先看原发部位？","answer":"“黑色素瘤”是一个较宽的名称，皮肤、眼内和黏膜等部位都可能发生。不同部位的研究结论不能仅凭名称相同就直接互相套用。","source_ids":["SRC-NCI-MELANOMA-PDQ","SRC-ACS-MELANOMA-SKIN"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-melanoma", "kind": "cancer", "category": "皮肤与软组织", "name": "皮肤黑色素瘤", "aliases": ["cutaneous melanoma", "skin melanoma", "melanoma of the skin", "皮肤黑色素瘤"],
+      "summary": "黑色素瘤来源于产生色素的细胞；皮肤黑色素瘤需与其他部位黑色素瘤区分。",
+      "body": "黑色素瘤是与黑色素细胞相关的一组恶性肿瘤，皮肤是常见发生部位，也可发生于其他部位。研究结果要结合原发部位、分期和分子背景理解；“皮肤癌”还包含非黑色素瘤等其他类别。",
+      "source_url": "https://www.cancer.gov/types/skin", "source_title": "Skin Cancer — NCI", "source_date": null, "checked_at": "2026-10-20", "review_status": "source_checked", "media_ids": ["MED-NCI-METASTATIC-MELANOMA-CELLS-IMAGE"],
+      "faqs": [
+        {"question":"皮肤癌都属于黑色素瘤吗？","answer":"不是。皮肤癌有多种类型；NCI 将基底细胞癌、鳞状细胞癌和黑色素瘤分别联系到不同的皮肤细胞来源。","source_ids":["SRC-NCI-SKIN-CANCER","SRC-ACS-MELANOMA-SKIN"]},
+        {"question":"皮肤黑色素瘤一定是从原有的痣开始吗？","answer":"不一定。美国癌症协会指出，有些皮肤黑色素瘤从已有痣开始，也有些不是；NCI 也说明，许多病例出现在外观正常的皮肤区域。","source_ids":["SRC-NCI-MELANOMA-PDQ","SRC-ACS-MELANOMA-SKIN"]},
+        {"question":"手掌、脚底或指甲下也会有皮肤黑色素瘤吗？","answer":"会。美国癌症协会将发生于手掌、脚底或指甲下等部位的类型称为肢端雀斑样黑色素瘤；这说明皮肤黑色素瘤并不只发生在常见日晒部位。","source_ids":["SRC-NCI-MELANOMA-PDQ","SRC-ACS-MELANOMA-SKIN"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-hematologic", "kind": "cancer", "category": "血液与淋巴系统", "name": "血液与淋巴系统癌症（分类入口）", "aliases": ["血液肿瘤", "血液与淋巴系统肿瘤", "hematologic cancer", "blood cancer"],
+      "summary": "这是一个主题入口，不是一种单独癌症；可继续了解白血病、淋巴瘤和多发性骨髓瘤。",
+      "body": "血液与淋巴系统癌症涵盖不同细胞来源和疾病类别，不应把白血病、淋巴瘤与浆细胞肿瘤/多发性骨髓瘤当成同一种病。目录提供三个独立入门条目：白血病、淋巴瘤和多发性骨髓瘤。阅读研究时应先确认具体病种及其分类范围。",
+      "source_url": "https://www.cancer.gov/types", "source_title": "A to Z List of Cancer Types — NCI", "source_date": null, "checked_at": "2026-10-20", "review_status": "source_checked",
+      "faqs": [
+        {"question":"“血液与淋巴系统癌症”是一种单独的癌症吗？","answer":"不是，它是便于概览的一组疾病名称。NCI 和美国血液学会分别列出白血病、淋巴瘤、多发性骨髓瘤等类别；它们不是同一种病。","source_ids":["SRC-NCI-TYPES-BY-LOCATION","SRC-ASH-BLOOD-CANCERS","SRC-NCI-CANCER-BASICS"]},
+        {"question":"白血病、淋巴瘤和多发性骨髓瘤的细胞来源相同吗？","answer":"不相同。患者科普资料分别把白血病与血液和骨髓中的异常血细胞联系起来，把淋巴瘤与淋巴系统中的异常淋巴细胞联系起来，而多发性骨髓瘤是浆细胞癌。这里是概念层面的区分，不用于判断个人病理结果。","source_ids":["SRC-ASH-BLOOD-CANCERS","SRC-NCI-CANCER-BASICS","SRC-NCI-PLASMA-CELL-NEOPLASMS"]},
+        {"question":"多发性骨髓瘤是“血浆”本身发生的癌症吗？","answer":"不是。这里的“骨髓瘤”指浆细胞（一类免疫细胞）发生癌变；NCI 将相关疾病归在浆细胞肿瘤类别。“浆细胞”与血液中的液体部分“血浆”不是同一个概念。","source_ids":["SRC-NCI-PLASMA-CELL-NEOPLASMS","SRC-ASH-BLOOD-CANCERS"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-leukemia", "kind": "cancer", "category": "血液与淋巴系统", "name": "白血病", "aliases": ["leukemia", "leukaemia"],
+      "summary": "白血病是一类血细胞癌症；常按细胞来源及生长快慢继续分类。",
+      "body": "白血病是血细胞相关的一组癌症。常用分类会看癌变的血细胞类型，以及细胞生长较快还是较慢：例如可分淋巴系或髓系，也可分急性或慢性。急性淋巴细胞白血病（ALL）、急性髓系白血病（AML）、慢性淋巴细胞白血病（CLL）和慢性髓系白血病（CML）是不同病种名称；具体含义需结合专业诊断资料理解。本页只作分类入门。",
+      "source_url": "https://www.cancer.gov/types/leukemia", "source_title": "Leukemia — NCI", "source_date": null, "checked_at": "2026-10-20", "review_status": "source_checked", "media_ids": ["MED-NCI-AML-MICROSCOPY-IMAGE"],
+      "faqs": [
+        {"question":"白血病和淋巴瘤是一回事吗？","answer":"不是同义词。NCI 将白血病说明为起源于骨髓造血组织的一类癌症；淋巴瘤起源于免疫系统的淋巴细胞。两者也并非总能只凭名称简单区分：例如 CLL 与 SLL 可视为同一疾病的不同表现，主要癌细胞分布位置不同。这里介绍的是一般分类，不用于判断个人病理结果。","source_ids":["SRC-NCI-CANCER-BASICS","SRC-ACS-CLL"]},
+        {"question":"白血病里的“急性”和“慢性”是什么意思？","answer":"它们通常描述白血病的生长快慢：急性类型进展较快，慢性类型通常较慢。它们是分类名称的一部分，不能单凭“急性”或“慢性”判断某个人的病情轻重、预后或治疗方案；还要结合具体类型和专业检查。","source_ids":["SRC-NCI-LEUKEMIA","SRC-ACS-LEUKEMIA"]},
+        {"question":"ALL、AML、CLL、CML 分别代表什么？","answer":"它们是四种常见白血病的缩写：ALL 是急性淋巴细胞白血病，AML 是急性髓系白血病，CLL 是慢性淋巴细胞白血病，CML 是慢性髓系白血病。名称同时体现生长快慢（急性/慢性）与细胞类型（淋巴系/髓系）；白血病还有其他少见类型，因此这不是完整名单，也不用于个人诊断。","source_ids":["SRC-NCI-LEUKEMIA","SRC-ACS-LEUKEMIA"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-lymphoma", "kind": "cancer", "category": "血液与淋巴系统", "name": "淋巴瘤", "aliases": ["lymphoma"],
+      "summary": "淋巴瘤起源于淋巴系统相关细胞，主要分为霍奇金与非霍奇金淋巴瘤。",
+      "body": "淋巴瘤是一组起源于淋巴系统细胞的癌症。常见的大类是霍奇金淋巴瘤和非霍奇金淋巴瘤；两类下面还各有不同类型。它与白血病、多发性骨髓瘤不是同义词。页面用于认识分类名称，不用于判断个人病情。",
+      "source_url": "https://www.cancer.gov/types/lymphoma", "source_title": "Lymphoma — NCI", "source_date": null, "checked_at": "2026-10-20", "review_status": "source_checked",
+      "faqs": [
+        {"question":"淋巴瘤主要分为哪两大类？","answer":"淋巴瘤的两大类通常指霍奇金淋巴瘤和非霍奇金淋巴瘤。它们是上位分类，并不是说每一类都只有一种具体类型。这里是一般分类说明，不用于判断个人病理结果。","source_ids":["SRC-NCI-LYMPHOMA","SRC-ACS-NHL-OVERVIEW"]},
+        {"question":"非霍奇金淋巴瘤是一种单一癌症吗？","answer":"不是。非霍奇金淋巴瘤（NHL）是多个不同亚型的总称，而不是单一病种。分类可考虑受影响的淋巴细胞类型（例如 B 细胞或 T 细胞）及细胞显微特征等。不要只凭“NHL”这个总称推断某个具体亚型；具体病理名称需结合专业检查资料解释。","source_ids":["SRC-NCI-LYMPHOMA-DICTIONARY","SRC-ACS-NHL-OVERVIEW"]},
+        {"question":"淋巴瘤一定从淋巴结开始吗？","answer":"不一定。淋巴组织不只在淋巴结，也分布于脾、骨髓、胸腺、扁桃体和消化道等部位；淋巴瘤可发生在存在淋巴组织的地方。但某处出现肿块或异常不能仅凭位置判断是淋巴瘤，需依据专业检查和病理结果。","source_ids":["SRC-ACS-NHL-OVERVIEW","SRC-NCI-NHL-PDQ"]}
+      ]
+    },
+    {
+      "id": "K-edu-cancer-myeloma", "kind": "cancer", "category": "血液与淋巴系统", "name": "多发性骨髓瘤", "aliases": ["multiple myeloma", "plasma cell myeloma"],
+      "summary": "多发性骨髓瘤属于浆细胞肿瘤；相关浆细胞疾病需按具体诊断区分。",
+      "body": "多发性骨髓瘤属于浆细胞肿瘤。浆细胞是免疫系统中的一种细胞，正常情况下存在于骨髓并帮助产生抗体。NCI 将单个浆细胞肿瘤称为浆细胞瘤，将出现多个肿瘤的情况称为多发性骨髓瘤；其他浆细胞相关疾病并不都等同于活动性多发性骨髓瘤。此页只作分类入门。",
+      "source_url": "https://www.cancer.gov/types/myeloma", "source_title": "Plasma Cell Neoplasms (Including Multiple Myeloma) — NCI", "source_date": null, "checked_at": "2026-10-20", "review_status": "source_checked",
+      "faqs": [
+        {"question":"多发性骨髓瘤是什么？","answer":"它是一种浆细胞癌。浆细胞是骨髓中的白细胞，正常情况下帮助免疫系统制造抗体。这是一般分类说明，不代表每个人的病情表现相同。","source_ids":["SRC-NCI-PLASMA-CELL-NEOPLASMS","SRC-ACS-MULTIPLE-MYELOMA"]},
+        {"question":"名字中的“多发性”是什么意思？","answer":"NCI 和 ACS 的入门资料把单个浆细胞肿瘤称为浆细胞瘤，把多处浆细胞肿瘤称为多发性骨髓瘤。这个名称帮助理解一般分类，不能用来自己判断影像或诊断。","source_ids":["SRC-NCI-PLASMA-CELL-NEOPLASMS","SRC-ACS-MULTIPLE-MYELOMA"]},
+        {"question":"MGUS 就是多发性骨髓瘤吗？","answer":"不是。MGUS 本身不属于癌症；有些 MGUS 后续可能发展成多发性骨髓瘤或其他疾病。不能仅凭这个名词判断个人风险，具体分类应以专业评估为准。","source_ids":["SRC-NCI-PLASMA-CELL-NEOPLASMS","SRC-ACS-MULTIPLE-MYELOMA"]}
+      ]
+    },
+
+    {
+      "id":"K-edu-gene-tp53","kind":"gene","category":"肿瘤抑制与基因组稳定","name":"TP53","aliases":["p53","tumor protein p53","肿瘤蛋白 p53"],"summary":"TP53 编码 p53 蛋白；NCBI 将其描述为响应多种细胞压力、调节靶基因表达的肿瘤抑制蛋白。","body":"TP53 是人类蛋白编码基因，编码 p53 蛋白。NCBI RefSeq 摘要描述其参与细胞压力响应，可调节细胞周期停滞、凋亡、衰老、DNA 修复等过程。TP53 基因、p53 蛋白和某个具体变异是不同层次；某癌症中检出变异不等于单独证明因果或个人风险。","source_url":"https://www.ncbi.nlm.nih.gov/gene/7157","source_title":"TP53 — NCBI Gene 7157","source_date":null,"checked_at":"2026-10-17","review_status":"source_checked",
+      "faqs":[
+        {"question":"TP53 和 p53 是同一个东西吗？","answer":"不是同一层级：TP53 通常指基因，p53 指由它编码的蛋白质。阅读资料时要留意上下文是在说基因还是蛋白。","source_ids":["SRC-MEDLINEPLUS-TP53","SRC-NCI-TP53"]},
+        {"question":"肿瘤检测报告写有 TP53 变异，就表示是遗传来的吗？","answer":"不一定。肿瘤样本检测和判断遗传风险的检测不是一回事；有些肿瘤检测结果可能提示遗传改变，但不能只凭肿瘤检测确定变异是否遗传，通常需要相应遗传检测确认。","source_ids":["SRC-MEDLINEPLUS-TP53","SRC-NCI-GENETICS"]},
+        {"question":"发现 TP53 变化就能单独判断一个人会不会患癌吗？","answer":"不能只凭 TP53 这个基因名称或某个变化判断个人诊断或风险。NCI 指出，健康细胞转变为癌细胞通常涉及不止一个 DNA 改变。","source_ids":["SRC-NCI-GENETICS","SRC-MEDLINEPLUS-TP53"]}
+      ]
+    },
+    {
+      "id": "K-edu-gene-brca1", "kind": "gene", "category": "DNA 修复与遗传易感", "name": "BRCA1",
+      "aliases": ["BRCA1 DNA repair associated", "乳腺癌易感基因 1"],
+      "summary": "BRCA1 是 DNA 修复相关基因；基因功能与遗传性致病变异的临床解释是不同问题。",
+      "body": "BRCA1（NCBI Gene 672）是人类蛋白编码基因。NCBI 将其全名列为“BRCA1 DNA repair associated”，并描述其与基因组稳定和肿瘤抑制相关。是否存在致病胚系变异、其风险意义和检测结果解释需要遵循临床遗传学标准；不能从基因名称直接判断个体情况。",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/672", "source_title": "BRCA1 — NCBI Gene 672", "source_date": null,
+      "checked_at": "2026-10-20", "review_status": "source_checked",
+      "faqs": [
+        {
+          "question": "BRCA1 是只有女性才有的基因吗？",
+          "answer": "不是。通常每个人都有两份 BRCA1 基因，一份来自每位亲生父母；特定的有害遗传变异会提高某些癌症风险，男性和女性都可能受影响。基因本身不等于癌症。",
+          "source_ids": ["SRC-NCI-BRCA-FACTSHEET", "SRC-MEDLINEPLUS-BRCA1"]
+        },
+        {
+          "question": "携带 BRCA1 有害遗传变异就一定会患癌吗？",
+          "answer": "不一定。遗传性有害变异会提高某些癌症风险，但不能据此断定一个人一定会患癌或何时患癌；其他遗传、环境和生活因素也会影响风险。",
+          "source_ids": ["SRC-NCI-BRCA-FACTSHEET", "SRC-MEDLINEPLUS-BRCA1"]
+        },
+        {
+          "question": "BRCA1 相关有害变异只能从母亲遗传吗？",
+          "answer": "不是，可以来自母亲或父亲一方。BRCA1 相关变异的常染色体显性遗传方式，表示一个变异拷贝就可能提高风险；这不代表一定发病。",
+          "source_ids": ["SRC-NCI-BRCA-FACTSHEET", "SRC-MEDLINEPLUS-BREAST-CANCER-GENETICS"]
+        }
+      ]
+    },
+    {
+      "id": "K-edu-gene-brca2", "kind": "gene", "category": "DNA 修复与遗传易感", "name": "BRCA2",
+      "aliases": ["BRCA2 DNA repair associated", "乳腺癌易感基因 2"],
+      "summary": "BRCA2 是 DNA 修复相关基因；其胚系与体细胞变异需要分开讨论。",
+      "body": "BRCA2（NCBI Gene 675）是人类蛋白编码基因，官方全名指出其与 DNA 修复相关。BRCA2 的基因功能、肿瘤中的体细胞改变和遗传检测中的胚系变异属于不同语境；某一研究发现不能直接转化为个体诊断、风险或治疗结论。",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/675", "source_title": "BRCA2 — NCBI Gene 675", "source_date": null,
+      "checked_at": "2026-10-17", "review_status": "source_checked",
+      "faqs": [
+        {
+          "question": "BRCA2 是做什么的？",
+          "answer": "BRCA2 基因提供制造 BRCA2 蛋白的信息；该蛋白参与 DNA 修复，帮助维持遗传信息稳定。",
+          "source_ids": ["SRC-NCI-BRCA-FACTSHEET", "SRC-NHGRI-BRCA1-BRCA2"]
+        },
+        {
+          "question": "携带 BRCA2 变异就一定会得癌症吗？",
+          "answer": "不一定。致病或可能致病的遗传变异会提高某些癌症风险，但意义未明变异（VUS）不能据此认定风险增加。即使结果提示存在有害变异，也不能预测一个人是否、何时会患癌；有些携带者不会发展为相关癌症。",
+          "source_ids": ["SRC-NCI-BRCA-FACTSHEET", "SRC-ACS-HBOC"]
+        },
+        {
+          "question": "BRCA2 的遗传性致病变异与哪些癌症有关？",
+          "answer": "资料将其与乳腺癌、卵巢/输卵管/原发性腹膜癌、胰腺癌和前列腺癌风险升高联系起来。这个概述不能用来估算个人风险，也不能代替对具体变异和个人背景的专业解释。",
+          "source_ids": ["SRC-NCI-BRCA-FACTSHEET", "SRC-ACS-HBOC"]
+        },
+        {
+          "question": "肿瘤检测发现 BRCA2 变异，就说明是遗传的吗？",
+          "answer": "不一定。肿瘤中的 BRCA2 改变可能是在癌细胞中后来出现的体细胞变异，也可能是从出生起存在于身体细胞中的胚系变异。单凭肿瘤检测结果不能确定它是否遗传自父母；个人结果需要由专业人员结合相应检测解释。",
+          "source_ids": ["SRC-NCI-BRCA-FACTSHEET", "SRC-ACS-BRCA-TARGETED-THERAPY"]
+        }
+      ]
+    },
+    {"id":"K-edu-gene-egfr","kind":"gene","category":"细胞信号与生长调控","name":"EGFR","aliases":["epidermal growth factor receptor","表皮生长因子受体"],"summary":"EGFR 基因提供制造受体蛋白的信息；特定改变与某些癌症有关，但不能据此判断个人病情。","body":"EGFR 基因提供制造表皮生长因子受体蛋白的信息。这个受体参与细胞生长和存活信号。癌症资料可能讨论 EGFR 基因变异、基因拷贝数、RNA 表达或蛋白水平；它们是不同观察对象，不能互换。特定改变与某些癌症有关，不等同于个人诊断或治疗建议。","source_url":"https://www.ncbi.nlm.nih.gov/gene/1956","source_title":"EGFR — NCBI Gene 1956","source_date":null,"checked_at":"2026-10-20","review_status":"source_checked",
+      "faqs":[
+        {"question":"EGFR 基因和 EGFR 蛋白是一回事吗？","answer":"不是同一层级。EGFR 基因是 DNA 中一段提供制造蛋白信息的基因；EGFR 蛋白是细胞表面的受体，参与接收和传递信号。资料中都可能写 EGFR，要看上下文是在说基因还是蛋白。","source_ids":["SRC-NHGRI-GENE","SRC-MEDLINEPLUS-EGFR"]},
+        {"question":"EGFR 基因发生变化后，EGFR 蛋白就一定会变多吗？","answer":"不一定。基因变化描述 DNA 序列改变，蛋白变多描述细胞中的蛋白水平。NCI 说明，有时 EGFR 基因改变会使部分癌细胞制造较多 EGFR 蛋白；不能把这种情况推广到所有改变或所有细胞。","source_ids":["SRC-NCI-EGFR","SRC-NCI-EGFR-GENE"]},
+        {"question":"发现 EGFR 变异就代表一定是肺癌吗？","answer":"不代表。NCI 和 MedlinePlus 描述的是某些 EGFR 改变与部分癌症有关，其中包括非小细胞肺癌；这不能推广到所有 EGFR 变异，也不能单凭一个基因名称判断个人是否患癌。具体研究还要看变异、样本和癌症类型。","source_ids":["SRC-NCI-EGFR-GENE","SRC-MEDLINEPLUS-EGFR"]}
+      ]
+    },
+    {"id":"K-edu-gene-kras","kind":"gene","category":"细胞信号与生长调控","name":"KRAS","aliases":["Kirsten rat sarcoma viral oncogene homolog","KRAS proto-oncogene"],"summary":"KRAS 是细胞信号相关基因；具体变异位点与肿瘤背景决定研究讨论的范围。","body":"KRAS（NCBI Gene 3845）编码 RAS 家族相关的小 GTPase，参与细胞信号传递。研究中“KRAS 改变”可能指不同密码子或变异类型；不能把所有 KRAS 变异、癌种和实验系统视为相同，也不能仅凭基因名推断因果关系。","source_url":"https://www.ncbi.nlm.nih.gov/gene/3845","source_title":"KRAS — NCBI Gene 3845","source_date":null,"checked_at":"2026-10-17","review_status":"source_checked","faqs":[{"question":"KRAS 基因和 K-Ras 蛋白是一回事吗？","answer":"不是。KRAS 是基因名称，包含制造 K-Ras 蛋白的遗传信息；K-Ras 蛋白参与细胞信号传递。阅读资料时要留意它说的是 DNA 中的基因改变，还是蛋白本身。","source_ids":["SRC-NCI-KRAS-GENE","SRC-MEDLINEPLUS-KRAS"]},{"question":"KRAS 变异是不是都代表同一种情况？","answer":"不是。KRAS 的具体改变、涉及的癌症类型和检测样本都重要；官方资料只说明某些 KRAS 改变见于某些癌症。不能把一种特定变异在一种癌症中的作用，直接套用到所有 KRAS 改变或所有癌种。","source_ids":["SRC-NCI-KRAS-GENE","SRC-MEDLINEPLUS-KRAS","SRC-ACS-BIOMARKER-TESTING"]},{"question":"肿瘤检测发现 KRAS 改变，说明它一定会遗传给家人吗？","answer":"不一定。肿瘤里的改变可能是在生命过程中只出现在肿瘤细胞中的体细胞改变，并非遗传；有些检测也可能发现胚系改变。只看肿瘤检测不能自行判定遗传来源，是否需要其他样本或遗传检测应由医护人员结合情况判断。","source_ids":["SRC-MEDLINEPLUS-KRAS","SRC-NCI-BIOMARKER-TESTING"]},{"question":"查到 KRAS 变异就能确诊癌症吗？","answer":"不能单靠这个结果确诊。KRAS 等肿瘤基因改变可作为肿瘤标志物信息的一部分；NCI 说明这类结果通常要结合活检、影像等其他检查。个人报告需要结合检测样本、癌种和完整诊疗信息理解。","source_ids":["SRC-NCI-TUMOR-MARKERS","SRC-ACS-BIOPSY-CYTOLOGY"]}]},
+    {
+      "id": "K-edu-gene-braf",
+      "kind": "gene",
+      "category": "细胞信号与生长调控",
+      "name": "BRAF",
+      "aliases": ["B-Raf proto-oncogene", "BRAF proto-oncogene, serine/threonine kinase"],
+      "summary": "BRAF 编码 RAF 家族丝氨酸/苏氨酸激酶；具体变异和通路背景需在原研究中核对。",
+      "body": "BRAF（NCBI Gene 673）是蛋白编码基因，编码丝氨酸/苏氨酸蛋白激酶，参与细胞信号通路。不同变异的生物学效应可能不同，研究还需结合癌种、细胞背景和实验设计；不能把一个变异结果泛化为所有 BRAF 改变。",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/673",
+      "source_title": "BRAF — NCBI Gene 673",
+      "source_date": null,
+      "checked_at": "2026-10-17",
+      "review_status": "source_checked",
+      "faqs": [
+        {
+          "question": "BRAF 基因和 BRAF 蛋白是一回事吗？",
+          "answer": "不是。BRAF 基因是 DNA 中提供制造 BRAF 蛋白信息的一段；BRAF 蛋白参与细胞信号传递。名称相近但指不同层级，阅读研究或检测资料时要看讨论的是基因序列改变还是蛋白本身。",
+          "source_ids": ["SRC-NCI-BRAF-GENE", "SRC-MEDLINEPLUS-BRAF"]
+        },
+        {
+          "question": "BRAF V600E 是所有 BRAF 变异的统称吗？",
+          "answer": "不是。V600E 是 BRAF 某个特定位置上的一种改变；NCI 说明 BRAF V600 还包括 V600K 等不同形式，MedlinePlus 也介绍了其他位置的 BRAF 改变。因此，不能把 V600E 的发现直接代表所有 BRAF 变异或所有癌种。",
+          "source_ids": ["SRC-NCI-BRAF-V600", "SRC-MEDLINEPLUS-BRAF"]
+        },
+        {
+          "question": "肿瘤检测发现 BRAF 变异，就说明是遗传自父母吗？",
+          "answer": "不一定。MedlinePlus 说明多数 BRAF 改变是在出生后获得的，只出现在身体某些细胞中；也有少见的遗传性改变。肿瘤标志物检测和遗传风险检测回答的问题不同，某些结果还需要额外检测才能确认是否为遗传改变。这里仅解释一般概念，不用于解读个人检测报告。",
+          "source_ids": ["SRC-MEDLINEPLUS-BRAF-TEST", "SRC-NCI-BIOMARKER-TESTING"]
+        }
+      ]
+    },
+    {
+      "id": "K-edu-gene-erbb2",
+      "kind": "gene",
+      "category": "细胞信号与生长调控",
+      "name": "ERBB2",
+      "aliases": ["HER2", "HER-2", "erb-b2 receptor tyrosine kinase 2"],
+      "summary": "ERBB2 是官方基因符号；HER2 在资料中可能指基因别名或受体蛋白，需结合上下文区分。",
+      "body": "ERBB2（NCBI Gene 2064）是官方基因符号；NCBI 也将 HER2 列为该基因别名。在癌症资料中，HER2 常用于指 ERBB2 编码的受体蛋白。阅读结果时要分清讨论的是 DNA 中的 ERBB2 基因、基因拷贝数、序列变异，还是 HER2 蛋白水平。基因扩增、RNA/蛋白表达和序列变异是不同观察指标；某一种癌症中的研究结果不能直接套用于另一癌种。",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/2064",
+      "source_title": "ERBB2 — NCBI Gene 2064",
+      "source_date": null,
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked",
+      "faqs": [
+        {
+          "question": "ERBB2 和 HER2 是同一个东西吗？",
+          "answer": "要看上下文。ERBB2 是官方基因符号，NCBI 也把 HER2 列为该基因别名；在癌症资料里，HER2 又常指 ERBB2 编码的受体蛋白。因此看到 HER2，要确认是在说基因名称/基因检测，还是蛋白及其检测结果。",
+          "source_ids": ["SRC-NCBI-ERBB2", "SRC-NCI-HER2-NEU"]
+        },
+        {
+          "question": "HER2 检测一定是在查 ERBB2 基因突变吗？",
+          "answer": "不一定。NCI 说明 HER2 检测可以测癌细胞中的 HER2 蛋白量，也可以测 ERBB2 基因拷贝数；其他检测还可能查特定序列变异。在乳腺癌的例子中，IHC 观察蛋白染色，FISH 评估基因拷贝数，这些不是同一种指标。理解具体结果要先看报告注明的检测方法和检测对象；这里不用于解读个人报告。",
+          "source_ids": ["SRC-NCI-HER2-TEST", "SRC-ACS-BREAST-HER2-STATUS", "SRC-NCI-TUMOR-MARKER-TESTS"]
+        },
+        {
+          "question": "HER2/ERBB2 只和乳腺癌有关吗？",
+          "answer": "不是。NCI 资料也列出卵巢、膀胱、胰腺、胃及其他癌种中的相关检测或研究。不过，是否检测、检测哪一种指标和结果如何解释会因癌种与具体问题而异；不能把乳腺癌的检测标准或结论直接套用到其他癌种，也不代表每种癌症都需要做 HER2 检测。",
+          "source_ids": ["SRC-NCI-HER2-TEST", "SRC-NCI-TUMOR-MARKER-TESTS", "SRC-ACS-BIOMARKER-TESTING"]
+        }
+      ]
+    },
+    {
+      "id": "K-edu-gene-apc",
+      "kind": "gene",
+      "category": "肿瘤抑制与基因组稳定",
+      "name": "APC",
+      "aliases": ["APC regulator of Wnt signaling pathway", "腺瘤性结肠息肉病相关基因"],
+      "summary": "APC 参与 Wnt 信号调节；NCBI 将其描述为肿瘤抑制蛋白编码基因。",
+      "body": "APC（NCBI Gene 324）编码 APC 调节蛋白。NCBI 摘要称其可拮抗 Wnt 信号，并参与多种细胞过程；在结直肠癌研究中常见相关讨论。应区分研究观察到的体细胞改变、遗传性综合征相关变异和个体检测结果。",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/324",
+      "source_title": "APC — NCBI Gene 324",
+      "source_date": null,
+      "checked_at": "2026-10-17",
+      "review_status": "source_checked",
+      "faqs": [
+        {
+          "question": "APC 基因和 APC 蛋白是一回事吗？",
+          "answer": "不是。APC 是 DNA 中提供制造 APC 蛋白信息的基因；APC 蛋白参与调节 Wnt 信号和细胞分裂。两者相关，但属于不同层级。",
+          "source_ids": ["SRC-MEDLINEPLUS-APC", "SRC-NCI-CANCER-GENETICS"]
+        },
+        {
+          "question": "发现 APC 变异就等于家族性腺瘤性息肉病（FAP）吗？",
+          "answer": "不等同。FAP 是一种遗传性综合征，NCI 说明它与遗传的 APC 改变有关；APC 是基因名称，单看基因名或“变异”字样不能据此断定 FAP。这里不是个人检测结果解释。",
+          "source_ids": ["SRC-NCI-FAP-DEFINITION", "SRC-MEDLINEPLUS-APC"]
+        },
+        {
+          "question": "FAP 就是结直肠癌吗？",
+          "answer": "不是同一个概念。FAP 是一种遗传性疾病，常有多个结直肠息肉，并会增加结直肠癌风险；息肉可能发展为癌症，但 FAP 与已经确诊的结直肠癌不是同义词。这里只作概念说明，不用于解释个人诊断或家族风险。",
+          "source_ids": ["SRC-NCI-FAP-DEFINITION", "SRC-MEDLINEPLUS-APC"]
+        }
+      ]
+    },
+
+    {"id":"K-edu-concept-gene-protein","kind":"concept","category":"基因与分子基础","name":"基因、RNA 与蛋白","aliases":["gene protein difference","基因和蛋白区别","转录翻译"],"summary":"基因是 DNA 中的一段信息；有些基因通过 RNA 发挥作用，有些会指导细胞制造蛋白质。","body":"可以把 DNA 想成细胞保存的信息，基因是其中一段。对编码蛋白质的基因，细胞会先把 DNA 信息转录成信使 RNA（mRNA），再由核糖体读取 mRNA 并合成蛋白质。有些基因产生具有功能的 RNA，本身不编码蛋白质。TP53 是基因名称，p53 是它编码的蛋白质；两者有关联，但不是同一个对象。这个入门说明不是所有基因都遵循同一条固定的“基因—蛋白”关系。","faqs":[{"question":"基因、RNA 和蛋白质有什么关系？","answer":"对编码蛋白质的基因，细胞会先把 DNA 信息转录成 mRNA，再由核糖体读取并合成蛋白质。RNA 也可以直接参与细胞功能，并非每一种 RNA 都会变成蛋白质。","source_ids":["SRC-MEDLINEPLUS-GENE-PROTEIN","SRC-NHGRI-GENE-EXPRESSION"]},{"question":"所有基因都会制造蛋白质吗？","answer":"不是。有些基因产生具有功能的 RNA，而不是蛋白质；基因也可以参与调节其他基因。把每个基因都理解成一张制造蛋白质的说明书，会漏掉这些情况。","source_ids":["SRC-NCI-GENETICS","SRC-NHGRI-GENE"]},{"question":"TP53 和 p53 是同一个东西吗？","answer":"不是。TP53 是基因名称，p53 是 TP53 基因编码的蛋白质。两者相关，但分别指 DNA 中的基因和细胞里的蛋白质。","source_ids":["SRC-MEDLINEPLUS-TP53","SRC-NCI-TP53"]}],
+      "source_url":"https://www.cancer.gov/about-cancer/causes-prevention/genetics","source_title":"The Genetics of Cancer — NCI","source_date":"2024-08-08","checked_at":"2026-10-20","review_status":"source_checked","media_ids":["MED-NHGRI-GENE-VIDEO-CANDIDATE"]},
+    {"id":"K-edu-concept-germline-somatic","kind":"concept","category":"变异与遗传","name":"胚系与体细胞变异","aliases":["germline","somatic mutation","遗传变异","肿瘤突变","癌症会遗传吗","癌症是否遗传","癌症是不是遗传","cancer hereditary"],"summary":"癌症本身不会从父母直接传给子女；部分遗传基因改变会提高风险，但不代表一定患癌。","body":"癌症本身不会从父母直接传给子女。部分可遗传的基因改变会提高某些癌症的风险，但携带这种改变不等于一定会患癌。很多癌症相关改变是在生命过程中出现，发生在身体细胞或肿瘤里；在肿瘤检测中发现基因改变，也不能自动说明它是遗传来的。家族中出现类似癌症，有时与共同环境或生活习惯有关，也可能只是偶然聚集，并不一定代表遗传性癌症综合征。肿瘤检测与遗传风险检测回答不同问题；本词条用于理解概念，不用于判断个人或家庭风险，也不解释个人检测结果。",
+      "source_url":"https://www.cancer.gov/about-cancer/causes-prevention/genetics","source_title":"The Genetics of Cancer — NCI","source_date":"2024-08-08","checked_at":"2026-10-20","review_status":"source_checked","media_ids":["MED-NCI-GENETIC-CHANGES-INFOGRAPHIC"],
+      "faqs":[
+        {"question":"癌症会直接遗传给子女吗？","answer":"癌症本身不会像某些遗传病那样直接从父母传给子女。部分可遗传的基因改变会提高某些癌症风险，但携带此类改变不等于一定会患癌。这里解释一般概念，不用于判断某个家庭是否存在遗传风险。","source_ids":["SRC-NCI-CANCER-GENETICS","SRC-NHGRI-GERMLINE-SOMATIC"]},
+        {"question":"肿瘤基因检测和遗传风险检测有什么区别？","answer":"肿瘤基因检测查看肿瘤组织中的改变，常用于了解肿瘤特征；遗传风险检测查看是否存在可遗传的基因改变，通常使用血液或唾液等样本。两类检测回答的问题不同，肿瘤检测不能代替遗传风险检测。","source_ids":["SRC-NCI-GENETIC-TESTING","SRC-NCI-GENETIC-TESTING-DICTIONARY"]},
+        {"question":"肿瘤检测发现基因改变，就说明是遗传来的吗？","answer":"不一定。肿瘤细胞中的基因改变可能是在生命过程中形成；某些肿瘤检测也可能提示可遗传改变，但仅凭肿瘤检测结果不能确定它是否遗传自父母。遗传来源需要相应的遗传风险检测和专业解释。","source_ids":["SRC-NCI-GENETIC-TESTING","SRC-NHGRI-GERMLINE-SOMATIC"]}
+      ]},
+    {"id":"K-edu-concept-oncogene-suppressor","kind":"concept","category":"癌症生物学","name":"癌基因与抑癌基因","aliases":["oncogene","tumor suppressor gene","原癌基因","癌基因是什么","抑癌基因是什么","原癌基因和癌基因区别"],"summary":"特定改变可能让原癌基因促生长作用增强，或削弱抑癌基因的调节作用；这是机制框架，不是单基因诊断。","body":"原癌基因在正常细胞中参与生长与分裂调节；某些变化可能使它成为癌基因，或让它比平常更活跃。抑癌基因帮助控制细胞生长；特定变化可能使其蛋白不再正常工作，细胞生长因而少了制约。可以用“油门/刹车”作入门比喻，但癌症相关变化还涉及 DNA 修复等多类基因，每种癌症也可能有独特的变化组合。不能只凭一个基因名称或一次检测就判断病因或作诊断。",
+      "source_url":"https://www.cancer.gov/about-cancer/understanding/what-is-cancer","source_title":"What Is Cancer? — NCI","source_date":"2026-08-28","checked_at":"2026-10-20","review_status":"source_checked",
+       "media_ids":["MED-NCI-ONCOGENES-VIDEO"],
+      "faqs":[
+        {"question":"原癌基因变成癌基因，是不是一发生改变就会得癌？","answer":"不是。原癌基因在正常细胞中参与生长调节；特定改变或活性异常可能使它成为癌基因，并可能促进细胞不受控地生长。癌症通常涉及多种基因变化，不能把某个基因改变直接当作个人诊断。","source_ids":["SRC-NHGRI-ONCOGENE","SRC-NCI-ONCOGENE","SRC-NCI-CANCER-BASICS"]},
+        {"question":"抑癌基因有什么作用？","answer":"抑癌基因帮助控制细胞生长。某些改变可能使相关蛋白减少或无法正常工作，细胞生长就可能少了制约并增加癌症形成的机会；这里说的是可能性，不代表每个改变都会导致癌症。","source_ids":["SRC-NHGRI-TUMOR-SUPPRESSOR","SRC-NCI-TUMOR-SUPPRESSOR"]},
+        {"question":"“油门和刹车”比喻能解释全部癌症吗？","answer":"不能。它只帮助理解部分促生长基因和抑癌基因的作用。NCI 还列出 DNA 修复基因等类别，并指出每种癌症可能有独特的基因变化组合；这个比喻不能用来判断个人病因或诊断。","source_ids":["SRC-NHGRI-ONCOGENE","SRC-NHGRI-TUMOR-SUPPRESSOR","SRC-NCI-CANCER-BASICS"]}
+      ]},
+    {"id":"K-edu-concept-dna-repair","kind":"concept","category":"癌症生物学","name":"DNA 修复","aliases":["DNA repair","基因组稳定性","同源重组"],"summary":"DNA 修复机制帮助细胞处理 DNA 损伤；修复相关基因异常可能影响基因组稳定性。","body":"细胞中的 DNA 会受到损伤，细胞具有多种修复和维护基因组稳定性的机制。不同修复通路处理的损伤类型不同；BRCA1/BRCA2 等基因与特定修复过程相关。研究结果须结合具体变异、细胞背景和实验数据理解。",
+      "source_url":"https://www.cancer.gov/about-cancer/causes-prevention/genetics","source_title":"The Genetics of Cancer — NCI","source_date":"2024-08-08","checked_at":"2026-10-20","review_status":"source_checked",
+      "faqs":[
+        {"question":"DNA 修复只有一种机制吗？","answer":"不是。DNA 会出现不同类型的损伤和复制错误，细胞用多种修复通路处理；例如，碱基切除修复处理受损碱基，错配修复校对复制时的配对错误。这只是两个例子，DNA 修复不止这两种通路。","source_ids":["SRC-MEDLINEPLUS-DNA-VARIANTS","SRC-NIGMS-DNA-REPAIR"]},
+        {"question":"BRCA1 和 BRCA2 与 DNA 修复有什么关系？","answer":"BRCA1 和 BRCA2 都参与 DNA 修复相关过程。NCI 说明，两者产生的蛋白有助于修复受损 DNA；MedlinePlus 进一步介绍，BRCA1 蛋白会与其他蛋白共同修补 DNA 断裂，帮助维持遗传信息稳定。它们是 DNA 修复相关基因的例子，不代表 DNA 修复只依赖这两个基因。","source_ids":["SRC-NCI-BRCA-FACTSHEET","SRC-MEDLINEPLUS-BRCA1"]},
+        {"question":"DNA 受损或发现变异就一定会癌变吗？","answer":"不一定。细胞有多个识别和修复 DNA 错误的通路，许多变异对健康没有影响；癌症相关变化可能随时间累积，并涉及 DNA 修复或细胞生长控制等基因。单独的 DNA 损伤或检测到某个变异，不能直接当作个人癌症诊断。","source_ids":["SRC-MEDLINEPLUS-DNA-VARIANTS","SRC-NCI-CANCER-BASICS"]}
+      ]},
+    {"id":"K-edu-concept-classification","kind":"concept","category":"医学分类","name":"癌症如何分类","aliases":["肿瘤分类","histology","组织学分类","肿瘤分类标准"],"summary":"癌症可从发生部位、细胞/组织特征等角度描述；部分癌种还会按分子特征分亚型。科普目录是导航，不是正式编码或诊断。","body":"癌症可从不同角度描述。公众查询常按发生的器官或组织找资料；癌症也可以按起源细胞类型命名。专业登记编码体系（如 ICD-O）还会按部位和形态等字段记录肿瘤；某些癌种可以根据基因变化或其他生物标志物分成分子亚型，但这不是每种癌症都通用的分法。本网站目录是帮助浏览的科普导航，不是完整病理分类、登记编码或个人诊断。",
+      "source_url":"https://www.cancer.gov/about-cancer/understanding/what-is-cancer","source_title":"What Is Cancer? — National Cancer Institute","source_date":"2026-08-28","checked_at":"2026-10-20","review_status":"source_checked",
+      "faqs":[
+        {"question":"为什么不同资料会用不同方式给癌症分类？","answer":"因为分类可以服务于不同目的。公众查找资料时常按器官或组织浏览；专业说明还可能描述癌细胞来自哪类细胞，部分癌种会再按分子特征分亚型。不同分类角度不能简单当作同一张清单。","source_ids":["SRC-NCI-CANCER-BASICS","SRC-ACS-CANCER-TYPES"]},
+        {"question":"科普网站上的癌种分类是正式病理分类或登记编码吗？","answer":"不是。网站目录是便于浏览的导航；肿瘤登记有专门的分类编码体系，例如 ICD-O。具体疾病名称和病理类别应以正式病理资料及专业解释为准。","source_ids":["SRC-NCI-CANCER-BASICS","SRC-IARC-ICDO4"]},
+        {"question":"所有癌症都会按基因或分子特征分亚型吗？","answer":"不是。分子亚型用于把某一类癌症按特定基因变化或其他生物标志物进一步分组；生物标志物检测和分型只适用于某些癌种或研究/临床问题，并非所有癌症都采用同一套分法。","source_ids":["SRC-NCI-MOLECULAR-SUBTYPE","SRC-ACS-BIOMARKER-TESTING"]}
+      ]},
+    {"id":"K-edu-concept-cancer-basics","kind":"concept","category":"癌症基础","name":"癌症是什么","aliases":["什么是癌症","癌症的定义","cancer basics","what is cancer"],"summary":"癌症是一组细胞生长失去正常控制的疾病；肿瘤不一定都是癌症，许多血液癌也不会形成实体肿块。","body":"癌症不是单一一种病，而是一组与细胞异常生长有关的疾病。癌细胞可能侵入周围组织，也可能扩散到身体其他部位；不同癌症起源于不同器官、组织或细胞。肿瘤不一定都是癌症，许多血液癌（如白血病）通常也不会形成实体肿块。这里用于认识基本概念，不用于判断个人病情。",
+     "source_url":"https://www.cancer.gov/about-cancer/understanding/what-is-cancer","source_title":"What Is Cancer? — NCI","source_date":null,"checked_at":"2026-10-20","review_status":"source_checked","media_ids":["MED-NCI-DEFINING-CANCER-VIDEO","MED-NCI-METASTASIS-VIDEO","MED-NCI-DIVIDING-BREAST-CANCER-CELL-IMAGE"],
+      "faqs":[
+        {"question":"肿瘤一定是癌吗？","answer":"不一定。肿瘤可以是癌性的（恶性），也可以是非癌性的（良性）。良性肿瘤一般不会侵入周围组织或扩散，但有些仍可能因位置或大小造成严重问题。","source_ids":["SRC-NCI-CANCER-BASICS","SRC-ACS-WHAT-IS-CANCER"]},
+        {"question":"所有癌症都会形成肿块吗？","answer":"不是。很多癌症会形成实体肿瘤，但并非全部如此；血液癌（如白血病）通常不形成实体肿瘤。","source_ids":["SRC-NCI-CANCER-BASICS","SRC-ACS-NEOPLASMS-TUMORS"]},
+        {"question":"癌症转移到肺后，会变成肺癌吗？","answer":"通常不会按所在肺部命名为肺癌。例如，乳腺癌扩散到肺后仍称转移性乳腺癌，因为癌细胞来源仍是乳腺。","source_ids":["SRC-NCI-CANCER-BASICS","SRC-ACS-WHAT-IS-CANCER"]}
+      ]},
+    {"id":"K-edu-concept-stage-grade","kind":"concept","category":"医学分类","name":"分期与分级","aliases":["cancer stage","tumor grade","TNM","分期分级区别"],"summary":"分期通常描述癌症范围或扩散，分级描述显微镜下细胞特征；两者不同，但部分癌种的分期规则可能会参考分级。","body":"分期通常描述癌症在身体中的范围，例如肿瘤大小、附近淋巴结是否受累以及是否扩散到远处；分级描述癌细胞或组织在显微镜下与正常组织有多不同。两者不是同一指标，但某些癌种的分期规则会参考分级等其他因素，具体规则依癌种而异。不能跨癌种直接比较数字，也不能仅凭数字解读个人病情或预后。",
+      "source_url":"https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade","source_title":"Tumor Grade — NCI","source_date":"Updated 2022-08-01","checked_at":"2026-10-20","review_status":"source_checked",
+      "faqs":[
+        {"question":"“II 期”和“II 级”是不是同一件事？","answer":"不是。分期主要描述癌症的范围或扩散；分级描述癌细胞或组织在显微镜下的外观。两者不是同一指标，但部分癌种的分期规则会纳入分级等因素。","source_ids":["SRC-NCI-CANCER-STAGING","SRC-NCI-TUMOR-GRADE","SRC-ACS-CANCER-STAGING","SRC-CRUK-CANCER-GRADING"]},
+        {"question":"不同癌种的分期或分级数字可以直接比较吗？","answer":"不能直接比较。分期和分级系统可能因癌种而异；同一个数字在不同癌种或不同体系中不一定代表同一标准。阅读资料时应确认具体癌种及所用体系。","source_ids":["SRC-NCI-CANCER-STAGING","SRC-NCI-TUMOR-GRADE","SRC-CRUK-CANCER-STAGING","SRC-CRUK-CANCER-GRADING"]},
+        {"question":"高级别就说明癌症已经扩散了吗？","answer":"不等于。高级别描述显微镜下细胞较异常，并可能与较快生长或扩散倾向有关；它本身不是已经发生转移的证据。分期使用的体系和检查结果才用于描述癌症范围。本条不用于解读个人报告。","source_ids":["SRC-NCI-TUMOR-GRADE","SRC-NCI-CANCER-STAGING","SRC-ACS-CANCER-STAGING","SRC-CRUK-CANCER-GRADING"]}
+      ]},
+    {"id":"K-edu-concept-heterogeneity","kind":"concept","category":"癌症生物学","name":"肿瘤异质性","aliases":["tumor heterogeneity","肿瘤内异质性","肿瘤间异质性"],"summary":"不同肿瘤之间或同一肿瘤内部的细胞可能存在差异；采样与时间会影响观察结果。","body":"肿瘤异质性指肿瘤之间、同一肿瘤内部或不同时期样本之间存在生物学差异。单次取样可能不能代表全部细胞；研究结论需要结合样本来源、取样部位、检测平台和时间点解释。具体机制不能仅凭“异质性”一词推断。",
+      "source_url":"https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-heterogeneity","source_title":"Definition of Tumor Heterogeneity — NCI Dictionary of Cancer Terms","source_date":null,"checked_at":"2026-10-20","review_status":"source_checked",
+      "faqs":[
+        {"question":"肿瘤异质性是指什么？","answer":"它不只指不同患者的肿瘤彼此不同，也可指同一个肿瘤内部的癌细胞之间，或原发肿瘤与继发肿瘤之间存在差异。NCI 的词条说明，这些差异可能涉及基因和蛋白。","source_ids":["SRC-NCI-TUMOR-HETEROGENEITY"]},
+        {"question":"肿瘤异质性只指基因不一样吗？","answer":"不只如此。NCI 的词条提到差异可能涉及基因和蛋白；NCI 的研究介绍也说明，肿瘤细胞在表现特征上的差异可以来自遗传或非遗传变化。具体一项研究测量了什么，仍要看它使用的方法和指标。","source_ids":["SRC-NCI-TUMOR-HETEROGENEITY","SRC-NCI-THERAPY-RESPONSES"]},
+        {"question":"有肿瘤异质性，就代表治疗一定无效吗？","answer":"不代表。异质性描述的是肿瘤细胞可能存在差异；NCI 的研究介绍指出，同一肿瘤里的细胞可能对治疗有不同反应，但这个概念本身不能预测某位患者的治疗效果，也不能决定治疗选择。","source_ids":["SRC-NCI-TUMOR-HETEROGENEITY","SRC-NCI-THERAPY-RESPONSES"]}
+      ]},
+    {"id":"K-edu-concept-biomarker","kind":"concept","category":"检测与证据","name":"生物标志物与分子亚型","aliases":["biomarker","molecular subtype","分子分型","伴随诊断"],"summary":"生物标志物是可测量的生物特征；其解释依赖检测方法、适用癌种和具体用途。","body":"生物标志物可以是基因改变、蛋白表达或其他可测量特征。分子亚型是依照一组特征对疾病进一步分层。某个标志物在研究中与结局相关，不自动说明它可用于筛查、诊断、预测疗效或指导治疗；这些用途需要分别验证。",
+      "source_url":"https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-fact-sheet","source_title":"Tumor Markers — NCI","source_date":null,"checked_at":"2026-10-20","review_status":"source_checked","media_ids":["MED-NCI-TARGETED-THERAPY-INFOGRAPHIC","MED-NCI-MONOCLONAL-ANTIBODY-VIDEO"],
+      "faqs":[
+        {"question":"生物标志物一定是基因吗？","answer":"不一定。癌症生物标志物可以是基因改变、蛋白质或其他物质；不同检测可能只看一个指标，也可能同时检查多个指标。先看检测报告写明的检测对象和方法，不能把所有生物标志物都理解成基因突变。","source_ids":["SRC-NCI-BIOMARKER-TESTING","SRC-ACS-BIOMARKER-TESTING"]},
+        {"question":"肿瘤标志物升高，就能确诊癌症吗？","answer":"不能单凭这一点下结论。有些非癌性情况也会使标志物升高，而且并非每个患有某种癌症的人都会出现相应指标升高。NCI 说明，诊断通常还要结合活检、影像等其他检查；不同指标的用途也不相同。","source_ids":["SRC-NCI-TUMOR-MARKERS","SRC-ACS-BIOMARKER-TESTING"]},
+        {"question":"每种癌症、每个人都要做同一套生物标志物检测吗？","answer":"不是。检测项目和用途会因癌种与具体临床情境而不同：有些癌种常规使用某些检测，有些只在特定情况下考虑，也有癌种并非常规检测。这里说明的是一般原则，不是对个人是否需要检测的建议。","source_ids":["SRC-NCI-BIOMARKER-TESTING","SRC-ACS-BIOMARKER-TESTING"]},
+        {"question":"发现可匹配的生物标志物，治疗就一定有效吗？","answer":"不保证。检测结果可能帮助识别值得进一步讨论的治疗选项，但有时找不到可匹配的治疗；即使找到匹配项，治疗也可能因肿瘤内部差异、其他生物学因素等原因没有预期效果。标志物结果不能单独决定个人治疗。","source_ids":["SRC-NCI-BIOMARKER-TESTING","SRC-ACS-BIOMARKER-TESTING"]}
+      ]},
+    {"id":"K-edu-concept-driver","kind":"concept","category":"癌症生物学","name":"驱动改变与乘客改变","aliases":["driver mutation","passenger mutation","driver alteration"],"summary":"驱动改变可促进肿瘤发展，乘客改变随细胞扩增出现；仅凭检测到变异不能直接判定类别。","body":"研究中“驱动”通常指对肿瘤形成或维持具有功能贡献的改变；“乘客”指随肿瘤细胞扩增而出现但未被认为提供同类优势的改变。分类需要综合功能证据、样本和研究背景，不能仅凭数据库列出或变异频率就下因果结论。",
+      "source_url":"https://pubmed.ncbi.nlm.nih.gov/25340638/","source_title":"Driver and Passenger Mutations in Cancer — PubMed review","source_date":null,"checked_at":"2026-10-20","review_status":"source_checked",
+      "faqs":[
+        {"question":"什么是癌症中的“驱动改变”？","answer":"NCI 将驱动突变解释为会促使细胞成为癌细胞、继续生长或扩散的基因 DNA 改变。NCI 也指出，相关改变可能影响原癌基因、抑癌基因或 DNA 修复基因；并不是这些基因中的每个变异都自动属于驱动改变。","source_ids":["SRC-NCI-DRIVER-MUTATION","SRC-NCI-CANCER-BASICS","SRC-NCI-MUTATION"]},
+        {"question":"驱动改变和乘客改变有什么区别？","answer":"驱动改变可为肿瘤发展或进展提供生物学优势；乘客改变则随肿瘤细胞扩增而出现，但通常不提供同类优势。研究者区分二者时需要看具体变异与研究背景，不能只因变异出现在肿瘤样本中就判断它在推动肿瘤。","source_ids":["SRC-NCI-DRIVER-PASSENGER","SRC-NCI-DRIVER-MUTATION"]},
+        {"question":"发现驱动改变，就一定有针对它的药物吗？","answer":"不一定。驱动改变说明它可能参与肿瘤生物学，不等于已经有可用的匹配治疗；NCI 指出，并非每种驱动改变都有临床可用的靶向方案。具体检测和治疗选择需要由医疗团队结合癌种、检测结果及其他临床信息判断。","source_ids":["SRC-NCI-DRIVER-CLINICAL-ACTIONABILITY","SRC-NCI-BIOMARKER-TESTING"]}
+      ]},
+    {"id":"K-edu-concept-association-causation","kind":"concept","category":"检测与证据","name":"关联不等于因果","aliases":["association versus causation","相关不代表因果","数据库关联"],"summary":"研究中发现两种情况有关联，不等于证明其中一种导致另一种；解读时要考虑其他解释和研究设计。","body":"当两种情况在研究中一起出现，说明它们有关联；但这不能单独说明一种情况导致了另一种。观察到的关联可能还有其他解释，也可能受研究对象、测量方式和其他因素影响。理解具体结论时，应查看研究设计和研究对象，并结合其他研究证据；不要把单项观察结果直接说成已确认的原因。本条用于一般研究阅读，不用于判断个人癌症原因或风险。",
+      "source_url":"https://www.cancer.org/research/understanding-cancer-research-terms.html","source_title":"Understanding Cancer Research Terms — American Cancer Society","source_date":null,"checked_at":"2026-10-20","review_status":"source_checked",
+      "faqs":[
+        {"question":"两种事情有关联，就说明一个导致了另一个吗？","answer":"不一定。研究中发现两种情况有关联，并不等于证明因果；其他因素或偶然也可能解释观察到的关系。需要结合研究设计和其他证据判断。","source_ids":["SRC-ACS-RESEARCH-TERMS","SRC-NCI-CAUSES-RESEARCH"]},
+        {"question":"观察性研究为什么不能单独证明因果？","answer":"观察性研究记录自然发生的情况，不主动改变研究对象。人群差异、其他可能因素或偶然，都可能影响观察到的关系；因此关联本身不足以证明因果。","source_ids":["SRC-ACS-RESEARCH-TERMS","SRC-NCI-CAUSES-RESEARCH"]},
+        {"question":"观察性研究还有什么价值？","answer":"它可以在较大人群中发现风险因素或变化趋势，为后续研究提供线索；但一项观察到的关联仍不能直接当作已经确认的原因。","source_ids":["SRC-NCI-CAUSES-RESEARCH","SRC-ACS-RESEARCH-TERMS"]}
+      ]},
+    {"id":"K-edu-concept-evidence-level","kind":"concept","category":"检测与证据","name":"研究证据层级","aliases":["evidence level","临床前研究","临床研究","证据类型"],"summary":"不同研究回答的问题不同；解读证据要看研究目的、设计、对象、结局指标和局限，不能只凭一个标签排总名次。","body":"研究证据不是一张适用于所有问题的统一名次表。基础研究可用细胞或动物模型探索机制、为后续人体研究提出问题，但本身不能说明人在临床上会获益。人群观察研究可发现关联或趋势，关联本身不能单独证明因果。临床试验在符合条件的人群中研究特定干预；试验的阶段表示流程位置和所研究的问题，不等同于证据强弱。阅读时应结合研究问题、设计、对象、结局指标和局限；评价方法也要适合研究问题。此处为研究阅读入门，不用于解释个人诊断或治疗选择。",
+      "source_url":"https://www.cancer.gov/publications/dictionaries/cancer-terms/def/levels-of-evidence","source_title":"Levels of Evidence — NCI Dictionary of Cancer Terms","source_date":null,"checked_at":"2026-10-20","review_status":"source_checked",
+      "faqs":[
+        {"question":"细胞或动物实验结果，能说明一种方法对人有效吗？","answer":"不能直接这样推断。细胞和动物研究可以帮助研究机制、提出后续问题，但不能代替在人身上评估效果的研究。阅读时还要看后续人体研究的对象、设计、结局和局限。","source_ids":["SRC-NCI-CANCER-RESEARCH","SRC-ACS-RESEARCH-TERMS"]},
+        {"question":"临床试验的第几期，等于证据等级吗？","answer":"不等于。试验阶段表示研究处在流程的哪一步、正在回答什么问题；例如早期阶段通常重点关注安全性和剂量，后续阶段会比较效果与安全性。评价证据强弱还要看研究设计和测量的结局。","source_ids":["SRC-NCI-TRIAL-PHASES","SRC-NCI-LEVELS-EVIDENCE"]},
+        {"question":"所有研究都能按同一张从低到高的表比较吗？","answer":"不能只看研究名称就排出一个适用于所有问题的总名次。基础研究、人群观察和临床试验回答的问题不同；还要看研究设计、研究对象和结局指标。先确认研究想回答什么，再选择合适的评价方式。","source_ids":["SRC-NCI-CANCER-RESEARCH","SRC-NCI-LEVELS-EVIDENCE"]}
+      ]}
+  ],
+  "sources": [
+    {"id":"SRC-NCI-THYROID-OVERVIEW","title":"Thyroid Cancer","publisher":"National Cancer Institute","url":"https://www.cancer.gov/types/thyroid","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-ACS-THYROID-WHAT","title":"What Is Thyroid Cancer?","publisher":"American Cancer Society","url":"https://www.cancer.org/cancer/types/thyroid-cancer/about/what-is-thyroid-cancer.html","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-ESOPHAGEAL-OVERVIEW","title":"Esophageal Cancer","publisher":"National Cancer Institute","url":"https://www.cancer.gov/types/esophageal","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-BLADDER-OVERVIEW","title":"What Is Bladder Cancer?","publisher":"National Cancer Institute","url":"https://www.cancer.gov/types/bladder","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-NASOPHARYNGEAL-PATIENT","title":"Nasopharyngeal Cancer Treatment, Patient Version","publisher":"National Cancer Institute","url":"https://www.cancer.gov/types/head-and-neck/patient/adult/nasopharyngeal-treatment-pdq","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-HEAD-NECK-OVERVIEW","title":"Head and Neck Cancers","publisher":"National Cancer Institute","url":"https://www.cancer.gov/types/head-and-neck/head-neck-fact-sheet","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-ORAL-PATIENT","title":"Lip and Oral Cavity Cancer Treatment, Patient Version","publisher":"National Cancer Institute","url":"https://www.cancer.gov/types/head-and-neck/patient/adult/lip-mouth-treatment-pdq","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-SKIN-PATIENT","title":"Skin Cancer Treatment, Patient Version","publisher":"National Cancer Institute","url":"https://www.cancer.gov/types/skin/patient/skin-treatment-pdq","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-MEDLINEPLUS-ALK","title":"ALK gene","publisher":"National Library of Medicine / MedlinePlus Genetics","url":"https://medlineplus.gov/genetics/gene/alk/","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-ROS1-GENE","title":"ROS1 gene — NCI Dictionary of Cancer Terms","publisher":"National Cancer Institute","url":"https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ros1-gene","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-MEDLINEPLUS-RET","title":"RET gene","publisher":"National Library of Medicine / MedlinePlus Genetics","url":"https://medlineplus.gov/genetics/gene/ret/","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-ACS-NSCLC-TARGETED","title":"Targeted Drug Therapy for Non-small Cell Lung Cancer","publisher":"American Cancer Society","url":"https://www.cancer.org/cancer/types/lung-cancer/treating-non-small-cell/targeted-therapies.html","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-MEDLINEPLUS-PIK3CA","title":"PIK3CA gene","publisher":"National Library of Medicine / MedlinePlus Genetics","url":"https://medlineplus.gov/genetics/gene/pik3ca/","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-MEDLINEPLUS-LYNCH","title":"Lynch syndrome","publisher":"National Library of Medicine / MedlinePlus Genetics","url":"https://medlineplus.gov/genetics/condition/lynch-syndrome/","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-MEDLINEPLUS-MLH1","title":"MLH1 gene","publisher":"National Library of Medicine / MedlinePlus Genetics","url":"https://medlineplus.gov/genetics/gene/mlh1/","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-MEDLINEPLUS-MSH2","title":"MSH2 gene","publisher":"National Library of Medicine / MedlinePlus Genetics","url":"https://medlineplus.gov/genetics/gene/msh2/","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-MEDLINEPLUS-PDL1","title":"PDL1 (Immunotherapy) Tests","publisher":"National Library of Medicine / MedlinePlus","url":"https://medlineplus.gov/lab-tests/pdl1-immunotherapy-tests/","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-BREAST-HORMONE","title":"Hormone Therapy for Breast Cancer","publisher":"National Cancer Institute","url":"https://www.cancer.gov/types/breast/treatment/hormone-therapy","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-KI67","title":"Ki-67 proliferation index — NCI Dictionary of Cancer Terms","publisher":"National Cancer Institute","url":"https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ki-67-proliferation-index","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-MEDLINEPLUS-PSA","title":"Prostate-Specific Antigen (PSA) Test","publisher":"National Library of Medicine / MedlinePlus","url":"https://medlineplus.gov/lab-tests/prostate-specific-antigen-psa-test/","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-MEDLINEPLUS-AFP","title":"Alpha Fetoprotein (AFP) Tumor Marker Test","publisher":"National Library of Medicine / MedlinePlus","url":"https://medlineplus.gov/lab-tests/alpha-fetoprotein-afp-tumor-marker-test/","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-MEDLINEPLUS-CEA","title":"CEA Test","publisher":"National Library of Medicine / MedlinePlus","url":"https://medlineplus.gov/lab-tests/cea-test/","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-MEDLINEPLUS-CA125","title":"CA-125 Blood Test (Ovarian Cancer)","publisher":"National Library of Medicine / MedlinePlus","url":"https://medlineplus.gov/lab-tests/ca-125-blood-test-ovarian-cancer/","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-MEDLINEPLUS-CA199","title":"CA 19-9 Blood Test (Pancreatic Cancer)","publisher":"National Library of Medicine / MedlinePlus","url":"https://medlineplus.gov/lab-tests/ca-19-9-blood-test-pancreatic-cancer/","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-MSI","title":"Microsatellite instability — NCI Dictionary of Cancer Terms","publisher":"National Cancer Institute","url":"https://www.cancer.gov/publications/dictionaries/cancer-terms/def/microsatellite-instability","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-DMMR","title":"Mismatch repair deficiency — NCI Dictionary of Cancer Terms","publisher":"National Cancer Institute","url":"https://www.cancer.gov/publications/dictionaries/cancer-terms/def/mismatch-repair-deficiency","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-TMB","title":"Tumor mutational burden — NCI Dictionary of Cancer Terms","publisher":"National Cancer Institute","url":"https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-mutational-burden","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-SCREENING-OVERVIEW","title":"Cancer Screening Overview, Patient Version","publisher":"National Cancer Institute","url":"https://www.cancer.gov/about-cancer/screening/patient-screening-overview-pdq","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-PATHOLOGY-REPORTS","title":"Surgical Pathology Reports","publisher":"National Cancer Institute","url":"https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/pathology-reports-fact-sheet","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-NODULE","title":"Nodule — NCI Dictionary of Cancer Terms","publisher":"National Cancer Institute","url":"https://www.cancer.gov/publications/dictionaries/cancer-terms/def/nodule","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-RECURRENT-CANCER","title":"Recurrent Cancer: When Cancer Comes Back","publisher":"National Cancer Institute","url":"https://www.cancer.gov/types/recurrent-cancer","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-TREATMENT-TYPES","title":"Types of Cancer Treatment","publisher":"National Cancer Institute","url":"https://www.cancer.gov/about-cancer/treatment/types","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-TARGETED-THERAPY","title":"Targeted Therapy to Treat Cancer","publisher":"National Cancer Institute","url":"https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-IMMUNOTHERAPY","title":"Immunotherapy to Treat Cancer","publisher":"National Cancer Institute","url":"https://www.cancer.gov/about-cancer/treatment/types/immunotherapy","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-HPV-CANCER","title":"HPV and Cancer","publisher":"National Cancer Institute","url":"https://www.cancer.gov/about-cancer/causes-prevention/risk/infectious-agents/hpv-and-cancer","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-CANCER-MYTHS","title":"Common Cancer Myths and Misconceptions","publisher":"National Cancer Institute","url":"https://www.cancer.gov/about-cancer/causes-prevention/risk/myths","checked_at":"2026-10-21","review_status":"source_checked"},
+    {"id":"SRC-NCI-PREVENTION-OVERVIEW","title":"Cancer Prevention Overview, Patient Version","publisher":"National Cancer Institute","url":"https://www.cancer.gov/about-cancer/causes-prevention/patient-prevention-overview-pdq","checked_at":"2026-10-21","review_status":"source_checked"},
+    {
+      "id": "SRC-NCI-CANCER-BASICS",
+      "title": "What Is Cancer?",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-TUMOR-HETEROGENEITY",
+      "title": "Definition of Tumor Heterogeneity",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-heterogeneity",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-THERAPY-RESPONSES",
+      "title": "Responses to Cancer Therapies are Complex",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/ccg/blog/2018/responses-to-cancer-therapies-are-complex",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-WHAT-IS-CANCER",
+      "title": "What Is Cancer?",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/understanding-cancer/what-is-cancer.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-NEOPLASMS-TUMORS",
+      "title": "What Are Neoplasms and Tumors?",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/understanding-cancer/what-is-cancer/neoplasms-and-tumors.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-BREAST-TYPES",
+      "title": "Types of Breast Cancer",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/breast/breast-cancer-types",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-BREAST-TYPES",
+      "title": "Types of Breast Cancer",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/breast-cancer/types-of-breast-cancer.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-LCIS",
+      "title": "Lobular Carcinoma in Situ (LCIS)",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/breast-cancer/non-cancerous-breast-conditions/lobular-carcinoma-in-situ.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-LUNG",
+      "title": "Lung Cancer — Patient Version",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/lung",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-LUNG",
+      "title": "What Is Lung Cancer?",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/lung-cancer/about/what-is.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-METASTASIS",
+      "title": "Metastatic Cancer — When Cancer Spreads",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/metastatic-cancer",
+      "checked_at": "2026-10-19",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-MEDLINEPLUS-TP53",
+      "title": "TP53 gene: MedlinePlus Genetics",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/genetics/gene/tp53/",
+      "checked_at": "2026-10-19",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-TP53",
+      "title": "TP53 Gene — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tp53-gene",
+      "checked_at": "2026-10-19",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-GENETICS",
+      "title": "The Genetics of Cancer",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-MEDLINEPLUS-DNA-VARIANTS",
+      "title": "Do all gene variants affect health and development?",
+      "publisher": "MedlinePlus Genetics, National Library of Medicine",
+      "url": "https://medlineplus.gov/genetics/understanding/mutationsanddisorders/neutralmutations/",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NIGMS-DNA-REPAIR",
+      "title": "Six Things to Know About DNA and DNA Repair",
+      "publisher": "National Institute of General Medical Sciences",
+      "url": "https://www.nigms.nih.gov/biobeat/2017/04/six-things-to-know-about-dna-and-dna-repair",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-BRCA-FACTSHEET",
+      "title": "BRCA Gene Changes: Cancer Risk and Genetic Testing Fact Sheet",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/brca-fact-sheet",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-MEDLINEPLUS-BRCA1",
+      "title": "BRCA1 gene",
+      "publisher": "MedlinePlus Genetics, National Library of Medicine",
+      "url": "https://medlineplus.gov/genetics/gene/brca1/",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-MEDLINEPLUS-BREAST-CANCER-GENETICS",
+      "title": "Breast cancer: Inheritance",
+      "publisher": "MedlinePlus Genetics, National Library of Medicine",
+      "url": "https://medlineplus.gov/genetics/condition/breast-cancer/",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-MEDLINEPLUS-GENE-PROTEIN",
+      "title": "How do genes direct the production of proteins?",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/genetics/understanding/howgeneswork/makingprotein/",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NHGRI-GENE",
+      "title": "Gene",
+      "publisher": "National Human Genome Research Institute",
+      "url": "https://www.genome.gov/genetics-glossary/Gene",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-EGFR",
+      "title": "EGFR — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/egfr",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-EGFR-GENE",
+      "title": "EGFR gene — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/egfr-gene",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-MEDLINEPLUS-EGFR",
+      "title": "EGFR gene — MedlinePlus Genetics",
+      "publisher": "MedlinePlus Genetics, National Library of Medicine",
+      "url": "https://medlineplus.gov/genetics/gene/egfr/",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NHGRI-GENE-EXPRESSION",
+      "title": "Gene Expression",
+      "publisher": "National Human Genome Research Institute",
+      "url": "https://www.genome.gov/genetics-glossary/Gene-Expression",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NHGRI-ONCOGENE",
+      "title": "Oncogene",
+      "publisher": "National Human Genome Research Institute",
+      "url": "https://www.genome.gov/genetics-glossary/Oncogene",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NHGRI-TUMOR-SUPPRESSOR",
+      "title": "Tumor Suppressor Gene",
+      "publisher": "National Human Genome Research Institute",
+      "url": "https://www.genome.gov/genetics-glossary/Tumor-Suppressor-Gene",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-ONCOGENE",
+      "title": "Oncogene",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/oncogene",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-TUMOR-SUPPRESSOR",
+      "title": "Tumor Suppressor Gene",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/tumor-suppressor-gene",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-CANCER-STAGING",
+      "title": "Cancer Staging",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/staging",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-TUMOR-GRADE",
+      "title": "Tumor Grade",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-grade",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-CANCER-STAGING",
+      "title": "Cancer Staging",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/diagnosis-staging/staging.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-CRUK-CANCER-GRADING",
+      "title": "Cancer grades — Cancer Research UK (review due 2026-10-10)",
+      "publisher": "Cancer Research UK",
+      "url": "https://www.cancerresearchuk.org/about-cancer/what-is-cancer/cancer-grading",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-CRUK-CANCER-STAGING",
+      "title": "Stages of cancer — Cancer Research UK (review due 2026-10-10)",
+      "publisher": "Cancer Research UK",
+      "url": "https://www.cancerresearchuk.org/about-cancer/what-is-cancer/stages-of-cancer",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-LEVELS-EVIDENCE",
+      "title": "Levels of Evidence — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/levels-of-evidence",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-CANCER-RESEARCH",
+      "title": "NCI’s Role in Cancer Research",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/research/nci-role",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-RESEARCH-TERMS",
+      "title": "Understanding Cancer Research Terms",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/research/understanding-cancer-research-terms.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-TRIAL-PHASES",
+      "title": "How Do Clinical Trials Work?",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/research/participate/clinical-trials/how-trials-work",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-CAUSES-RESEARCH",
+      "title": "Research on Causes of Cancer",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/research/areas/causes",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-CANCER-TYPES",
+      "title": "Cancer Types",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-IARC-ICDO4",
+      "title": "ICD-O-4 final tables now available",
+      "publisher": "International Agency for Research on Cancer",
+      "url": "https://www.iarc.who.int/news-events/international-classification-of-diseases-for-oncology-fourth-edition-icd-o-4-final-tables-now-available/",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-MOLECULAR-SUBTYPE",
+      "title": "Molecular Subtype — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/molecular-subtype",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-BIOMARKER-TESTING",
+      "title": "Biomarker and Tumor Marker Tests",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/diagnosis-staging/tests/biomarker-tests.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-KRAS-GENE",
+      "title": "Definition of KRAS gene — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/kras-gene",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-MEDLINEPLUS-KRAS",
+      "title": "KRAS gene — MedlinePlus Genetics",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/genetics/gene/kras/",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-BRAF-GENE",
+      "title": "Definition of BRAF gene — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/braf-gene",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-BRAF-V600",
+      "title": "Definition of BRAF V600 mutation — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/braf-v600-mutation",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-MEDLINEPLUS-BRAF",
+      "title": "BRAF gene — MedlinePlus Genetics",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/genetics/gene/braf/",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-MEDLINEPLUS-BRAF-TEST",
+      "title": "BRAF Genetic Test — MedlinePlus Medical Test",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/lab-tests/braf-genetic-test/",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-MEDLINEPLUS-APC",
+      "title": "APC gene — MedlinePlus Genetics",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/genetics/gene/apc/",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-FAP-DEFINITION",
+      "title": "Definition of familial adenomatous polyposis — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/familial-adenomatous-polyposis",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-BIOMARKER-TESTING",
+      "title": "Biomarker Testing for Cancer Treatment",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/about-cancer/treatment/types/biomarker-testing-cancer-treatment",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-DRIVER-MUTATION",
+      "title": "Definition of driver mutation — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/driver-mutation",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-MUTATION",
+      "title": "Definition of mutation — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/mutation",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-DRIVER-PASSENGER",
+      "title": "From Variants to Functions: New Strategies for the Interpretation of Cancer Genomes",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/ccg/blog/2019/from-variants-to-functions-new-strategies-for-the-interpretation-of-cancer-genomes",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-DRIVER-CLINICAL-ACTIONABILITY",
+      "title": "Mutations in 10,000 Patients with Metastatic Cancer",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/news-events/cancer-currents-blog/2017/mutations-metastatic-cancer",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-TUMOR-MARKERS",
+      "title": "Tumor Markers",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-fact-sheet",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-BIOPSY-CYTOLOGY",
+      "title": "Biopsy and Cytology Tests",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/diagnosis-staging/tests/biopsy-and-cytology-tests.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-COLORECTAL-POLYPS",
+      "title": "Screening Tests to Detect Colorectal Cancer and Polyps",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/colorectal/screening-fact-sheet",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-COLORECTAL-ADENOMA",
+      "title": "Colorectal Adenoma — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/colorectal-adenoma",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-COLORECTAL-POLYPS",
+      "title": "Your Colon or Rectal Pathology Report: Polyps (Including Serrated Adenomas)",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/diagnosis-staging/tests/pathology-reports/colon-pathology/colon-polyps-sessile-or-traditional-serrated-adenomas.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-COLORECTAL-COLONOSCOPY",
+      "title": "Colonoscopy",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/diagnosis-staging/tests/endoscopy/colonoscopy.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-PROSTATE-CHANGES",
+      "title": "Understanding Prostate Changes and Conditions",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/prostate/understanding-prostate-changes",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-PROSTATE-BENIGN",
+      "title": "Your Prostate Pathology Report: Benign Conditions",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/diagnosis-staging/tests/pathology-reports/prostate-pathology/benign-prostate-disease-pathology.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-PROSTATE-PSA",
+      "title": "Prostate-Specific Antigen (PSA) Test",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/prostate/psa-fact-sheet",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-PROSTATE-TESTS",
+      "title": "Screening Tests for Prostate Cancer",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/prostate-cancer/detection-diagnosis-staging/tests.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-PROSTATE-OVERVIEW",
+      "title": "Prostate Cancer — Patient Version",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/prostate",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-PROSTATE-DETECTION",
+      "title": "Can Prostate Cancer Be Found Early?",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/prostate-cancer/detection-diagnosis-staging/detection.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-STOMACH-TYPES",
+      "title": "What Is Stomach Cancer?",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/stomach",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-STOMACH-TYPES",
+      "title": "Stomach Cancer",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/stomach-cancer.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-GIST-PATIENT",
+      "title": "Gastrointestinal Stromal Tumors Treatment (Adult) (PDQ®)–Patient Version",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/soft-tissue-sarcoma/patient/gist-treatment-pdq",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-OVARIAN-GROUP",
+      "title": "Ovarian, Fallopian Tube, and Primary Peritoneal Cancer—Patient Version",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/ovarian",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-OVARIAN-DICTIONARY",
+      "title": "ovarian cancer — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/ovarian-cancer",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-OVARIAN",
+      "title": "Ovarian Cancer",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/ovarian-cancer.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-KIDNEY-TYPES",
+      "title": "Kidney (Renal Cell) Cancer—Patient Version",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/kidney",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-KIDNEY-TYPES",
+      "title": "What Is Kidney Cancer?",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/kidney-cancer/about/what-is-kidney-cancer.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-KIDNEY-DICTIONARY",
+      "title": "kidney cancer — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/kidney-cancer",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-LIVER-BILE-DUCT",
+      "title": "Liver and Bile Duct Cancer",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/liver",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-LIVER-TYPES",
+      "title": "What Is Liver Cancer?",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/liver-cancer/about/what-is-liver-cancer.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-BILE-DUCT",
+      "title": "What Is Bile Duct Cancer?",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/bile-duct-cancer/about/what-is-bile-duct-cancer.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-PANCREATIC-TYPES",
+      "title": "Pancreatic Cancer and Pancreatic Neuroendocrine Tumor",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/pancreatic",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-PANCREATIC-NET",
+      "title": "What Are Pancreatic Neuroendocrine Tumors?",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/pancreatic/neuroendocrine-tumors",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-PANCREATIC-TYPES",
+      "title": "What Is Pancreatic Cancer?",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/pancreatic-cancer/about/what-is-pancreatic-cancer.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-PANCREATIC-NET",
+      "title": "What Is a Pancreatic Neuroendocrine Tumor?",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/pancreatic-neuroendocrine-tumor/about/what-is-pnet.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-LEUKEMIA",
+      "title": "Leukemia — Patient Version",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/leukemia",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-LEUKEMIA",
+      "title": "Leukemia",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/leukemia.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-CLL",
+      "title": "What Is Chronic Lymphocytic Leukemia (CLL)?",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/chronic-lymphocytic-leukemia/about/what-is-cll.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-CERVICAL",
+      "title": "What Is Cervical Cancer?",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/cervical",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-CERVICAL",
+      "title": "What Is Cervical Cancer?",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/cervical-cancer/about/what-is-cervical-cancer.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-LYMPHOMA",
+      "title": "Lymphoma—Patient Version",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/lymphoma",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-LYMPHOMA-DICTIONARY",
+      "title": "Definition of lymphoma",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/lymphoma",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-NHL-OVERVIEW",
+      "title": "What Is Non-Hodgkin Lymphoma?",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/non-hodgkin-lymphoma/about/what-is-non-hodgkin-lymphoma.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-NHL-PDQ",
+      "title": "Non-Hodgkin Lymphoma Treatment (PDQ®)–Patient Version",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/lymphoma/patient/adult-nhl-treatment-pdq",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-CRUK-CERVICAL-TYPES",
+      "title": "Types and Grades of Cervical Cancer",
+      "publisher": "Cancer Research UK",
+      "url": "https://www.cancerresearchuk.org/about-cancer/cervical-cancer/stages-types-grades/types-and-grades",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-ENDOMETRIAL-CANCER",
+      "title": "What Is Endometrial Cancer?",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/endometrial-cancer/about/what-is-endometrial-cancer.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-CRUK-WOMB-CANCER",
+      "title": "Womb (Uterine) Cancer Including Endometrial Cancer",
+      "publisher": "Cancer Research UK",
+      "url": "https://www.cancerresearchuk.org/about-cancer/womb-cancer",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-CANCER-GENETICS",
+      "title": "The Genetics of Cancer",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-GENETIC-TESTING",
+      "title": "Genetic Testing for Inherited Cancer Risk",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/genetics/genetic-testing-fact-sheet",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-GENETIC-TESTING-DICTIONARY",
+      "title": "Definition of genetic testing",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/genetic-testing",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NHGRI-GERMLINE-SOMATIC",
+      "title": "Talking Glossary of Genetic Terms",
+      "publisher": "National Human Genome Research Institute",
+      "url": "https://www.genome.gov/genetics-glossary?id=56",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-UTERINE-OVERVIEW",
+      "title": "Uterine Cancer",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/uterine",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-ENDOMETRIAL",
+      "title": "What Is Endometrial Cancer?",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/uterine/endometrial",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-UTERINE-SARCOMA",
+      "title": "What Is Uterine Sarcoma?",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/uterine/sarcoma",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-UTERINE-SARCOMA",
+      "title": "Uterine Sarcoma",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/uterine-sarcoma.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-PLASMA-CELL-NEOPLASMS",
+      "title": "Plasma Cell Neoplasms (Including Multiple Myeloma)—Patient Version",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/myeloma",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-MULTIPLE-MYELOMA",
+      "title": "What Is Multiple Myeloma?",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/multiple-myeloma/about/what-is-multiple-myeloma.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NHGRI-BRCA1-BRCA2",
+      "title": "BRCA1/BRCA2",
+      "publisher": "National Human Genome Research Institute",
+      "url": "https://www.genome.gov/genetics-glossary/BRCA1-BRCA2",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-HBOC",
+      "title": "Hereditary Breast and Ovarian Cancer Syndrome (HBOC)",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/risk-prevention/genetics/family-cancer-syndromes/hboc-hereditary-breast-and-ovarian-cancer-syndrome.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-BRCA-TARGETED-THERAPY",
+      "title": "Targeted Therapy for Breast Cancer",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/breast-cancer/treatment/targeted-therapy-for-breast-cancer.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCBI-ERBB2",
+      "title": "ERBB2 — NCBI Gene 2064",
+      "publisher": "National Center for Biotechnology Information",
+      "url": "https://www.ncbi.nlm.nih.gov/gene/2064",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-HER2-NEU",
+      "title": "HER2/neu — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/her2-neu",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-HER2-TEST",
+      "title": "HER2/neu test — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/her2-neu-test",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-TUMOR-MARKER-TESTS",
+      "title": "Tumor Marker Tests in Common Use",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis/tumor-markers-list",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-BREAST-HER2-STATUS",
+      "title": "Breast Cancer HER2 Status",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/breast-cancer/understanding-a-breast-cancer-diagnosis/breast-cancer-her2-status.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-MELANOMA-PDQ",
+      "title": "Melanoma Treatment (PDQ®) — Health Professional Version",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/skin/hp/melanoma-treatment-pdq",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ACS-MELANOMA-SKIN",
+      "title": "Melanoma Skin Cancer",
+      "publisher": "American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/melanoma-skin-cancer.html",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-SKIN-CANCER",
+      "title": "Skin Cancer — NCI Dictionary of Cancer Terms",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/skin-cancer",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-NCI-TYPES-BY-LOCATION",
+      "title": "Cancers by Body Location/System",
+      "publisher": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/by-body-location",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    },
+    {
+      "id": "SRC-ASH-BLOOD-CANCERS",
+      "title": "Blood Cancers",
+      "publisher": "American Society of Hematology",
+      "url": "https://www.hematology.org/education/patients/blood-cancers",
+      "checked_at": "2026-10-20",
+      "review_status": "source_checked"
+    }
+  ],
+  "media": [
+    {
+      "id": "MED-NCI-GENETIC-CHANGES-INFOGRAPHIC",
+      "kind": "image",
+      "topic_ids": ["K-edu-concept-germline-somatic"],
+      "title": "What Causes Genetic Changes?",
+      "publisher": "National Cancer Institute",
+      "source_page_url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer",
+      "source_page_title": "What Is Cancer?",
+      "asset_url": "https://www.cancer.gov/sites/www/files/styles/cgov_article/public/cgov_contextual_image/2025-07/8%20what%20is%20cancer.jpg?itok=iCfG9hEY",
+      "display_mode": "approved_embed",
+      "license_status": "rights_checked",
+      "license_evidence_url": "https://www.cancer.gov/policies/copyright-reuse",
+      "language": "en",
+      "duration_seconds": null,
+      "caption": "图示列出可能导致遗传改变的因素：遗传、病毒、紫外线、吸烟、化学物质和细胞分裂过程。",
+      "alt_text": "人物轮廓位于图中央，周围标出遗传、病毒、紫外线、吸烟、化学物质和细胞分裂图示，箭头指向人物。",
+      "transcript_status": "not_applicable",
+      "checked_at": "2026-10-20",
+      "publication_status": "published"
+    },
+    {
+      "id": "MED-NCI-TARGETED-THERAPY-INFOGRAPHIC",
+      "kind": "image",
+      "topic_ids": ["K-edu-concept-biomarker"],
+      "title": "Targeted Therapy to Treat Cancer",
+      "publisher": "National Cancer Institute",
+      "source_page_url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies",
+      "source_page_title": "Targeted Therapy to Treat Cancer",
+      "asset_url": "https://www.cancer.gov/sites/www/files/styles/cgov_article/public/cgov_image/media_image/100/000/2/files/precision-medicine-infographic-piece-article.png?h=fbeb4613&itok=64pQvT44",
+      "display_mode": "approved_embed",
+      "license_status": "rights_checked",
+      "license_evidence_url": "https://www.cancer.gov/policies/copyright-reuse",
+      "language": "en",
+      "duration_seconds": null,
+      "caption": "NCI 页面配图展示人物轮廓、DNA 链和药瓶，仅作主题示意，不代表个人检测或治疗建议。",
+      "alt_text": "人物轮廓旁有 DNA 链和药瓶的简洁示意图。",
+      "transcript_status": "not_applicable",
+      "checked_at": "2026-10-20",
+      "publication_status": "published"
+    },
+    {
+      "id": "MED-NCI-BREAST-CANCER-CELL-RESEARCH-IMAGE",
+      "kind": "image",
+      "topic_ids": ["K-edu-cancer-breast"],
+      "title": "Single Breast Cancer Cell and Microenvironment",
+      "publisher": "National Cancer Institute",
+      "source_page_url": "https://www.cancer.gov/research/progress/discovery/her2",
+      "source_page_title": "HER2’s Genetic Link to Breast Cancer Spurs Development of New Treatments",
+      "asset_url": "https://www.cancer.gov/sites/www/files/styles/cgov_article/public/cgov_image/media_image/100/400/8/files/spatial-heterogeneity-tumor-article.jpg?h=a864898a&itok=gK2qLccR",
+      "display_mode": "approved_embed",
+      "license_status": "rights_checked",
+      "license_evidence_url": "https://www.cancer.gov/policies/copyright-reuse",
+      "language": "en",
+      "duration_seconds": null,
+      "caption": "NCI 的透明肿瘤断层成像研究可视化，展示单个乳腺癌细胞及其微环境；这不是 ERBB2/HER2 基因或蛋白的直接图像，也不代表所有乳腺癌的外观。来源：National Cancer Institute。",
+      "alt_text": "NCI 研究图示以透明肿瘤断层成像可视化一个乳腺癌细胞及其微环境，使用绿色和紫色显示细胞结构，并置于线框网格中。",
+      "transcript_status": "not_applicable",
+      "checked_at": "2026-10-21",
+      "publication_status": "published"
+    },
+    {
+      "id": "MED-NCI-AML-MICROSCOPY-IMAGE",
+      "kind": "image",
+      "topic_ids": ["K-edu-cancer-leukemia"],
+      "title": "Human Cells with Acute Myelocytic Leukemia",
+      "publisher": "National Cancer Institute",
+      "source_page_url": "https://www.cancer.gov/types/leukemia/research",
+      "source_page_title": "Advances in Leukemia Research",
+      "asset_url": "https://www.cancer.gov/sites/www/files/styles/cgov_article/public/cgov_image/media_image/100/300/6/files/leukemia-aml-cells-article.jpg?h=3fdee236&itok=8H-ie08A",
+      "display_mode": "approved_embed",
+      "license_status": "rights_checked",
+      "license_evidence_url": "https://www.cancer.gov/policies/copyright-reuse",
+      "language": "en",
+      "duration_seconds": null,
+      "caption": "NCI 显微图像示例为急性髓系白血病（AML）相关人类细胞；它只代表特定研究/显微观察示例，不是所有白血病亚型的共同外观，也不能用于个人诊断。来源：National Cancer Institute。",
+      "alt_text": "显微镜下观察到的急性髓系白血病相关人类细胞；该图是研究示例，不用于诊断。",
+      "transcript_status": "not_applicable",
+      "checked_at": "2026-10-21",
+      "publication_status": "published"
+    },
+    {
+      "id": "MED-NCI-PROSTATE-NANOPARTICLE-RESEARCH-IMAGE",
+      "kind": "image",
+      "topic_ids": ["K-edu-cancer-prostate"],
+      "title": "Prostate Cancer Cells and Polymeric Nanoparticles",
+      "publisher": "National Cancer Institute",
+      "source_page_url": "https://www.cancer.gov/types/prostate/research",
+      "source_page_title": "Advances in Prostate Cancer Research",
+      "asset_url": "https://www.cancer.gov/sites/www/files/styles/cgov_article/public/cgov_image/media_image/100/300/1/files/novel-targeted-drug-delivery-via-polymeric-nanoparticles-article.jpg?h=271ffb5e&itok=PE0MT35E",
+      "display_mode": "approved_embed",
+      "license_status": "rights_checked",
+      "license_evidence_url": "https://www.cancer.gov/policies/copyright-reuse",
+      "language": "en",
+      "duration_seconds": null,
+      "caption": "NCI 研究图示表现前列腺癌细胞与表面带靶向分子的聚合物纳米颗粒相互作用；此类药物递送仍属研究图示，不表示常规治疗或适用于个人。来源：National Cancer Institute。",
+      "alt_text": "前列腺癌细胞与带有靶向分子的聚合物纳米颗粒相互作用的研究示意图。",
+      "transcript_status": "not_applicable",
+      "checked_at": "2026-10-21",
+      "publication_status": "published"
+    },
+    {
+      "id": "MED-NCI-LUNG-CANCER-METASTASIS-IMAGE",
+      "kind": "image",
+      "topic_ids": ["K-edu-cancer-lung"],
+      "title": "Lung Cancer Cell Invasion and Metastasis",
+      "publisher": "National Cancer Institute",
+      "source_page_url": "https://www.cancer.gov/about-nci/organization/dcb/research-portfolio/tumor-metastasis",
+      "source_page_title": "Tumor Metastasis Research",
+      "asset_url": "https://www.cancer.gov/sites/www/files/styles/cgov_article/public/cgov_image/media_image/100/300/7/files/lung-metastasis-article.jpg?h=527b2b44&itok=dYQ3F84B",
+      "display_mode": "approved_embed",
+      "license_status": "rights_checked",
+      "license_evidence_url": "https://www.cancer.gov/policies/copyright-reuse",
+      "language": "en",
+      "duration_seconds": null,
+      "caption": "NCI 的基础研究图示展示肺癌细胞侵入周围组织并开始扩散的过程；这是机制示意，不代表每个肺癌都会发生相同过程，也不是患者影像。来源：National Cancer Institute。",
+      "alt_text": "肺癌细胞侵入周围组织并开始转移的研究示意图。",
+      "transcript_status": "not_applicable",
+      "checked_at": "2026-10-21",
+      "publication_status": "published"
+    },
+    {
+      "id": "MED-NCI-METASTATIC-MELANOMA-CELLS-IMAGE",
+      "kind": "image",
+      "topic_ids": ["K-edu-cancer-melanoma"],
+      "title": "Metastatic Melanoma Cells",
+      "publisher": "National Cancer Institute",
+      "source_page_url": "https://www.cancer.gov/news-events/press-releases/2015/tcga-cutaneous-melanoma-mutated-genes",
+      "source_page_title": "TCGA Study Improves Understanding of Genetic Drivers of Cutaneous Melanoma",
+      "asset_url": "https://www.cancer.gov/sites/www/files/styles/cgov_article/public/cgov_image/media_image/900/800/files/metastatic-melanoma-cells-article.jpg?h=dc4b7962&itok=S-CDtHjB",
+      "display_mode": "approved_embed",
+      "license_status": "rights_checked",
+      "license_evidence_url": "https://www.cancer.gov/policies/copyright-reuse",
+      "language": "en",
+      "duration_seconds": null,
+      "caption": "NCI 研究显微图像展示转移性皮肤黑色素瘤细胞及其细胞结构；这是研究示例，不代表所有黑色素瘤的外观，也不能用于诊断或评估个人病情。来源：National Cancer Institute。",
+      "alt_text": "转移性皮肤黑色素瘤细胞的研究图像，可见细胞核及相关细胞结构。",
+      "transcript_status": "not_applicable",
+      "checked_at": "2026-10-21",
+      "publication_status": "published"
+    },
+    {
+      "id": "MED-NCI-DIVIDING-BREAST-CANCER-CELL-IMAGE",
+      "kind": "image",
+      "topic_ids": ["K-edu-concept-cancer-basics"],
+      "title": "A Dividing Breast Cancer Cell",
+      "publisher": "National Cancer Institute",
+      "source_page_url": "https://www.cancer.gov/about-nci/organization/dcb/research-portfolio/ccbr",
+      "source_page_title": "Cancer Cell Biology Research",
+      "asset_url": "https://www.cancer.gov/sites/www/files/styles/cgov_article/public/cgov_image/media_image/900/700/files/dividing-breast-cancer-cell-feature.jpg?h=73908a78&itok=bRN_fyec",
+      "display_mode": "approved_embed",
+      "license_status": "rights_checked",
+      "license_evidence_url": "https://www.cancer.gov/policies/copyright-reuse",
+      "language": "en",
+      "duration_seconds": null,
+      "caption": "NCI 细胞生物学研究图像展示一个正在分裂的乳腺癌细胞，作为理解细胞增殖的具体研究实例；它不是所有癌细胞的共同形态。来源：National Cancer Institute。",
+      "alt_text": "一个正在分裂的乳腺癌细胞的研究图像，不代表所有癌细胞形态。",
+      "transcript_status": "not_applicable",
+      "checked_at": "2026-10-21",
+      "publication_status": "published"
+    },
+    {
+      "id": "MED-NCI-DEFINING-CANCER-VIDEO",
+      "kind": "video",
+      "topic_ids": ["K-edu-concept-cancer-basics"],
+      "title": "Defining Cancer",
+      "publisher": "National Cancer Institute",
+      "source_page_url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer/defining-cancer-video",
+      "source_page_title": "Defining Cancer",
+      "asset_url": null,
+      "display_mode": "external_link",
+      "license_status": "rights_checked",
+      "license_evidence_url": "https://www.cancer.gov/multimedia",
+      "language": "未核实",
+      "duration_seconds": null,
+      "caption": "NCI 官方视频介绍癌症是什么及其如何扩散。这里仅链接到 NCI 原站；语言、字幕和播放状态请以原站播放器为准。",
+      "alt_text": "NCI 官方视频 Defining Cancer 的外链卡片，本产品不在页面内播放。",
+      "transcript_status": "unknown",
+      "checked_at": "2026-10-20",
+      "publication_status": "published"
+    },
+    {
+      "id": "MED-NCI-METASTASIS-VIDEO",
+      "kind": "video",
+      "topic_ids": ["K-edu-concept-cancer-basics"],
+      "title": "Metastasis: How Cancer Spreads",
+      "publisher": "National Cancer Institute",
+      "source_page_url": "https://www.cancer.gov/types/metastatic-cancer/how-cancer-spreads-video",
+      "source_page_title": "Metastasis: How Cancer Spreads",
+      "asset_url": null,
+      "display_mode": "external_link",
+      "license_status": "rights_checked",
+      "license_evidence_url": "https://www.cancer.gov/policies/copyright-reuse",
+      "language": "未核实",
+      "duration_seconds": null,
+      "caption": "NCI 来源页介绍癌症如何扩散，并提供音频描述版本入口。本产品只链接原站；视频版本、语言、字幕/文字稿和播放状态请以原站当前播放器为准。",
+      "alt_text": "NCI 癌症转移科普视频的原站入口；页面另提供音频描述版本。",
+      "transcript_status": "unknown",
+      "checked_at": "2026-10-20",
+      "publication_status": "published"
+    },
+    {
+      "id": "MED-NCI-MONOCLONAL-ANTIBODY-VIDEO",
+      "kind": "video",
+      "topic_ids": ["K-edu-concept-biomarker"],
+      "title": "How Monoclonal Antibodies Treat Cancer",
+      "publisher": "National Cancer Institute",
+      "source_page_url": "https://www.cancer.gov/about-cancer/treatment/types/targeted-therapies",
+      "source_page_title": "Targeted Therapy to Treat Cancer",
+      "asset_url": null,
+      "display_mode": "external_link",
+      "license_status": "rights_checked",
+      "license_evidence_url": "https://www.cancer.gov/policies/copyright-reuse",
+      "language": "未核实",
+      "duration_seconds": null,
+      "caption": "NCI 介绍单克隆抗体在癌症治疗中的用途，并提供音频描述版本入口。本产品只链接原站；视频版本、语言、字幕/文字稿和播放状态请以原站当前播放器为准。内容仅作一般科普，不用于个人治疗判断。",
+      "alt_text": "NCI 单克隆抗体癌症治疗科普视频的原站入口；页面另提供音频描述版本。",
+      "transcript_status": "available",
+      "checked_at": "2026-10-20",
+      "publication_status": "published"
+    },
+    {
+      "id": "MED-NCI-ONCOGENES-VIDEO",
+      "kind": "video",
+      "topic_ids": ["K-edu-concept-oncogene-suppressor"],
+      "title": "Oncogenes",
+      "publisher": "National Cancer Institute",
+      "source_page_url": "https://www.cancer.gov/about-cancer/understanding/what-is-cancer/oncogenes-video",
+      "source_page_title": "Oncogenes",
+      "asset_url": null,
+      "display_mode": "external_link",
+      "license_status": "rights_checked",
+      "license_evidence_url": "https://www.cancer.gov/multimedia",
+      "language": "未核实",
+      "duration_seconds": null,
+      "caption": "NCI 官方页面介绍癌基因（oncogene）入门视频。本产品只链接 NCI 原站；视频语言、字幕和播放状态请以原站为准。",
+      "alt_text": "NCI 官方 Oncogenes 视频的原站入口；本产品不在页面内播放。",
+      "transcript_status": "unknown",
+      "checked_at": "2026-10-21",
+      "publication_status": "published"
+    },
+    {
+      "id": "MED-NHGRI-GENE-VIDEO-CANDIDATE",
+      "kind": "video",
+      "topic_ids": ["K-edu-concept-gene-protein"],
+      "title": "Gene | NHGRI Talking Glossary media candidate",
+      "publisher": "National Human Genome Research Institute",
+      "source_page_url": "https://www.genome.gov/genetics-glossary/Gene",
+      "source_page_title": "Gene | Talking Glossary of Genomic and Genetic Terms",
+      "asset_url": null,
+      "display_mode": "external_link",
+      "license_status": "pending_review",
+      "license_evidence_url": null,
+      "language": "未核实",
+      "duration_seconds": null,
+      "caption": "NHGRI 官方 Gene 词条页面包含嵌入媒体播放器和文字说明。当前仅登记为候选并链接原站；单个媒体的实际内容、音轨语言、字幕、时长、可播放性及复用条件尚未核实，因此保持草稿且不会展示给用户。",
+      "alt_text": "NHGRI Gene 词条原站页面中的媒体候选；尚未完成播放或字幕验收。",
+      "transcript_status": "unknown",
+      "checked_at": "2026-10-20",
+      "publication_status": "draft"
+    }
+  ]
+}
